@@ -133,7 +133,7 @@ dataSet[dataSetVersion].characterData = [
     img: "0K0pRFx.png",
     opts: {
       owner: ["banana"],
-	  gender: ["male"],
+	  gender: ["non"],
 	  species: ["anthro"]
     }
   },
