@@ -49,7 +49,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Filter by Species Type",
     key: "species",
-    tooltip: "Check this to restrict to main species types",
+    tooltip: "Check this to restrict to main species types.",
     checked: false,
     sub: [
       { name: "Human-looking", key: "humanoid" },
@@ -57,6 +57,17 @@ dataSet[dataSetVersion].options = [
 	  { name: "Animals/Objects", key: "aniobj" },
 	  { name: "Pokemon/Digimon", key: "pokedigi" }
 	  
+    ]
+  },
+  {
+    name: "Filter by Age",
+    key: "age",
+    tooltip: "Check this to restrict to adults/children. This is meant purely for shipping-shrine purposes ouo.",
+    checked: false,
+    sub: [
+      { name: "Adults", tooltip: "Without a shadow of a doubt an adult (18+).", key: "adult" },
+	  { name: "Young'ns", tooltip: "Without a shadow of a doubt a child (minor).", key: "child" },
+	  { name: "Ambiguous", tooltip: "Each OC has a guess, however I'm not perfect and if you don't want to deal with ambiguity, turn this off.", key: "ambig" }
     ]
   }
 ];
@@ -68,7 +79,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -77,7 +89,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["child"]
     }
   },
   {
@@ -86,7 +99,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -95,7 +109,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -104,7 +119,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -113,7 +129,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["achy"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -122,7 +139,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   
@@ -134,7 +152,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["banana"],
 	  gender: ["non"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult", "ambig"]
     }
   },
   {
@@ -143,7 +162,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["banana"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult", "ambig"]
     }
   },
   {
@@ -152,7 +172,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["banana"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -161,7 +182,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["banana"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["child"]
     }
   },
   {
@@ -170,7 +192,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["banana"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -179,7 +202,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["banana"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["child"]
     }
   },
   {
@@ -188,7 +212,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["banana"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult", "ambig"]
     }
   },
   {
@@ -197,7 +222,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["banana"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult", "ambig"]
     }
   },
   {
@@ -206,7 +232,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["banana"],
 	  gender: ["male"],
-	  species: ["antrho"]
+	  species: ["antrho"],
+	  age: ["adult"]
     }
   },
   
@@ -218,16 +245,18 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["conar"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
     name: "Earl",
     img: "wrAChS4.png",
     opts: {
-      owner: ["junky"],
+      owner: ["conar","junky"],
 	  gender: ["non"],
-	  species: ["aniobj"]
+	  species: ["aniobj"],
+	  age: ["adult"]
     }
   },
   {
@@ -236,7 +265,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["conar"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -245,7 +275,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["conar"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -254,7 +285,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["conar"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -263,7 +295,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["conar"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -272,7 +305,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["conar"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -281,7 +315,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["conar"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -290,7 +325,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["conar"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   
@@ -302,7 +338,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["drek"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -311,7 +348,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["drek"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -320,7 +358,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["drek"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["child"]
     }
   },
   
@@ -332,7 +371,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["drugs"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -341,7 +381,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["drugs"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -350,7 +391,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["drugs"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   
@@ -362,7 +404,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["gabe"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -371,7 +414,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["gabe"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -380,7 +424,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["gabe"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -389,7 +434,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["gabe"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["child"]
     }
   },
   {
@@ -398,7 +444,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["gabe"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   
@@ -410,7 +457,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
-	  species: ["anthro","pokedigi"]
+	  species: ["anthro","pokedigi"],
+	  age: ["adult", "ambig"]
     }
   },
   {
@@ -419,7 +467,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
-	  species: ["humanoid","pokedigi"]
+	  species: ["humanoid","pokedigi"],
+	  age: ["child"]
     }
   },
   {
@@ -428,7 +477,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["ambig"]
     }
   },
   {
@@ -437,7 +487,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -446,7 +497,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["ambig"]
     }
   },
   {
@@ -455,7 +507,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -464,7 +517,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
-	  species: ["anthro","pokedigi"]
+	  species: ["anthro","pokedigi"],
+	  age: ["adult"]
     }
   },
   {
@@ -473,7 +527,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -482,7 +537,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -491,7 +547,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
-	  species: ["anthro","pokedigi"]
+	  species: ["anthro","pokedigi"],
+	  age: ["adult"]
     }
   },
   {
@@ -500,7 +557,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   
@@ -512,7 +570,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["junky"],
 	  gender: ["female"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -521,7 +580,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["junky"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["child"]
     }
   },
   {
@@ -530,7 +590,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["junky"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["child"]
     }
   },
   {
@@ -539,7 +600,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["junky"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -548,7 +610,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["junky"],
 	  gender: ["female"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -557,7 +620,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["junky"],
 	  gender: ["male"],
-	  species: ["aniobj"]
+	  species: ["aniobj"],
+	  age: ["adult"]
     }
   },
   {
@@ -566,7 +630,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["junky"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -575,7 +640,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["junky"],
 	  gender: ["female"],
-	  species: ["aniobj"]
+	  species: ["aniobj"],
+	  age: ["ambig"]
     }
   },
   {
@@ -584,7 +650,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["junky"],
 	  gender: ["male"],
-	  species: ["anthro","pokedigi"]
+	  species: ["anthro","pokedigi"],
+	  age: ["adult"]
     }
   },
   {
@@ -593,7 +660,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["junky"],
 	  gender: ["non"],
-	  species: ["aniobj","pokedigi"]
+	  species: ["aniobj","pokedigi"],
+	  age: ["child"]
     }
   },
   {
@@ -602,7 +670,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["junky"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -611,7 +680,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["junky"],
 	  gender: ["male"],
-	  species: ["aniobj"]
+	  species: ["aniobj"],
+	  age: ["adult"]
     }
   },
   {
@@ -620,7 +690,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["junky"],
 	  gender: ["female"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["child"]
     }
   },
   
@@ -632,7 +703,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["lobby"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -641,7 +713,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["lobby"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -650,7 +723,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["lobby"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -659,7 +733,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["lobby"],
 	  gender: ["non"],
-	  species: ["aniobj"]
+	  species: ["aniobj"],
+	  age: ["ambig"]
     }
   },
   {
@@ -668,7 +743,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["lobby"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -677,7 +753,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["lobby"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -686,7 +763,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["lobby"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -695,7 +773,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["lobby"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   
@@ -707,7 +786,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["lyos"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -716,7 +796,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["lyos"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -725,7 +806,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["lyos"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -734,7 +816,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["lyos"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   
@@ -746,7 +829,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["meowstic"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -755,7 +839,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["meowstic"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -764,7 +849,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["meowstic"],
 	  gender: ["male"],
-	  species: ["anthro","pokedigi"]
+	  species: ["anthro","pokedigi"],
+	  age: ["child"]
     }
   },
   {
@@ -773,7 +859,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["meowstic"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -782,7 +869,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["meowstic"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   
@@ -794,7 +882,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["miransu"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -803,7 +892,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["miransu"],
 	  gender: ["male"],
-	  species: ["aniobj","pokedigi"]
+	  species: ["aniobj","pokedigi"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -812,16 +902,18 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["miransu"],
 	  gender: ["male"],
-	  species: ["aniobj"]
+	  species: ["aniobj"],
+	  age: ["adult"]
     }
   },
   {
-    name: "Mitsuru ",
+    name: "Mitsuru",
     img: "aA4B96D.png",
     opts: {
       owner: ["miransu"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["child","ambig"]
     }
   },
   {
@@ -830,7 +922,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["miransu"],
 	  gender: ["female"],
-	  species: ["aniobj","pokedigi"]
+	  species: ["aniobj","pokedigi"],
+	  age: ["adult"]
     }
   },
   {
@@ -839,7 +932,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["miransu"],
 	  gender: ["male"],
-	  species: ["anthro","pokedigi"]
+	  species: ["anthro","pokedigi"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -848,7 +942,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["miransu"],
 	  gender: ["male"],
-	  species: ["anthro","pokedigi"]
+	  species: ["anthro","pokedigi"],
+	  age: ["child","ambig"]
     }
   },
   
@@ -860,7 +955,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["phantom"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -869,7 +965,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["phantom"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -878,7 +975,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["phantom"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -887,7 +985,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["phantom"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -896,7 +995,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["phantom"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   
@@ -908,7 +1008,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -917,7 +1018,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -926,7 +1028,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -935,7 +1038,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -944,7 +1048,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -953,7 +1058,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -962,7 +1068,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -971,7 +1078,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["ambig"]
     }
   },
   {
@@ -980,7 +1088,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -989,7 +1098,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -998,7 +1108,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1007,7 +1118,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1016,7 +1128,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1025,7 +1138,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1034,7 +1148,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1043,7 +1158,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -1052,7 +1168,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1061,7 +1178,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -1070,7 +1188,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1079,7 +1198,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1088,7 +1208,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -1097,7 +1218,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1106,7 +1228,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["python"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["child","ambig"]
     }
   },
   
@@ -1118,7 +1241,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["robin"],
 	  gender: ["non"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["child"]
     }
   },
   {
@@ -1127,7 +1251,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["robin"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1136,7 +1261,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["robin"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["child","ambig"]
     }
   },
   {
@@ -1145,7 +1271,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["robin"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -1154,7 +1281,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["robin"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -1163,7 +1291,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["robin"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -1172,7 +1301,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["robin"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   
@@ -1184,7 +1314,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["sphe"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1193,7 +1324,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["sphe"],
 	  gender: ["male"],
-	  species: ["aniobj"]
+	  species: ["aniobj"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -1202,7 +1334,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["sphe"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -1211,7 +1344,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["sphe"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -1220,7 +1354,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["sphe"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1229,7 +1364,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["sphe"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1238,7 +1374,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["sphe"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   
@@ -1250,7 +1387,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tres"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1259,7 +1397,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tres"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1268,7 +1407,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tres"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["child","ambig"]
     }
   },
   {
@@ -1277,7 +1417,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tres"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1286,7 +1427,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tres"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -1295,7 +1437,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tres"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1304,7 +1447,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tres"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1313,7 +1457,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tres"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1322,7 +1467,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tres"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   
@@ -1334,7 +1480,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tricky"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult","ambig"]
     }
   },
   {
@@ -1343,7 +1490,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1352,7 +1500,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
-	  species: ["aniobj"]
+	  species: ["aniobj"],
+	  age: ["child"]
     }
   },
   {
@@ -1361,7 +1510,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1370,7 +1520,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
-	  species: ["aniobj"]
+	  species: ["aniobj"],
+	  age: ["adult"]
     }
   },
   {
@@ -1379,7 +1530,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1388,7 +1540,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tricky"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["child"]
     }
   },
   {
@@ -1397,7 +1550,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tricky"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1406,7 +1560,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
-	  species: ["aniobj"]
+	  species: ["aniobj"],
+	  age: ["adult"]
     }
   },
   {
@@ -1415,7 +1570,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1424,7 +1580,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1433,7 +1590,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tricky"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   
@@ -1445,7 +1603,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["veemon"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["child"]
     }
   },
   {
@@ -1454,7 +1613,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["veemon"],
 	  gender: ["male"],
-	  species: ["anthro","pokedigi"]
+	  species: ["anthro","pokedigi"],
+	  age: ["child"]
     }
   },
   
@@ -1466,7 +1626,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["vigor"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1475,7 +1636,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["vigor"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["child"]
     }
   },
   {
@@ -1484,7 +1646,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["vigor"],
 	  gender: ["female"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["child"]
     }
   },
   {
@@ -1493,7 +1656,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["vigor"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult","ambig"]
     }
   },
   
@@ -1505,7 +1669,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["zack"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -1514,7 +1679,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["zack"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -1523,7 +1689,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["zack"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   
@@ -1535,7 +1702,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["others"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1544,7 +1712,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["others"],
 	  gender: ["male"],
-	  species: ["anthro"]
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -1553,7 +1722,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["others"],
 	  gender: ["male"],
-	  species: ["anthro","pokedigi"]
+	  species: ["anthro","pokedigi"],
+	  age: ["child"]
     }
   },
   {
@@ -1562,7 +1732,8 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["others"],
 	  gender: ["male"],
-	  species: ["humanoid"]
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   }
   
