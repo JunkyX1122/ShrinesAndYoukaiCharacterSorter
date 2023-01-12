@@ -253,7 +253,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Earl",
     img: "wrAChS4.png",
     opts: {
-      owner: ["conar","junky"],
+      owner: ["junky"],
 	  gender: ["non"],
 	  species: ["aniobj"],
 	  age: ["adult"]
