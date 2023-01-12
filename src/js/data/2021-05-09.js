@@ -62,7 +62,7 @@ dataSet[dataSetVersion].options = [
   {
     name: "Filter by Age",
     key: "age",
-    tooltip: "Check this to restrict to adults/children. This is meant purely for shipping-shrine purposes ouo.",
+    tooltip: "Check this to restrict to adults/children.",
     checked: false,
     sub: [
       { name: "Adults", tooltip: "Without a shadow of a doubt an adult (18+).", key: "adult" },
