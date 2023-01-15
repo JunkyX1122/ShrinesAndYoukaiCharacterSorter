@@ -877,7 +877,7 @@ dataSet[dataSetVersion].characterData = [
   
   
   {
-    name: "Altwider",
+    name: "Altwilder",
     img: "2OI61if.png",
     opts: {
       owner: ["miransu"],
