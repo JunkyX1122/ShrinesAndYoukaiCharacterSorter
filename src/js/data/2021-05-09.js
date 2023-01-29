@@ -143,6 +143,16 @@ dataSet[dataSetVersion].characterData = [
 	  age: ["adult"]
     }
   },
+  {
+    name: "Witori Karashiro",
+    img: "Kx1XSOF.png",
+    opts: {
+      owner: ["achy"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
   
   
   
@@ -187,6 +197,16 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Kiyokuro Sakakiinu",
+    img: "rZBfj6W.png",
+    opts: {
+      owner: ["banana"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Mondo Ishigami",
     img: "usk6Czv.png",
     opts: {
@@ -204,6 +224,16 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["child"]
+    }
+  },
+  {
+    name: "Piccolo Totanshou",
+    img: "P4dDGz7.png",
+    opts: {
+      owner: ["banana"],
+	  gender: ["male"],
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -229,6 +259,16 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Hersir",
     img: "A9OmdLd.png",
+    opts: {
+      owner: ["banana"],
+	  gender: ["male"],
+	  species: ["antrho"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Valsir",
+    img: "czduBJz.png",
     opts: {
       owner: ["banana"],
 	  gender: ["male"],
@@ -378,6 +418,16 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Drugs",
     img: "CY3SyBH.png",
+    opts: {
+      owner: ["drugs"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Halvan",
+    img: "DwrDUO3.png",
     opts: {
       owner: ["drugs"],
 	  gender: ["male"],
@@ -887,6 +937,16 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Hikawa Motoharu",
+    img: "eFuPrf9.png",
+    opts: {
+      owner: ["miransu"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Kureha Iwakura",
     img: "IP2Zwo6.png",
     opts: {
@@ -1055,6 +1115,16 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Harue Nagatsuka",
     img: "tYv3mVg.png",
+    opts: {
+      owner: ["python"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Kiju Sanadamushi",
+    img: "LWlb6Yt.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1442,6 +1512,16 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Ramiel",
+    img: "GPuzjzv.png",
+    opts: {
+      owner: ["tres"],
+	  gender: ["male"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Tori",
     img: "8JADOhM.png",
     opts: {
@@ -1454,6 +1534,16 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Tres",
     img: "IhxIQkb.png",
+    opts: {
+      owner: ["tres"],
+	  gender: ["male"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Uriel",
+    img: "4kEo2ra.png",
     opts: {
       owner: ["tres"],
 	  gender: ["male"],
@@ -1490,6 +1580,16 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Gabriella 'Gabby' Berger",
+    img: "WQ8r7gU.png",
+    opts: {
+      owner: ["tricky"],
+	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult"]
     }
@@ -1733,6 +1833,26 @@ dataSet[dataSetVersion].characterData = [
       owner: ["others"],
 	  gender: ["male"],
 	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Seth Victor Kurosagane",
+    img: "joz95Rb.png",
+    opts: {
+      owner: ["others"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Van",
+    img: "SRtPexY.png",
+    opts: {
+      owner: ["others"],
+	  gender: ["male"],
+	  species: ["anthro"],
 	  age: ["adult"]
     }
   }
