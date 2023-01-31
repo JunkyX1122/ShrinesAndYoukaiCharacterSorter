@@ -429,7 +429,7 @@ dataSet[dataSetVersion].characterData = [
       owner: ["drek"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["child"]
+	  age: ["adult"]
     }
   },
   
