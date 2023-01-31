@@ -124,6 +124,16 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Susugi",
+    img: "gdxjByH.png",
+    opts: {
+      owner: ["achy"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Tatsuga",
     img: "Auoe5pN.png",
     opts: {
@@ -350,6 +360,16 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Leanne Dinn",
+    img: "LNCnaXB.png",
+    opts: {
+      owner: ["conar"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Rengetsu",
     img: "NUz51cw.png",
     opts: {
@@ -365,6 +385,16 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["conar"],
 	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Tyzairo",
+    img: "nt9B7ti.png",
+    opts: {
+      owner: ["conar"],
+	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["adult"]
     }
@@ -412,6 +442,26 @@ dataSet[dataSetVersion].characterData = [
       owner: ["drugs"],
 	  gender: ["male"],
 	  species: ["anthro"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Ayako",
+    img: "UPzzAXd.png",
+    opts: {
+      owner: ["drugs"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Cedric",
+    img: "QnGYMQT.png",
+    opts: {
+      owner: ["drugs"],
+	  gender: ["male"],
+	  species: ["aniobj"],
 	  age: ["adult"]
     }
   },
@@ -529,6 +579,16 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["ambig"]
+    }
+  },
+  {
+    name: "Grace",
+    img: "pSSXXc3.png",
+    opts: {
+      owner: ["guilmon"],
+	  gender: ["female"],
+	  species: ["pokedigi"],
+	  age: ["adult"]
     }
   },
   {
@@ -1399,6 +1459,16 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Muna",
+    img: "WvKmSaM.png",
+    opts: {
+      owner: ["sphe"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Oru Sumikata",
     img: "BisLG8e.png",
     opts: {
@@ -1670,6 +1740,16 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Tutorial Tracy",
+    img: "7rAks17.png",
+    opts: {
+      owner: ["tricky"],
+	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult"]
     }
