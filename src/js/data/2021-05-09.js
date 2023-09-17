@@ -1182,7 +1182,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["lobby"],
 	  gender: ["non"],
 	  species: ["aniobj"],
-	  age: ["ambig"]
+	  age: ["ambig"],
+	  generic: []
     }
   },
   {
@@ -1192,7 +1193,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["lobby"],
 	  gender: ["female","non"],
 	  species: ["humanoid"],
-	  age: ["ambig"]
+	  age: ["ambig"],
+	  generic: []
     }
   },
   {
@@ -2658,7 +2660,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["others"],
 	  gender: ["non"],
 	  species: ["aniobj"],
-	  age: ["ambig"]
+	  age: ["ambig"],
+	  generic: []
     }
   },
   {
