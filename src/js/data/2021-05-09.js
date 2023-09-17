@@ -95,6 +95,12 @@ dataSet[dataSetVersion].options = [
     key: "nonrp",
     tooltip: "Ignore characters that don't show up in the roleplay universe.",
     checked: false
+  },
+  {
+    name: "Ignore Joke Characters",
+    key: "joke",
+    tooltip: "Ignore the funnies.",
+    checked: false
   }
   
 ];
@@ -514,7 +520,8 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["furry"],
 	  age: ["adult"],
-	  nonrp: []
+	  nonrp: [],
+	  joke: []
     }
   },
   {
@@ -547,7 +554,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["drek"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult","ambig"]
+	  age: ["adult","ambig"],
+	  joke: []
     }
   },
   {
@@ -939,7 +947,8 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["non"],
 	  species: ["aniobj"],
 	  age: ["adult"],
-	  nonrp: []
+	  nonrp: [],
+	  joke: []
     }
   },
   {
@@ -1612,7 +1621,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["python"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  joke: []
     }
   },
   {
@@ -1843,7 +1853,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["python"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  joke: []
     }
   },
   {
@@ -2278,7 +2289,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["tricky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  joke: []
     }
   },
   {
@@ -2308,7 +2320,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["aniobj"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  joke: []
     }
   },
   {
@@ -2640,7 +2653,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["others"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  joke: []
     }
   },
   {
