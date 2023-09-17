@@ -1727,7 +1727,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ryoumika Soukun",
-    img: "4NObNzq.png",
+    img: "SpC3zaa.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
