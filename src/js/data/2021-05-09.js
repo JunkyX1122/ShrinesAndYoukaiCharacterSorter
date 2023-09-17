@@ -8,28 +8,30 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to certain OC owners.",
     checked: false,
     sub: [
-      { name: "Achy", key: "achy" },
-	  { name: "Banana", key: "banana" },
-	  { name: "Conar", key: "conar" },
-	  { name: "Drek", key: "drek" },
-	  { name: "Drugs", key: "drugs" },
-	  { name: "Gabe", key: "gabe" },
-	  { name: "Guilmon", key: "guilmon" },
-	  { name: "Junky", key: "junky" },
-	  { name: "Lobby", key: "lobby" },
-	  { name: "Lyos", key: "lyos" },
-	  { name: "Meowstic", key: "meowstic" },
-	  { name: "Miransu", key: "miransu" },
-	  { name: "Phantom", key: "phantom" },
-	  { name: "Python", key: "python" },
-	  { name: "Robin", key: "robin" },
-	  { name: "Sphe", key: "sphe" },
-	  { name: "Tres", key: "tres" },
-	  { name: "Tricky", key: "tricky" },
-	  { name: "Veemon", key: "veemon" },
-	  { name: "Vigor", key: "vigor" },
-	  { name: "Zack", key: "zack" },
-	  { name: "Assorted Others", key: "others" }
+      { name: "Achy", key: "achy" ,checked: true},
+	  { name: "Banana", key: "banana" ,checked: true},
+	  { name: "Conar", key: "conar" ,checked: true},
+	  { name: "Drek", key: "drek" ,checked: true},
+	  { name: "Drugs", key: "drugs" ,checked: true},
+	  { name: "Gabe", key: "gabe" ,checked: true},
+	  { name: "Guilmon", key: "guilmon" ,checked: true},
+	  { name: "Junky", key: "junky" ,checked: true},
+	  { name: "Lobby", key: "lobby" ,checked: true},
+	  { name: "Lyos", key: "lyos" ,checked: true},
+	  { name: "Meowstic", key: "meowstic" ,checked: true},
+	  { name: "Miransu", key: "miransu" ,checked: true},
+	  { name: "Phantom", key: "phantom" ,checked: true},
+	  { name: "Python", key: "python" ,checked: true},
+	  { name: "Robin", key: "robin" ,checked: true},
+	  { name: "Sphe", key: "sphe" ,checked: true},
+	  { name: "Syoudre", key: "syoudre" ,checked: true},
+	  { name: "Tres", key: "tres" ,checked: true},
+	  { name: "Tricky", key: "tricky" ,checked: true},
+	  { name: "Veemon", key: "veemon" ,checked: true},
+	  { name: "Vigor", key: "vigor" ,checked: true},
+	  { name: "Wish", key: "wish" ,checked: true},
+	  { name: "Zack", key: "zack" ,checked: true},
+	  { name: "Assorted Others", key: "others" ,checked: true}
 	  
 
     ]
@@ -69,7 +71,32 @@ dataSet[dataSetVersion].options = [
 	  { name: "Young'ns", tooltip: "Without a shadow of a doubt a child (minor).", key: "child" },
 	  { name: "Ambiguous", tooltip: "Each OC has a guess, however I'm not perfect and if you don't want to deal with ambiguity, turn this off.", key: "ambig" }
     ]
+  },
+  {
+    name: "Ignore Generic Enemies",
+    key: "generic",
+    tooltip: "Ignore generic enemies.",
+    checked: false
+  },
+  {
+    name: "Ignore Unrevealed Characters",
+    key: "hidden",
+    tooltip: "Ignore characters that have not been revealed yet (blacked-out characters).",
+    checked: false
+  },
+  {
+    name: "Ignore Legacy Characters",
+    key: "legacy",
+    tooltip: "Ignore characters from owners who no longer are in Shrines and Youkai.",
+    checked: false
+  },
+  {
+    name: "Ignore Non-RP Characters",
+    key: "nonrp",
+    tooltip: "Ignore characters that don't show up in the roleplay universe.",
+    checked: false
   }
+  
 ];
 
 dataSet[dataSetVersion].characterData = [
@@ -80,7 +107,7 @@ dataSet[dataSetVersion].characterData = [
       owner: ["achy"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
     }
   },
   {
@@ -90,7 +117,7 @@ dataSet[dataSetVersion].characterData = [
       owner: ["achy"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["child"]
+	  age: ["child"],
     }
   },
   {
@@ -110,6 +137,36 @@ dataSet[dataSetVersion].characterData = [
       owner: ["achy"],
 	  gender: ["female"],
 	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Kiikii",
+    img: "YeAGr5T.png",
+    opts: {
+      owner: ["achy"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Matarou",
+    img: "oOJEyuw.png",
+    opts: {
+      owner: ["achy"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Samu",
+    img: "I0LWHI5.png",
+    opts: {
+      owner: ["achy"],
+	  gender: ["male"],
+	  species: ["anthro"],
 	  age: ["adult"]
     }
   },
@@ -187,6 +244,26 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Cios",
+    img: "efZjAzf.png",
+    opts: {
+      owner: ["banana"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Cordycep",
+    img: "LDopA29.png",
+    opts: {
+      owner: ["banana"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Genmi",
     img: "VFpYUkz.png",
     opts: {
@@ -213,6 +290,16 @@ dataSet[dataSetVersion].characterData = [
       owner: ["banana"],
 	  gender: ["male"],
 	  species: ["anthro"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Makigai Mabokeshigai",
+    img: "vM7NaoV.png",
+    opts: {
+      owner: ["banana"],
+	  gender: ["female"],
+	  species: ["humanoid"],
 	  age: ["adult"]
     }
   },
@@ -247,6 +334,36 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Sekki",
+    img: "GCFnPFE.png",
+    opts: {
+      owner: ["banana"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Shangvinrú",
+    img: "XmshWkH.png",
+    opts: {
+      owner: ["banana"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Shuu Kongei",
+    img: "CnTio39.png",
+    opts: {
+      owner: ["banana"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Siine",
     img: "zkc3ixB.png",
     opts: {
@@ -254,6 +371,26 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult", "ambig"]
+    }
+  },
+  {
+    name: "Susugu Kumochimono",
+    img: "RO3pb6c.png",
+    opts: {
+      owner: ["banana"],
+	  gender: ["male"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Traskar",
+    img: "Vpe906N.png",
+    opts: {
+      owner: ["banana"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"]
     }
   },
   {
@@ -296,16 +433,6 @@ dataSet[dataSetVersion].characterData = [
       owner: ["conar"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
-    }
-  },
-  {
-    name: "Earl",
-    img: "wrAChS4.png",
-    opts: {
-      owner: ["junky"],
-	  gender: ["non"],
-	  species: ["aniobj"],
 	  age: ["adult"]
     }
   },
@@ -380,6 +507,17 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Sus Drek",
+    img: "szRwvCM.png",
+    opts: {
+      owner: ["conar"],
+	  gender: ["male"],
+	  species: ["furry"],
+	  age: ["adult"],
+	  nonrp: []
+    }
+  },
+  {
     name: "Tesslyn Aurea",
     img: "Xtu7LQ3.png",
     opts: {
@@ -423,8 +561,38 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Kyuuko Memoto",
+    img: "h853kHj.png",
+    opts: {
+      owner: ["drek"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Nesthaar",
     img: "ahVChuP.png",
+    opts: {
+      owner: ["drek"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Raylan",
+    img: "W5nDZFN.png",
+    opts: {
+      owner: ["drek"],
+	  gender: ["male"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Zathareen",
+    img: "glBQUC3.png",
     opts: {
       owner: ["drek"],
 	  gender: ["male"],
@@ -509,6 +677,26 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Eskandar Mausomi",
+    img: "wkZLJWr.png",
+    opts: {
+      owner: ["gabe"],
+	  gender: ["male"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Jodith",
+    img: "cqHIHPj.png",
+    opts: {
+      owner: ["gabe"],
+	  gender: ["male"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Johan",
     img: "UFY43Kh.png",
     opts: {
@@ -539,6 +727,16 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Roshanne Salih",
+    img: "yY5idAb.png",
+    opts: {
+      owner: ["gabe"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["child"]
+    }
+  },
+  {
     name: "Sapphire",
     img: "ny9ofTp.png",
     opts: {
@@ -550,7 +748,16 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  {
+    name: "Arthur",
+    img: "f79pKak.png",
+    opts: {
+      owner: ["guilmon"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["child"]
+    }
+  },
   {
     name: "Chrysalis",
     img: "waD7wyk.png",
@@ -567,8 +774,18 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
-	  species: ["humanoid","pokedigi"],
+	  species: ["anthro","pokedigi"],
 	  age: ["child"]
+    }
+  },
+  {
+    name: "Dandara",
+    img: "LoyaLCD.png",
+    opts: {
+      owner: ["guilmon"],
+	  gender: ["female"],
+	  species: ["anthro","pokedigi"],
+	  age: ["adult"]
     }
   },
   {
@@ -642,6 +859,16 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Levi",
+    img: "VnYcwMm.png",
+    opts: {
+      owner: ["guilmon"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Redrin Lightclaw",
     img: "ZfMTD3r.png",
     opts: {
@@ -662,6 +889,16 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Takashi Reirin",
+    img: "nfa3aEy.png",
+    opts: {
+      owner: ["guilmon"],
+	  gender: ["male"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Tristan",
     img: "UoZUd2z.png",
     opts: {
@@ -671,9 +908,50 @@ dataSet[dataSetVersion].characterData = [
 	  age: ["adult"]
     }
   },
+  {
+    name: "Yuki",
+    img: "eZbMgys.png",
+    opts: {
+      owner: ["guilmon"],
+	  gender: ["female"],
+	  species: ["anthro","pokedigi"],
+	  age: ["adult"]
+    }
+  },
   
-  
-  
+
+  {
+    name: "Labour - 'The MS&Y2 Artist'",
+    img: "pCY81uV.png",
+    opts: {
+      owner: ["junky"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"],
+	  nonrp: []
+    }
+  },
+  {
+    name: "Earl",
+    img: "wrAChS4.png",
+    opts: {
+      owner: ["junky"],
+	  gender: ["non"],
+	  species: ["aniobj"],
+	  age: ["adult"],
+	  nonrp: []
+    }
+  },
+  {
+    name: "'dAU6' Zimmer",
+    img: "YRsvi7l.png",
+    opts: {
+      owner: ["junky"],
+	  gender: ["male"],
+	  species: ["aniobj"],
+	  age: ["adult"]
+    }
+  },
   {
     name: "Jenny",
     img: "2a7VhHr.png",
@@ -878,6 +1156,46 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Kagah",
+    img: "OWHcMZK.png",
+    opts: {
+      owner: ["lobby"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Minih",
+    img: "3JB0DRM.png",
+    opts: {
+      owner: ["lobby"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Slime Boss",
+    img: "Sp7aTVh.png",
+    opts: {
+      owner: ["lobby"],
+	  gender: ["non"],
+	  species: ["aniobj"],
+	  age: ["ambig"]
+    }
+  },
+  {
+    name: "Slime Girl",
+    img: "eF9oCwM.png",
+    opts: {
+      owner: ["lobby"],
+	  gender: ["female","non"],
+	  species: ["humanoid"],
+	  age: ["ambig"]
+    }
+  },
+  {
     name: "Yaci",
     img: "cfglY06.png",
     opts: {
@@ -944,6 +1262,16 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "??? (BlueBird)",
+    img: "T260itK.png",
+    opts: {
+      owner: ["meowstic"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Marzia Mondadori",
     img: "wCD0wz5.png",
     opts: {
@@ -974,6 +1302,48 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "??? (Smile)",
+    img: "0vGlJPw.png",
+    opts: {
+      owner: ["meowstic"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"],
+	  hidden: []
+    }
+  },
+  {
+    name: "Nashirah 'Nash' bint al-nassaaj bint ʼinsāniyya al-Fārisī",
+    img: "4RwGF9I.png",
+    opts: {
+      owner: ["meowstic"],
+	  gender: ["female"],
+	  species: ["furry"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Ercan 'Pigsy' Zorlu",
+    img: "YD0VIUu.png",
+    opts: {
+      owner: ["meowstic"],
+	  gender: ["male"],
+	  species: ["furry"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "??? (Darker)",
+    img: "tnuUqFi.png",
+    opts: {
+      owner: ["meowstic"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"],
+	  hidden: []
+    }
+  },
+  {
     name: "Heinrich 'Rico' Viktor von Löwenthal",
     img: "KO0Ve2j.png",
     opts: {
@@ -983,9 +1353,30 @@ dataSet[dataSetVersion].characterData = [
 	  age: ["adult"]
     }
   },
+  {
+    name: "Tasia",
+    img: "csAEiqh.png",
+    opts: {
+      owner: ["meowstic"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
   
   
   
+  {
+    name: "Alice",
+    img: "30gsGWk.png",
+    opts: {
+      owner: ["miransu"],
+	  gender: ["female"],
+	  species: ["aniobj", "pokedigi"],
+	  age: ["child"],
+	  legacy: []
+    }
+  },
   {
     name: "Altwilder",
     img: "2OI61if.png",
@@ -993,7 +1384,19 @@ dataSet[dataSetVersion].characterData = [
       owner: ["miransu"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  legacy: []
+    }
+  },
+  {
+    name: "Dormarah",
+    img: "xy4OWOa.png",
+    opts: {
+      owner: ["miransu"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["ambig"],
+	  legacy: []
     }
   },
   {
@@ -1003,7 +1406,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["miransu"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  legacy: []
     }
   },
   {
@@ -1013,7 +1417,19 @@ dataSet[dataSetVersion].characterData = [
       owner: ["miransu"],
 	  gender: ["male"],
 	  species: ["aniobj","pokedigi"],
-	  age: ["adult","ambig"]
+	  age: ["adult","ambig"],
+	  legacy: []
+    }
+  },
+  {
+    name: "Kuro",
+    img: "mMoLA0w.png",
+    opts: {
+      owner: ["miransu"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["ambig"],
+	  legacy: []
     }
   },
   {
@@ -1023,7 +1439,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["miransu"],
 	  gender: ["female"],
 	  species: ["aniobj"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  legacy: []
     }
   },
   {
@@ -1033,7 +1450,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["miransu"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["child","ambig"]
+	  age: ["child","ambig"],
+	  legacy: []
     }
   },
   {
@@ -1043,7 +1461,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["miransu"],
 	  gender: ["female"],
 	  species: ["aniobj","pokedigi"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  legacy: []
     }
   },
   {
@@ -1053,7 +1472,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["miransu"],
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
-	  age: ["adult","ambig"]
+	  age: ["adult","ambig"],
+	  legacy: []
     }
   },
   {
@@ -1063,12 +1483,23 @@ dataSet[dataSetVersion].characterData = [
       owner: ["miransu"],
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
-	  age: ["child","ambig"]
+	  age: ["child","ambig"],
+	  legacy: []
     }
   },
   
   
   
+  {
+    name: "Alex",
+    img: "rWKhplB.png",
+    opts: {
+      owner: ["phantom"],
+	  gender: ["male"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
   {
     name: "Jess",
     img: "htbTzJk.png",
@@ -1122,6 +1553,16 @@ dataSet[dataSetVersion].characterData = [
   
   
   
+  {
+    name: "Apateonas",
+    img: "xPhIGKW.png",
+    opts: {
+      owner: ["python"],
+	  gender: ["male"],
+	  species: ["aniobj"],
+	  age: ["adult"]
+    }
+  },
   {
     name: "Camelan Haimaku",
     img: "dlJqrS0.png",
@@ -1183,6 +1624,26 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Hironishi Kyogetsuin",
+    img: "s3GcI2Y.png",
+    opts: {
+      owner: ["python"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Itsuyo Nukimoto",
+    img: "axQcc1s.png",
+    opts: {
+      owner: ["python"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["child"]
+    }
+  },
+  {
     name: "Kiju Sanadamushi",
     img: "LWlb6Yt.png",
     opts: {
@@ -1203,6 +1664,16 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Kyra Gialla Osram",
+    img: "KObtvPi.png",
+    opts: {
+      owner: ["python"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Frederica Lissai",
     img: "iiiC17K.png",
     opts: {
@@ -1210,6 +1681,16 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["ambig"]
+    }
+  },
+  {
+    name: "Lucienne von Burgund",
+    img: "jkkCAGv.png",
+    opts: {
+      owner: ["python"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1263,6 +1744,27 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Shiromi Sadamoto",
+    img: "wrLVb4r.png",
+    opts: {
+      owner: ["python"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "SLUG",
+    img: "K1ahXYt.png",
+    opts: {
+      owner: ["python"],
+	  gender: ["non"],
+	  species: ["humanoid"],
+	  age: ["ambig"],
+	  generic: []
+    }
+  },
+  {
     name: "Taya",
     img: "SWt3LdN.png",
     opts: {
@@ -1290,6 +1792,16 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult","ambig"]
+    }
+  },
+  {
+    name: "Tomino Daiemon",
+    img: "5nO44Sr.png",
+    opts: {
+      owner: ["python"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["child"]
     }
   },
   {
@@ -1376,6 +1888,16 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Edelweiss",
+    img: "pq8WfNr.png",
+    opts: {
+      owner: ["robin"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["child"]
+    }
+  },
+  {
     name: "Hikaru",
     img: "FrbrRKK.png",
     opts: {
@@ -1426,6 +1948,16 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Tohru",
+    img: "Hw8pbJb.png",
+    opts: {
+      owner: ["robin"],
+	  gender: ["male"],
+	  species: ["humanoid"],
+	  age: ["adult","ambig"]
+    }
+  },
+  {
     name: "Valentine",
     img: "EQ4WnHC.png",
     opts: {
@@ -1466,6 +1998,17 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult"]
+    }
+  },
+  {
+    name: "MunaBot",
+    img: "zfr6XPj.png",
+    opts: {
+      owner: ["sphe"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"],
+	  nonrp: []
     }
   },
   {
@@ -1515,6 +2058,38 @@ dataSet[dataSetVersion].characterData = [
       owner: ["sphe"],
 	  gender: ["female"],
 	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  
+  
+  {
+    name: "Gao Kurosagane",
+    img: "GVqhijf.png",
+    opts: {
+      owner: ["syoudre"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Gibor Lazarus",
+    img: "RYxYC9S.png",
+    opts: {
+      owner: ["syoudre"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Seth Victor Kurosagane",
+    img: "Jpm7Ur9.png",
+    opts: {
+      owner: ["syoudre"],
+	  gender: ["male"],
+	  species: ["anthro"],
 	  age: ["adult"]
     }
   },
@@ -1641,7 +2216,7 @@ dataSet[dataSetVersion].characterData = [
       owner: ["tricky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult","ambig"]
+	  age: ["adult"]
     }
   },
   {
@@ -1655,8 +2230,48 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Elithabes Schäfer",
+    img: "isL9jzq.png",
+    opts: {
+      owner: ["tricky"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Gabriella 'Gabby' Berger",
     img: "WQ8r7gU.png",
+    opts: {
+      owner: ["tricky"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Hunrios Pathcrafter",
+    img: "eI98ysW.png",
+    opts: {
+      owner: ["tricky"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Ichiyu",
+    img: "Z4JqcwQ.png",
+    opts: {
+      owner: ["tricky"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Kikyo",
+    img: "aNPQ9gp.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["female"],
@@ -1685,12 +2300,32 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Mr Signykins",
+    img: "S2kBlF0.png",
+    opts: {
+      owner: ["tricky"],
+	  gender: ["male"],
+	  species: ["aniobj"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Keizou Takamori (Mr. Deerkins)",
     img: "rFVo4gY.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["aniobj"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Niyu",
+    img: "I32q9ds.png",
+    opts: {
+      owner: ["tricky"],
+	  gender: ["female"],
+	  species: ["humanoid"],
 	  age: ["adult"]
     }
   },
@@ -1712,6 +2347,26 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["child"]
+    }
+  },
+  {
+    name: "Ryoutarou Kiriya",
+    img: "f1lWCk0.png",
+    opts: {
+      owner: ["tricky"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Sanyu",
+    img: "oaawBMr.png",
+    opts: {
+      owner: ["tricky"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
     }
   },
   {
@@ -1751,7 +2406,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["tricky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  nonrp: []
     }
   },
   {
@@ -1788,6 +2444,16 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
+    name: "Stanley",
+    img: "cbqxqMf.png",
+    opts: {
+      owner: ["veemon"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"]
+    }
+  },
+  {
     name: "Veemon",
     img: "IgM3NC9.png",
     opts: {
@@ -1807,7 +2473,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["vigor"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  legacy: []
     }
   },
   {
@@ -1817,7 +2484,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["vigor"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["child"]
+	  age: ["child"],
+	  legacy: []
     }
   },
   {
@@ -1827,7 +2495,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["vigor"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["child"]
+	  age: ["child"],
+	  legacy: []
     }
   },
   {
@@ -1837,10 +2506,11 @@ dataSet[dataSetVersion].characterData = [
       owner: ["vigor"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult","ambig"]
+	  age: ["adult","ambig"],
+	  legacy: []
     }
   },
-  
+ 
   
   
   {
@@ -1877,6 +2547,40 @@ dataSet[dataSetVersion].characterData = [
   
   
   {
+    name: "Jirachi",
+    img: "DowggQS.png",
+    opts: {
+      owner: ["wish"],
+	  gender: ["male"],
+	  species: ["anthro","pokedigi"],
+	  age: ["child"]
+    }
+  },
+  {
+    name: "Meema",
+    img: "Og1G685.png",
+    opts: {
+      owner: ["wish"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"],
+	  nonrp: []
+    }
+  },
+  {
+    name: "Philia",
+    img: "7Jh8UDq.png",
+    opts: {
+      owner: ["wish"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  
+  
+  
+  {
     name: "Agent",
     img: "E9HyqUT.png",
     opts: {
@@ -1884,6 +2588,27 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["adult"]
+    }
+  },
+  {
+    name: "Asahi",
+    img: "l0OE50o.png",
+    opts: {
+      owner: ["others"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Badz",
+    img: "LuztfiW.png",
+    opts: {
+      owner: ["others"],
+	  gender: ["male"],
+	  species: ["humanoid"],
+	  age: ["adult"],
+	  legacy: []
     }
   },
   {
@@ -1895,17 +2620,7 @@ dataSet[dataSetVersion].characterData = [
 	  species: ["anthro"],
 	  age: ["adult"]
     }
-  },
-  {
-    name: "Jirachi",
-    img: "oTzsnpg.png",
-    opts: {
-      owner: ["others"],
-	  gender: ["male"],
-	  species: ["anthro","pokedigi"],
-	  age: ["child"]
-    }
-  },
+  }, 
   {
     name: "Loftaire Kuafushi",
     img: "mD9Y7vq.png",
@@ -1917,13 +2632,44 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Seth Victor Kurosagane",
-    img: "joz95Rb.png",
+    name: "Mejed",
+    img: "qskh3Yy.png",
+    opts: {
+      owner: ["others"],
+	  gender: ["male"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
+  {
+    name: "Mercury",
+    img: "ezv1X3g.png",
     opts: {
       owner: ["others"],
 	  gender: ["male"],
 	  species: ["anthro"],
 	  age: ["adult"]
+    }
+  },
+  {
+    name: "Training Dummy",
+    img: "RHbz1x9.png",
+    opts: {
+      owner: ["others"],
+	  gender: ["non"],
+	  species: ["aniobj"],
+	  age: ["ambig"]
+    }
+  },
+  {
+    name: "Umbra",
+    img: "1Vo6sW6.png",
+    opts: {
+      owner: ["others"],
+	  gender: ["male"],
+	  species: ["furry"],
+	  age: ["adult"],
+	  legacy: []
     }
   },
   {
@@ -1935,6 +2681,17 @@ dataSet[dataSetVersion].characterData = [
 	  species: ["anthro"],
 	  age: ["adult"]
     }
-  }
+  },
+  {
+    name: "Yuugen",
+    img: "LntgMRp.png",
+    opts: {
+      owner: ["others"],
+	  gender: ["female"],
+	  species: ["humanoid"],
+	  age: ["child"],
+	  legacy: []
+    }
+  },
   
 ];
