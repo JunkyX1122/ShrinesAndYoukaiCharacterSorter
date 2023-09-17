@@ -12,7 +12,7 @@ dataSet[dataSetVersion].options = [
 	  { name: "Banana", key: "banana" ,checked: true},
 	  { name: "Conar", key: "conar" ,checked: true},
 	  { name: "Drek", key: "drek" ,checked: true},
-	  { name: "Drugs", key: "drugs" ,checked: true},
+	  //{ name: "Drugs", key: "drugs" ,checked: true},
 	  { name: "Gabe", key: "gabe" ,checked: true},
 	  { name: "Guilmon", key: "guilmon" ,checked: true},
 	  { name: "Junky", key: "junky" ,checked: true},
@@ -602,7 +602,7 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  /*
   {
     name: "Alastair",
     img: "4G2yiXt.png",
@@ -663,7 +663,7 @@ dataSet[dataSetVersion].characterData = [
 	  age: ["adult"]
     }
   },
-  
+  */
   
   
   {
