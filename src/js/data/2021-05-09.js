@@ -106,6 +106,11 @@ dataSet[dataSetVersion].options = [
 ];
 
 dataSet[dataSetVersion].characterData = [
+  
+  
+  //=========================================
+  //ACHY
+  //=========================================
   {
     name: "Abuchi",
     img: "TaM61YN.png",
@@ -228,7 +233,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  //=========================================
+  //BANANA
+  //=========================================
   {
     name: "Bana 'Banana' Narama",
     img: "0K0pRFx.png",
@@ -431,7 +438,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  //=========================================
+  //CONAR
+  //=========================================
   {
     name: "Conar Dinn",
     img: "LlyVAeu.png",
@@ -546,7 +555,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  //=========================================
+  //DREK
+  //=========================================
   {
     name: "Charlie",
     img: "Tm8lN9p.png",
@@ -610,6 +621,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
+  //=========================================
+  //DRUGS
+  //=========================================
   /*
   {
     name: "Alastair",
@@ -674,6 +688,9 @@ dataSet[dataSetVersion].characterData = [
   */
   
   
+  //=========================================
+  //GABE
+  //=========================================
   {
     name: "Blaike",
     img: "5HbJbu9.png",
@@ -756,6 +773,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
+  //=========================================
+  //GUILMON
+  //=========================================
   {
     name: "Arthur",
     img: "f79pKak.png",
@@ -927,7 +947,10 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   
-
+  
+  //=========================================
+  //JUNKY
+  //=========================================
   {
     name: "Labour - 'The MS&Y2 Artist'",
     img: "pCY81uV.png",
@@ -1093,7 +1116,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  //=========================================
+  //LOBBY
+  //=========================================
   {
     name: "Acolyte",
     img: "DZfOZa0.png",
@@ -1218,7 +1243,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  //=========================================
+  //LYOS
+  //=========================================
   {
     name: "Atikaya Alsisar",
     img: "nZZ5WBk.png",
@@ -1261,7 +1288,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  //=========================================
+  //MEOWSTIC
+  //=========================================
   {
     name: "Ava",
     img: "LyP0MkK.png",
@@ -1376,7 +1405,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  //=========================================
+  //MIRANSU
+  //=========================================
   {
     name: "Alice",
     img: "30gsGWk.png",
@@ -1500,7 +1531,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  //=========================================
+  //PHANTOM
+  //=========================================
   {
     name: "Alex",
     img: "rWKhplB.png",
@@ -1563,7 +1596,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  //=========================================
+  //PYTHON
+  //=========================================
   {
     name: "Apateonas",
     img: "xPhIGKW.png",
@@ -1889,7 +1924,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  //=========================================
+  //ROBIN
+  //=========================================
   {
     name: "Croire",
     img: "qkypfpe.png",
@@ -1982,7 +2019,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  //=========================================
+  //SPHE
+  //=========================================
   {
     name: "Chionne",
     img: "ZjSCqbe.png",
@@ -2045,7 +2084,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Sandra",
+    name: "Sandra Oikaze",
     img: "zi6fE2C.png",
     opts: {
       owner: ["sphe"],
@@ -2055,7 +2094,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Sarah",
+    name: "Sarah Oikaze",
     img: "8z4Swt4.png",
     opts: {
       owner: ["sphe"],
@@ -2076,6 +2115,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
+  //=========================================
+  //SYOUDRE
+  //=========================================
   {
     name: "Gao Kurosagane",
     img: "GVqhijf.png",
@@ -2108,7 +2150,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  //=========================================
+  //TRES
+  //=========================================
   {
     name: "Juro",
     img: "zpvpYZC.png",
@@ -2220,8 +2264,10 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   
-   
   
+  //=========================================
+  //TRICKY
+  //=========================================
   {
     name: "Ashley Lightman",
     img: "A07c38f.png",
@@ -2447,7 +2493,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  //=========================================
+  //VEEMON
+  //=========================================
   {
     name: "Myonu",
     img: "WYJ2VhR.png",
@@ -2480,7 +2528,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-
+  //=========================================
+  //VIGOR
+  //=========================================
   {
     name: "Ariel Zaccaria",
     img: "5QFR1mZ.png",
@@ -2525,9 +2575,11 @@ dataSet[dataSetVersion].characterData = [
 	  legacy: []
     }
   },
- 
   
   
+  //=========================================
+  //ZACK
+  //=========================================
   {
     name: "Dormun Albright",
     img: "dLVj6Se.png",
@@ -2560,7 +2612,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  //=========================================
+  //WISH
+  //=========================================
   {
     name: "Jirachi",
     img: "DowggQS.png",
@@ -2594,7 +2648,9 @@ dataSet[dataSetVersion].characterData = [
   },
   
   
-  
+  //=========================================
+  //OTHERS
+  //=========================================
   {
     name: "Agent",
     img: "E9HyqUT.png",
