@@ -1302,7 +1302,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "??? (BlueBird)",
+    name: "Vera Dariyev",
     img: "T260itK.png",
     opts: {
       owner: ["meowstic"],
@@ -1394,7 +1394,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Tasia",
+    name: "Tasia Vlahakis",
     img: "csAEiqh.png",
     opts: {
       owner: ["meowstic"],
