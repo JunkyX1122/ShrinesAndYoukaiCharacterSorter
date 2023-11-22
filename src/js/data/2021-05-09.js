@@ -1373,14 +1373,13 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "??? (Darker)",
-    img: "tnuUqFi.png",
+    name: "Ellinor Vennesland",
+    img: "CIPbfqu.png",
     opts: {
       owner: ["meowstic"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"],
-	  hidden: []
+	  age: ["adult"]
     }
   },
   {
@@ -2703,7 +2702,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Mejed",
+    name: "Medjed",
     img: "qskh3Yy.png",
     opts: {
       owner: ["others"],
