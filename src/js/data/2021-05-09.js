@@ -1726,7 +1726,7 @@ dataSet[dataSetVersion].characterData = [
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["ambig"]
+	  age: ["adult", "ambig"]
     }
   },
   {
