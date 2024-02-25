@@ -106,7 +106,7 @@ function init() {
   document.querySelector('.image.selector').insertAdjacentElement('beforeend', document.createElement('select'));
 
   /** Initialize image quantity selector for results. */
-  for (let i = 0; i <= 10; i++) {
+  for (let i = 0; i <= 50; i++) {
     const select = document.createElement('option');
     select.value = i;
     select.text = i;
