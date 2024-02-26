@@ -1342,14 +1342,13 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "??? (Smile)",
-    img: "0vGlJPw.png",
+    name: "Muri",
+    img: "3o69sgl.png",
     opts: {
       owner: ["meowstic"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"],
-	  hidden: []
+	  age: ["adult"]
     }
   },
   {
