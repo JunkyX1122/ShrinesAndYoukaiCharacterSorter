@@ -243,7 +243,7 @@ dataSet[dataSetVersion].characterData = [
       owner: ["banana"],
 	  gender: ["non"],
 	  species: ["anthro"],
-	  age: ["adult", "ambig"]
+	  age: ["adult"]
     }
   },
   {
@@ -253,7 +253,7 @@ dataSet[dataSetVersion].characterData = [
       owner: ["banana"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult", "ambig"]
+	  age: ["adult"]
     }
   },
   {
@@ -273,7 +273,7 @@ dataSet[dataSetVersion].characterData = [
       owner: ["banana"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["ambig"]
     }
   },
   {
@@ -353,7 +353,7 @@ dataSet[dataSetVersion].characterData = [
       owner: ["banana"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["ambig"]
     }
   },
   {
@@ -383,7 +383,7 @@ dataSet[dataSetVersion].characterData = [
       owner: ["banana"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult", "ambig"]
+	  age: ["adult"]
     }
   },
   {
@@ -401,7 +401,7 @@ dataSet[dataSetVersion].characterData = [
     img: "Vpe906N.png",
     opts: {
       owner: ["banana"],
-	  gender: ["male"],
+	  gender: ["non"],
 	  species: ["anthro"],
 	  age: ["adult"]
     }
@@ -413,7 +413,7 @@ dataSet[dataSetVersion].characterData = [
       owner: ["banana"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult", "ambig"]
+	  age: ["adult"]
     }
   },
   {
@@ -422,7 +422,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["banana"],
 	  gender: ["male"],
-	  species: ["antrho"],
+	  species: ["anthro"],
 	  age: ["adult"]
     }
   },
@@ -432,7 +432,7 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       owner: ["banana"],
 	  gender: ["male"],
-	  species: ["antrho"],
+	  species: ["anthro"],
 	  age: ["adult"]
     }
   },
