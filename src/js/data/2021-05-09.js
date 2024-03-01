@@ -113,8 +113,8 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Abuchi",
-    img: "TaM61YN.png",
-    opts: {
+	bio: "Placeholder Text (600 character limit).", img: "TaM61YN.png",
+	opts: {
       owner: ["achy"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -123,7 +123,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aiko Daikazoku",
-    img: "gCtjDiY.png",
+    bio: "Placeholder Text (600 character limit).", img: "gCtjDiY.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -133,7 +133,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Chamemi Housen",
-    img: "h4ymhBc.png",
+    bio: "Placeholder Text (600 character limit).", img: "h4ymhBc.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -143,7 +143,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cindy",
-    img: "YfsZ0dm.png",
+    bio: "Placeholder Text (600 character limit).", img: "YfsZ0dm.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -153,7 +153,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kiikii",
-    img: "YeAGr5T.png",
+    bio: "Placeholder Text (600 character limit).", img: "YeAGr5T.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -163,7 +163,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Matarou",
-    img: "oOJEyuw.png",
+    bio: "Placeholder Text (600 character limit).", img: "oOJEyuw.png",
     opts: {
       owner: ["achy"],
 	  gender: ["male"],
@@ -173,7 +173,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Samu",
-    img: "I0LWHI5.png",
+    bio: "Placeholder Text (600 character limit).", img: "I0LWHI5.png",
     opts: {
       owner: ["achy"],
 	  gender: ["male"],
@@ -183,7 +183,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Seigeki",
-    img: "j8UxJoM.png",
+    bio: "Placeholder Text (600 character limit).", img: "j8UxJoM.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -193,7 +193,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Susugi",
-    img: "gdxjByH.png",
+    bio: "Placeholder Text (600 character limit).", img: "gdxjByH.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -203,7 +203,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tatsuga",
-    img: "Auoe5pN.png",
+    bio: "Placeholder Text (600 character limit).", img: "Auoe5pN.png",
     opts: {
       owner: ["achy"],
 	  gender: ["male"],
@@ -213,7 +213,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yuno",
-    img: "kEDOCnV.png",
+    bio: "Placeholder Text (600 character limit).", img: "kEDOCnV.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -223,7 +223,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Witori Karashiro",
-    img: "Kx1XSOF.png",
+    bio: "Placeholder Text (600 character limit).", img: "Kx1XSOF.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -238,7 +238,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Bana 'Banana' Narama",
-    img: "0K0pRFx.png",
+    bio: "Placeholder Text (600 character limit).", img: "0K0pRFx.png",
     opts: {
       owner: ["banana"],
 	  gender: ["non"],
@@ -248,7 +248,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Bridgette Palmer",
-    img: "iMHdB8V.png",
+    bio: "Placeholder Text (600 character limit).", img: "iMHdB8V.png",
     opts: {
       owner: ["banana"],
 	  gender: ["female"],
@@ -258,7 +258,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cios",
-    img: "efZjAzf.png",
+    bio: "Placeholder Text (600 character limit).", img: "efZjAzf.png",
     opts: {
       owner: ["banana"],
 	  gender: ["female"],
@@ -268,7 +268,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cordycep",
-    img: "LDopA29.png",
+    bio: "Placeholder Text (600 character limit).", img: "LDopA29.png",
     opts: {
       owner: ["banana"],
 	  gender: ["female"],
@@ -278,7 +278,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Genmi",
-    img: "VFpYUkz.png",
+    bio: "Placeholder Text (600 character limit).", img: "VFpYUkz.png",
     opts: {
       owner: ["banana"],
 	  gender: ["male"],
@@ -288,7 +288,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kachari Hinaka",
-    img: "YQFOKtn.png",
+    bio: "Placeholder Text (600 character limit).", img: "YQFOKtn.png",
     opts: {
       owner: ["banana"],
 	  gender: ["female"],
@@ -298,7 +298,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kiyokuro Sakakiinu",
-    img: "rZBfj6W.png",
+    bio: "Placeholder Text (600 character limit).", img: "rZBfj6W.png",
     opts: {
       owner: ["banana"],
 	  gender: ["male"],
@@ -308,7 +308,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Makigai Mabokeshigai",
-    img: "vM7NaoV.png",
+    bio: "Placeholder Text (600 character limit).", img: "vM7NaoV.png",
     opts: {
       owner: ["banana"],
 	  gender: ["female"],
@@ -318,7 +318,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mondo Ishigami",
-    img: "usk6Czv.png",
+    bio: "Placeholder Text (600 character limit).", img: "usk6Czv.png",
     opts: {
       owner: ["banana"],
 	  gender: ["male"],
@@ -328,7 +328,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mouru Ominaeshi",
-    img: "R01pmiv.png",
+    bio: "Placeholder Text (600 character limit).", img: "R01pmiv.png",
     opts: {
       owner: ["banana"],
 	  gender: ["female"],
@@ -338,7 +338,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Piccolo Totanshou",
-    img: "P4dDGz7.png",
+    bio: "Placeholder Text (600 character limit).", img: "P4dDGz7.png",
     opts: {
       owner: ["banana"],
 	  gender: ["male"],
@@ -348,7 +348,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sekki",
-    img: "GCFnPFE.png",
+    bio: "Placeholder Text (600 character limit).", img: "GCFnPFE.png",
     opts: {
       owner: ["banana"],
 	  gender: ["female"],
@@ -358,7 +358,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shangvinrú",
-    img: "XmshWkH.png",
+    bio: "Placeholder Text (600 character limit).", img: "XmshWkH.png",
     opts: {
       owner: ["banana"],
 	  gender: ["male"],
@@ -368,7 +368,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shuu Kongei",
-    img: "CnTio39.png",
+    bio: "Placeholder Text (600 character limit).", img: "CnTio39.png",
     opts: {
       owner: ["banana"],
 	  gender: ["female"],
@@ -378,7 +378,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Siine",
-    img: "zkc3ixB.png",
+    bio: "Placeholder Text (600 character limit).", img: "zkc3ixB.png",
     opts: {
       owner: ["banana"],
 	  gender: ["female"],
@@ -388,7 +388,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Susugu Kumochimono",
-    img: "RO3pb6c.png",
+    bio: "Placeholder Text (600 character limit).", img: "RO3pb6c.png",
     opts: {
       owner: ["banana"],
 	  gender: ["male"],
@@ -398,7 +398,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Traskar",
-    img: "Vpe906N.png",
+    bio: "Placeholder Text (600 character limit).", img: "Vpe906N.png",
     opts: {
       owner: ["banana"],
 	  gender: ["non"],
@@ -408,7 +408,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Usue",
-    img: "xKoxifE.png",
+    bio: "Placeholder Text (600 character limit).", img: "xKoxifE.png",
     opts: {
       owner: ["banana"],
 	  gender: ["female"],
@@ -418,7 +418,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hersir",
-    img: "A9OmdLd.png",
+    bio: "Placeholder Text (600 character limit).", img: "A9OmdLd.png",
     opts: {
       owner: ["banana"],
 	  gender: ["male"],
@@ -428,7 +428,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Valsir",
-    img: "czduBJz.png",
+    bio: "Placeholder Text (600 character limit).", img: "czduBJz.png",
     opts: {
       owner: ["banana"],
 	  gender: ["male"],
@@ -443,7 +443,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Conar Dinn",
-    img: "LlyVAeu.png",
+    bio: "Placeholder Text (600 character limit).", img: "LlyVAeu.png",
     opts: {
       owner: ["conar"],
 	  gender: ["male"],
@@ -453,7 +453,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Justin",
-    img: "MSsrN3E.png",
+    bio: "Placeholder Text (600 character limit).", img: "MSsrN3E.png",
     opts: {
       owner: ["conar"],
 	  gender: ["male"],
@@ -463,7 +463,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kaito Dinn",
-    img: "Yv0Y0Ny.png",
+    bio: "Placeholder Text (600 character limit).", img: "Yv0Y0Ny.png",
     opts: {
       owner: ["conar"],
 	  gender: ["male"],
@@ -473,7 +473,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kenchi Yakumo",
-    img: "DjGCae4.png",
+    bio: "Placeholder Text (600 character limit).", img: "DjGCae4.png",
     opts: {
       owner: ["conar"],
 	  gender: ["male"],
@@ -483,7 +483,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Keomi Kyogai",
-    img: "FNii5Dr.png",
+    bio: "Placeholder Text (600 character limit).", img: "FNii5Dr.png",
     opts: {
       owner: ["conar"],
 	  gender: ["female"],
@@ -493,7 +493,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kian Juichi",
-    img: "XFCt0t2.png",
+    bio: "Placeholder Text (600 character limit).", img: "XFCt0t2.png",
     opts: {
       owner: ["conar"],
 	  gender: ["male"],
@@ -503,7 +503,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Leanne Dinn",
-    img: "LNCnaXB.png",
+    bio: "Placeholder Text (600 character limit).", img: "LNCnaXB.png",
     opts: {
       owner: ["conar"],
 	  gender: ["female"],
@@ -513,7 +513,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Rengetsu",
-    img: "NUz51cw.png",
+    bio: "Placeholder Text (600 character limit).", img: "NUz51cw.png",
     opts: {
       owner: ["conar"],
 	  gender: ["female"],
@@ -523,7 +523,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sus Drek",
-    img: "szRwvCM.png",
+    bio: "Placeholder Text (600 character limit).", img: "szRwvCM.png",
     opts: {
       owner: ["conar"],
 	  gender: ["male"],
@@ -535,7 +535,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tesslyn Aurea",
-    img: "Xtu7LQ3.png",
+    bio: "Placeholder Text (600 character limit).", img: "Xtu7LQ3.png",
     opts: {
       owner: ["conar"],
 	  gender: ["female"],
@@ -545,7 +545,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tyzairo",
-    img: "nt9B7ti.png",
+    bio: "Placeholder Text (600 character limit).", img: "nt9B7ti.png",
     opts: {
       owner: ["conar"],
 	  gender: ["male"],
@@ -560,7 +560,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Charlie",
-    img: "Tm8lN9p.png",
+    bio: "Placeholder Text (600 character limit).", img: "Tm8lN9p.png",
     opts: {
       owner: ["drek"],
 	  gender: ["male"],
@@ -571,7 +571,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Drekareen",
-    img: "4pl4Den.png",
+    bio: "Placeholder Text (600 character limit).", img: "4pl4Den.png",
     opts: {
       owner: ["drek"],
 	  gender: ["male"],
@@ -581,7 +581,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kyuuko Memoto",
-    img: "h853kHj.png",
+    bio: "Placeholder Text (600 character limit).", img: "h853kHj.png",
     opts: {
       owner: ["drek"],
 	  gender: ["female"],
@@ -591,7 +591,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nesthaar",
-    img: "ahVChuP.png",
+    bio: "Placeholder Text (600 character limit).", img: "ahVChuP.png",
     opts: {
       owner: ["drek"],
 	  gender: ["male"],
@@ -601,7 +601,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Raylan",
-    img: "W5nDZFN.png",
+    bio: "Placeholder Text (600 character limit).", img: "W5nDZFN.png",
     opts: {
       owner: ["drek"],
 	  gender: ["male"],
@@ -611,7 +611,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Zathareen",
-    img: "glBQUC3.png",
+    bio: "Placeholder Text (600 character limit).", img: "glBQUC3.png",
     opts: {
       owner: ["drek"],
 	  gender: ["male"],
@@ -627,7 +627,7 @@ dataSet[dataSetVersion].characterData = [
   /*
   {
     name: "Alastair",
-    img: "4G2yiXt.png",
+    bio: "Placeholder Text (600 character limit).", img: "4G2yiXt.png",
     opts: {
       owner: ["drugs"],
 	  gender: ["male"],
@@ -637,7 +637,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ayako",
-    img: "UPzzAXd.png",
+    bio: "Placeholder Text (600 character limit).", img: "UPzzAXd.png",
     opts: {
       owner: ["drugs"],
 	  gender: ["female"],
@@ -647,7 +647,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cedric",
-    img: "QnGYMQT.png",
+    bio: "Placeholder Text (600 character limit).", img: "QnGYMQT.png",
     opts: {
       owner: ["drugs"],
 	  gender: ["male"],
@@ -657,7 +657,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Drugs",
-    img: "CY3SyBH.png",
+    bio: "Placeholder Text (600 character limit).", img: "CY3SyBH.png",
     opts: {
       owner: ["drugs"],
 	  gender: ["male"],
@@ -667,7 +667,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Halvan",
-    img: "DwrDUO3.png",
+    bio: "Placeholder Text (600 character limit).", img: "DwrDUO3.png",
     opts: {
       owner: ["drugs"],
 	  gender: ["male"],
@@ -677,7 +677,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Miyu Ito",
-    img: "1DTmm4j.png",
+    bio: "Placeholder Text (600 character limit).", img: "1DTmm4j.png",
     opts: {
       owner: ["drugs"],
 	  gender: ["female"],
@@ -693,7 +693,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Blaike",
-    img: "5HbJbu9.png",
+    bio: "Placeholder Text (600 character limit).", img: "5HbJbu9.png",
     opts: {
       owner: ["gabe"],
 	  gender: ["male"],
@@ -703,7 +703,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Eskandar Mausomi",
-    img: "wkZLJWr.png",
+    bio: "Placeholder Text (600 character limit).", img: "wkZLJWr.png",
     opts: {
       owner: ["gabe"],
 	  gender: ["male"],
@@ -713,7 +713,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Jodith",
-    img: "cqHIHPj.png",
+    bio: "Placeholder Text (600 character limit).", img: "cqHIHPj.png",
     opts: {
       owner: ["gabe"],
 	  gender: ["male"],
@@ -723,7 +723,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Johan",
-    img: "UFY43Kh.png",
+    bio: "Placeholder Text (600 character limit).", img: "UFY43Kh.png",
     opts: {
       owner: ["gabe"],
 	  gender: ["male"],
@@ -733,7 +733,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Markus",
-    img: "2aqk00J.png",
+    bio: "Placeholder Text (600 character limit).", img: "2aqk00J.png",
     opts: {
       owner: ["gabe"],
 	  gender: ["male"],
@@ -743,7 +743,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Merhan",
-    img: "PPdthi6.png",
+    bio: "Placeholder Text (600 character limit).", img: "PPdthi6.png",
     opts: {
       owner: ["gabe"],
 	  gender: ["male"],
@@ -753,7 +753,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Roshanne Salih",
-    img: "yY5idAb.png",
+    bio: "Placeholder Text (600 character limit).", img: "yY5idAb.png",
     opts: {
       owner: ["gabe"],
 	  gender: ["female"],
@@ -763,7 +763,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sapphire",
-    img: "ny9ofTp.png",
+    bio: "Placeholder Text (600 character limit).", img: "ny9ofTp.png",
     opts: {
       owner: ["gabe"],
 	  gender: ["female"],
@@ -778,7 +778,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Arthur",
-    img: "f79pKak.png",
+    bio: "Placeholder Text (600 character limit).", img: "f79pKak.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
@@ -788,7 +788,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Chrysalis",
-    img: "waD7wyk.png",
+    bio: "Placeholder Text (600 character limit).", img: "waD7wyk.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
@@ -798,7 +798,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Daisuke",
-    img: "28XFS2K.png",
+    bio: "Placeholder Text (600 character limit).", img: "28XFS2K.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
@@ -808,7 +808,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Dandara",
-    img: "LoyaLCD.png",
+    bio: "Placeholder Text (600 character limit).", img: "LoyaLCD.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["female"],
@@ -818,7 +818,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Duke",
-    img: "ShbjnP4.png",
+    bio: "Placeholder Text (600 character limit).", img: "ShbjnP4.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
@@ -828,7 +828,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Grace",
-    img: "pSSXXc3.png",
+    bio: "Placeholder Text (600 character limit).", img: "pSSXXc3.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["female"],
@@ -838,7 +838,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Grandis",
-    img: "gP820o4.png",
+    bio: "Placeholder Text (600 character limit).", img: "gP820o4.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
@@ -848,7 +848,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Guilmon",
-    img: "zgHHdQG.png",
+    bio: "Placeholder Text (600 character limit).", img: "zgHHdQG.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
@@ -858,7 +858,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hawk",
-    img: "SSfKTGA.png",
+    bio: "Placeholder Text (600 character limit).", img: "SSfKTGA.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
@@ -868,7 +868,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hiroyuki",
-    img: "S2F74xq.png",
+    bio: "Placeholder Text (600 character limit).", img: "S2F74xq.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
@@ -878,7 +878,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hatsudzuki no Kairyu",
-    img: "w3r3ya7.png",
+    bio: "Placeholder Text (600 character limit).", img: "w3r3ya7.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
@@ -888,7 +888,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Levi",
-    img: "VnYcwMm.png",
+    bio: "Placeholder Text (600 character limit).", img: "VnYcwMm.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
@@ -898,7 +898,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Redrin Lightclaw",
-    img: "ZfMTD3r.png",
+    bio: "Placeholder Text (600 character limit).", img: "ZfMTD3r.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
@@ -908,7 +908,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Rei",
-    img: "2iUVJJH.png",
+    bio: "Placeholder Text (600 character limit).", img: "2iUVJJH.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
@@ -918,7 +918,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Takashi Reirin",
-    img: "nfa3aEy.png",
+    bio: "Placeholder Text (600 character limit).", img: "nfa3aEy.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
@@ -928,7 +928,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tristan",
-    img: "UoZUd2z.png",
+    bio: "Placeholder Text (600 character limit).", img: "UoZUd2z.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["male"],
@@ -938,7 +938,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yuki",
-    img: "eZbMgys.png",
+    bio: "Placeholder Text (600 character limit).", img: "eZbMgys.png",
     opts: {
       owner: ["guilmon"],
 	  gender: ["female"],
@@ -953,7 +953,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Labour - 'The MS&Y2 Artist'",
-    img: "pCY81uV.png",
+    bio: "Placeholder Text (600 character limit).", img: "pCY81uV.png",
     opts: {
       owner: ["junky"],
 	  gender: ["male"],
@@ -964,7 +964,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Earl",
-    img: "wrAChS4.png",
+    bio: "Placeholder Text (600 character limit).", img: "wrAChS4.png",
     opts: {
       owner: ["junky"],
 	  gender: ["non"],
@@ -976,7 +976,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "'dAU6' Zimmer",
-    img: "YRsvi7l.png",
+    bio: "Placeholder Text (600 character limit).", img: "YRsvi7l.png",
     opts: {
       owner: ["junky"],
 	  gender: ["male"],
@@ -986,7 +986,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Jenny",
-    img: "2a7VhHr.png",
+    bio: "Placeholder Text (600 character limit).", img: "2a7VhHr.png",
     opts: {
       owner: ["junky"],
 	  gender: ["female"],
@@ -996,7 +996,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Karigou Diaz",
-    img: "hvVOnen.png",
+    bio: "Placeholder Text (600 character limit).", img: "hvVOnen.png",
     opts: {
       owner: ["junky"],
 	  gender: ["male"],
@@ -1006,7 +1006,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Lola",
-    img: "058Y9Qo.png",
+    bio: "Placeholder Text (600 character limit).", img: "058Y9Qo.png",
     opts: {
       owner: ["junky"],
 	  gender: ["female"],
@@ -1016,7 +1016,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "The Golden Lute (Lute)",
-    img: "f7U60e3.png",
+    bio: "Placeholder Text (600 character limit).", img: "f7U60e3.png",
     opts: {
       owner: ["junky"],
 	  gender: ["female"],
@@ -1026,7 +1026,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Maria",
-    img: "1OS7WwV.png",
+    bio: "Placeholder Text (600 character limit).", img: "1OS7WwV.png",
     opts: {
       owner: ["junky"],
 	  gender: ["female"],
@@ -1036,7 +1036,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nobody",
-    img: "P0umA2y.png",
+    bio: "Placeholder Text (600 character limit).", img: "P0umA2y.png",
     opts: {
       owner: ["junky"],
 	  gender: ["male"],
@@ -1046,7 +1046,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "The Cane of Contradiction Calamity (StaffLady)",
-    img: "IOuRhHp.png",
+    bio: "Placeholder Text (600 character limit).", img: "IOuRhHp.png",
     opts: {
       owner: ["junky"],
 	  gender: ["female"],
@@ -1056,7 +1056,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Suki",
-    img: "GBswHs5.png",
+    bio: "Placeholder Text (600 character limit).", img: "GBswHs5.png",
     opts: {
       owner: ["junky"],
 	  gender: ["female"],
@@ -1066,7 +1066,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sullen",
-    img: "KeXazMK.png",
+    bio: "Placeholder Text (600 character limit).", img: "KeXazMK.png",
     opts: {
       owner: ["junky"],
 	  gender: ["male"],
@@ -1076,7 +1076,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tau",
-    img: "zm2RGYt.png",
+    bio: "Placeholder Text (600 character limit).", img: "zm2RGYt.png",
     opts: {
       owner: ["junky"],
 	  gender: ["non"],
@@ -1086,7 +1086,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Toru",
-    img: "6xvngvE.png",
+    bio: "Placeholder Text (600 character limit).", img: "6xvngvE.png",
     opts: {
       owner: ["junky"],
 	  gender: ["female"],
@@ -1096,7 +1096,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wolfy",
-    img: "dWO4PLV.png",
+    bio: "Placeholder Text (600 character limit).", img: "dWO4PLV.png",
     opts: {
       owner: ["junky"],
 	  gender: ["male"],
@@ -1106,7 +1106,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Work",
-    img: "sc5ztaO.png",
+    bio: "Placeholder Text (600 character limit).", img: "sc5ztaO.png",
     opts: {
       owner: ["junky"],
 	  gender: ["female"],
@@ -1121,7 +1121,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Acolyte",
-    img: "DZfOZa0.png",
+    bio: "Placeholder Text (600 character limit).", img: "DZfOZa0.png",
     opts: {
       owner: ["lobby"],
 	  gender: ["female"],
@@ -1131,7 +1131,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Annye Pihxie",
-    img: "GCFBTgz.png",
+    bio: "Placeholder Text (600 character limit).", img: "GCFBTgz.png",
     opts: {
       owner: ["lobby"],
 	  gender: ["female"],
@@ -1141,7 +1141,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Bates Amanita",
-    img: "xLG1BCp.png",
+    bio: "Placeholder Text (600 character limit).", img: "xLG1BCp.png",
     opts: {
       owner: ["lobby"],
 	  gender: ["male"],
@@ -1151,7 +1151,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Blob",
-    img: "2xohYoo.png",
+    bio: "Placeholder Text (600 character limit).", img: "2xohYoo.png",
     opts: {
       owner: ["lobby"],
 	  gender: ["non"],
@@ -1161,7 +1161,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cedrik",
-    img: "CbtW6KM.png",
+    bio: "Placeholder Text (600 character limit).", img: "CbtW6KM.png",
     opts: {
       owner: ["lobby"],
 	  gender: ["male"],
@@ -1171,7 +1171,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Chorus Melpomene",
-    img: "j6nekEt.png",
+    bio: "Placeholder Text (600 character limit).", img: "j6nekEt.png",
     opts: {
       owner: ["lobby"],
 	  gender: ["female"],
@@ -1181,7 +1181,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Felix Valentine",
-    img: "osdaXLm.png",
+    bio: "Placeholder Text (600 character limit).", img: "osdaXLm.png",
     opts: {
       owner: ["lobby"],
 	  gender: ["male"],
@@ -1191,7 +1191,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kagah",
-    img: "OWHcMZK.png",
+    bio: "Placeholder Text (600 character limit).", img: "OWHcMZK.png",
     opts: {
       owner: ["lobby"],
 	  gender: ["female"],
@@ -1201,7 +1201,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Minih",
-    img: "3JB0DRM.png",
+    bio: "Placeholder Text (600 character limit).", img: "3JB0DRM.png",
     opts: {
       owner: ["lobby"],
 	  gender: ["female"],
@@ -1211,7 +1211,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Slime Boss",
-    img: "Sp7aTVh.png",
+    bio: "Placeholder Text (600 character limit).", img: "Sp7aTVh.png",
     opts: {
       owner: ["lobby"],
 	  gender: ["non"],
@@ -1222,7 +1222,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Slime Girl",
-    img: "eF9oCwM.png",
+    bio: "Placeholder Text (600 character limit).", img: "eF9oCwM.png",
     opts: {
       owner: ["lobby"],
 	  gender: ["female","non"],
@@ -1233,7 +1233,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yaci",
-    img: "cfglY06.png",
+    bio: "Placeholder Text (600 character limit).", img: "cfglY06.png",
     opts: {
       owner: ["lobby"],
 	  gender: ["female"],
@@ -1248,7 +1248,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Atikaya Alsisar",
-    img: "nZZ5WBk.png",
+    bio: "Placeholder Text (600 character limit).", img: "nZZ5WBk.png",
     opts: {
       owner: ["lyos"],
 	  gender: ["male"],
@@ -1258,7 +1258,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Denzel D'Abovile",
-    img: "Vau4uDv.png",
+    bio: "Placeholder Text (600 character limit).", img: "Vau4uDv.png",
     opts: {
       owner: ["lyos"],
 	  gender: ["male"],
@@ -1268,7 +1268,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sabre Dubois",
-    img: "TZAOM7a.png",
+    bio: "Placeholder Text (600 character limit).", img: "TZAOM7a.png",
     opts: {
       owner: ["lyos"],
 	  gender: ["male"],
@@ -1278,7 +1278,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Zacharie LeBlanc",
-    img: "f8kpy2h.png",
+    bio: "Placeholder Text (600 character limit).", img: "f8kpy2h.png",
     opts: {
       owner: ["lyos"],
 	  gender: ["male"],
@@ -1293,7 +1293,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Ava",
-    img: "LyP0MkK.png",
+    bio: "Placeholder Text (600 character limit).", img: "LyP0MkK.png",
     opts: {
       owner: ["meowstic"],
 	  gender: ["female"],
@@ -1303,7 +1303,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Vera Dariyev",
-    img: "T260itK.png",
+    bio: "Placeholder Text (600 character limit).", img: "T260itK.png",
     opts: {
       owner: ["meowstic"],
 	  gender: ["female"],
@@ -1313,7 +1313,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Marzia Mondadori",
-    img: "wCD0wz5.png",
+    bio: "Placeholder Text (600 character limit).", img: "wCD0wz5.png",
     opts: {
       owner: ["meowstic"],
 	  gender: ["female"],
@@ -1323,7 +1323,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mamoru 'Meowstic' Iwasaki",
-    img: "vqhcukK.png",
+    bio: "Placeholder Text (600 character limit).", img: "vqhcukK.png",
     opts: {
       owner: ["meowstic"],
 	  gender: ["male"],
@@ -1333,7 +1333,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Merrick Octans",
-    img: "QyIimVg.png",
+    bio: "Placeholder Text (600 character limit).", img: "QyIimVg.png",
     opts: {
       owner: ["meowstic"],
 	  gender: ["male"],
@@ -1343,7 +1343,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Muri",
-    img: "3o69sgl.png",
+    bio: "Placeholder Text (600 character limit).", img: "3o69sgl.png",
     opts: {
       owner: ["meowstic"],
 	  gender: ["female"],
@@ -1353,7 +1353,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nashirah 'Nash' bint al-nassaaj bint ʼinsāniyya al-Fārisī",
-    img: "4RwGF9I.png",
+    bio: "Placeholder Text (600 character limit).", img: "4RwGF9I.png",
     opts: {
       owner: ["meowstic"],
 	  gender: ["female"],
@@ -1363,7 +1363,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ercan 'Pigsy' Zorlu",
-    img: "YD0VIUu.png",
+    bio: "Placeholder Text (600 character limit).", img: "YD0VIUu.png",
     opts: {
       owner: ["meowstic"],
 	  gender: ["male"],
@@ -1373,7 +1373,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ellinor Vennesland",
-    img: "CIPbfqu.png",
+    bio: "Placeholder Text (600 character limit).", img: "CIPbfqu.png",
     opts: {
       owner: ["meowstic"],
 	  gender: ["female"],
@@ -1383,7 +1383,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Heinrich 'Rico' Viktor von Löwenthal",
-    img: "KO0Ve2j.png",
+    bio: "Placeholder Text (600 character limit).", img: "KO0Ve2j.png",
     opts: {
       owner: ["meowstic"],
 	  gender: ["male"],
@@ -1393,7 +1393,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tasia Vlahakis",
-    img: "csAEiqh.png",
+    bio: "Placeholder Text (600 character limit).", img: "csAEiqh.png",
     opts: {
       owner: ["meowstic"],
 	  gender: ["female"],
@@ -1408,7 +1408,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Alice",
-    img: "30gsGWk.png",
+    bio: "Placeholder Text (600 character limit).", img: "30gsGWk.png",
     opts: {
       owner: ["miransu"],
 	  gender: ["female"],
@@ -1419,7 +1419,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Altwilder",
-    img: "2OI61if.png",
+    bio: "Placeholder Text (600 character limit).", img: "2OI61if.png",
     opts: {
       owner: ["miransu"],
 	  gender: ["male"],
@@ -1430,7 +1430,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Dormarah",
-    img: "xy4OWOa.png",
+    bio: "Placeholder Text (600 character limit).", img: "xy4OWOa.png",
     opts: {
       owner: ["miransu"],
 	  gender: ["male"],
@@ -1441,7 +1441,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hikawa Motoharu",
-    img: "eFuPrf9.png",
+    bio: "Placeholder Text (600 character limit).", img: "eFuPrf9.png",
     opts: {
       owner: ["miransu"],
 	  gender: ["female"],
@@ -1452,7 +1452,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kureha Iwakura",
-    img: "IP2Zwo6.png",
+    bio: "Placeholder Text (600 character limit).", img: "IP2Zwo6.png",
     opts: {
       owner: ["miransu"],
 	  gender: ["male"],
@@ -1463,7 +1463,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kuro",
-    img: "mMoLA0w.png",
+    bio: "Placeholder Text (600 character limit).", img: "mMoLA0w.png",
     opts: {
       owner: ["miransu"],
 	  gender: ["male"],
@@ -1474,7 +1474,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Misaki",
-    img: "GuvjhHw.png",
+    bio: "Placeholder Text (600 character limit).", img: "GuvjhHw.png",
     opts: {
       owner: ["miransu"],
 	  gender: ["female"],
@@ -1485,7 +1485,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mitsuru",
-    img: "aA4B96D.png",
+    bio: "Placeholder Text (600 character limit).", img: "aA4B96D.png",
     opts: {
       owner: ["miransu"],
 	  gender: ["female"],
@@ -1496,7 +1496,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Susuki Iwasaki",
-    img: "yjSZp7Q.png",
+    bio: "Placeholder Text (600 character limit).", img: "yjSZp7Q.png",
     opts: {
       owner: ["miransu"],
 	  gender: ["female"],
@@ -1507,7 +1507,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tsukasa",
-    img: "No4U1Tq.png",
+    bio: "Placeholder Text (600 character limit).", img: "No4U1Tq.png",
     opts: {
       owner: ["miransu"],
 	  gender: ["male"],
@@ -1518,7 +1518,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yuuki 'Yukiharu' Iwasaki",
-    img: "mg6LreE.png",
+    bio: "Placeholder Text (600 character limit).", img: "mg6LreE.png",
     opts: {
       owner: ["miransu"],
 	  gender: ["male"],
@@ -1534,7 +1534,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Alex",
-    img: "rWKhplB.png",
+    bio: "Placeholder Text (600 character limit).", img: "rWKhplB.png",
     opts: {
       owner: ["phantom"],
 	  gender: ["male"],
@@ -1544,7 +1544,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Jess",
-    img: "htbTzJk.png",
+    bio: "Placeholder Text (600 character limit).", img: "htbTzJk.png",
     opts: {
       owner: ["phantom"],
 	  gender: ["female"],
@@ -1554,7 +1554,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Lucius",
-    img: "9RjThHf.png",
+    bio: "Placeholder Text (600 character limit).", img: "9RjThHf.png",
     opts: {
       owner: ["phantom"],
 	  gender: ["male"],
@@ -1564,7 +1564,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Orion",
-    img: "gumhPox.png",
+    bio: "Placeholder Text (600 character limit).", img: "gumhPox.png",
     opts: {
       owner: ["phantom"],
 	  gender: ["male"],
@@ -1574,7 +1574,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Phantom",
-    img: "StO0fGy.png",
+    bio: "Placeholder Text (600 character limit).", img: "StO0fGy.png",
     opts: {
       owner: ["phantom"],
 	  gender: ["male"],
@@ -1584,7 +1584,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sayuri",
-    img: "YEf0v7b.png",
+    bio: "Placeholder Text (600 character limit).", img: "YEf0v7b.png",
     opts: {
       owner: ["phantom"],
 	  gender: ["female"],
@@ -1599,7 +1599,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Apateonas",
-    img: "xPhIGKW.png",
+    bio: "Placeholder Text (600 character limit).", img: "xPhIGKW.png",
     opts: {
       owner: ["python"],
 	  gender: ["male"],
@@ -1609,7 +1609,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Camelan Haimaku",
-    img: "dlJqrS0.png",
+    bio: "Placeholder Text (600 character limit).", img: "dlJqrS0.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1619,7 +1619,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Chikuji Toutetsu",
-    img: "NCbcsRa.png",
+    bio: "Placeholder Text (600 character limit).", img: "NCbcsRa.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1629,7 +1629,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Chiyo Yamanaka",
-    img: "v3Oc35Z.png",
+    bio: "Placeholder Text (600 character limit).", img: "v3Oc35Z.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1639,7 +1639,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cisa Perlach Augusta",
-    img: "6Y0qZ1X.png",
+    bio: "Placeholder Text (600 character limit).", img: "6Y0qZ1X.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1649,7 +1649,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Dr. Bees",
-    img: "4mrzZ6I.png",
+    bio: "Placeholder Text (600 character limit).", img: "4mrzZ6I.png",
     opts: {
       owner: ["python"],
 	  gender: ["male"],
@@ -1660,7 +1660,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Harue Nagatsuka",
-    img: "tYv3mVg.png",
+    bio: "Placeholder Text (600 character limit).", img: "tYv3mVg.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1670,7 +1670,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hironishi Kyogetsuin",
-    img: "s3GcI2Y.png",
+    bio: "Placeholder Text (600 character limit).", img: "s3GcI2Y.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1680,7 +1680,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Itsuyo Nukimoto",
-    img: "axQcc1s.png",
+    bio: "Placeholder Text (600 character limit).", img: "axQcc1s.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1690,7 +1690,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kiju Sanadamushi",
-    img: "LWlb6Yt.png",
+    bio: "Placeholder Text (600 character limit).", img: "LWlb6Yt.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1700,7 +1700,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kotobuki In'un",
-    img: "vpakJVL.png",
+    bio: "Placeholder Text (600 character limit).", img: "vpakJVL.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1710,7 +1710,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kyra Gialla Osram",
-    img: "KObtvPi.png",
+    bio: "Placeholder Text (600 character limit).", img: "KObtvPi.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1720,7 +1720,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Frederica Lissai",
-    img: "iiiC17K.png",
+    bio: "Placeholder Text (600 character limit).", img: "iiiC17K.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1730,7 +1730,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Lucienne von Burgund",
-    img: "jkkCAGv.png",
+    bio: "Placeholder Text (600 character limit).", img: "jkkCAGv.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1740,7 +1740,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ma Sekisei",
-    img: "nUF2zGE.png",
+    bio: "Placeholder Text (600 character limit).", img: "nUF2zGE.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1750,7 +1750,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Manozeen",
-    img: "fetne77.png",
+    bio: "Placeholder Text (600 character limit).", img: "fetne77.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1760,7 +1760,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mephistopheles",
-    img: "M6eXUU4.png",
+    bio: "Placeholder Text (600 character limit).", img: "M6eXUU4.png",
     opts: {
       owner: ["python"],
 	  gender: ["male"],
@@ -1770,7 +1770,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ryoumika Soukun",
-    img: "SpC3zaa.png",
+    bio: "Placeholder Text (600 character limit).", img: "SpC3zaa.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1780,7 +1780,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sanko Hakuchou",
-    img: "6ImSUAU.png",
+    bio: "Placeholder Text (600 character limit).", img: "6ImSUAU.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1790,7 +1790,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shiromi Sadamoto",
-    img: "wrLVb4r.png",
+    bio: "Placeholder Text (600 character limit).", img: "wrLVb4r.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1800,7 +1800,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "SLUG",
-    img: "K1ahXYt.png",
+    bio: "Placeholder Text (600 character limit).", img: "K1ahXYt.png",
     opts: {
       owner: ["python"],
 	  gender: ["non"],
@@ -1811,7 +1811,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Taya",
-    img: "SWt3LdN.png",
+    bio: "Placeholder Text (600 character limit).", img: "SWt3LdN.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1821,7 +1821,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tazue Teidarou",
-    img: "0ZqmUWz.png",
+    bio: "Placeholder Text (600 character limit).", img: "0ZqmUWz.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1831,7 +1831,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Theliea",
-    img: "phV9vJe.png",
+    bio: "Placeholder Text (600 character limit).", img: "phV9vJe.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1841,7 +1841,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tomino Daiemon",
-    img: "5nO44Sr.png",
+    bio: "Placeholder Text (600 character limit).", img: "5nO44Sr.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1851,7 +1851,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tsushima",
-    img: "sDZAyLe.png",
+    bio: "Placeholder Text (600 character limit).", img: "sDZAyLe.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1861,7 +1861,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Urara Ukiyanagi",
-    img: "rPT9rb4.png",
+    bio: "Placeholder Text (600 character limit).", img: "rPT9rb4.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1871,7 +1871,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Viivi von Xanten",
-    img: "ObCg0NN.png",
+    bio: "Placeholder Text (600 character limit).", img: "ObCg0NN.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1881,7 +1881,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Waluigi",
-    img: "UIMgZOw.png",
+    bio: "Placeholder Text (600 character limit).", img: "UIMgZOw.png",
     opts: {
       owner: ["python"],
 	  gender: ["male"],
@@ -1892,7 +1892,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Xiki",
-    img: "ymQuTF2.png",
+    bio: "Placeholder Text (600 character limit).", img: "ymQuTF2.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1902,7 +1902,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Youka Hinejuu",
-    img: "jg2jEUU.png",
+    bio: "Placeholder Text (600 character limit).", img: "jg2jEUU.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1912,7 +1912,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Zika Parasite",
-    img: "SDypHCO.png",
+    bio: "Placeholder Text (600 character limit).", img: "SDypHCO.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1927,7 +1927,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Croire",
-    img: "qkypfpe.png",
+    bio: "Placeholder Text (600 character limit).", img: "qkypfpe.png",
     opts: {
       owner: ["robin"],
 	  gender: ["non"],
@@ -1937,7 +1937,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Edelweiss",
-    img: "pq8WfNr.png",
+    bio: "Placeholder Text (600 character limit).", img: "pq8WfNr.png",
     opts: {
       owner: ["robin"],
 	  gender: ["female"],
@@ -1947,7 +1947,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hikaru",
-    img: "FrbrRKK.png",
+    bio: "Placeholder Text (600 character limit).", img: "FrbrRKK.png",
     opts: {
       owner: ["robin"],
 	  gender: ["male"],
@@ -1957,7 +1957,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Irisu Sakazuki",
-    img: "tx5uw1U.png",
+    bio: "Placeholder Text (600 character limit).", img: "tx5uw1U.png",
     opts: {
       owner: ["robin"],
 	  gender: ["female"],
@@ -1967,7 +1967,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Noah Amenohara",
-    img: "N9L2wW5.png",
+    bio: "Placeholder Text (600 character limit).", img: "N9L2wW5.png",
     opts: {
       owner: ["robin"],
 	  gender: ["female"],
@@ -1977,7 +1977,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Robin",
-    img: "PkpBRco.png",
+    bio: "Placeholder Text (600 character limit).", img: "PkpBRco.png",
     opts: {
       owner: ["robin"],
 	  gender: ["male"],
@@ -1987,7 +1987,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sophie",
-    img: "jvzm3Pv.png",
+    bio: "Placeholder Text (600 character limit).", img: "jvzm3Pv.png",
     opts: {
       owner: ["robin"],
 	  gender: ["female"],
@@ -1997,7 +1997,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tohru",
-    img: "Hw8pbJb.png",
+    bio: "Placeholder Text (600 character limit).", img: "Hw8pbJb.png",
     opts: {
       owner: ["robin"],
 	  gender: ["male"],
@@ -2007,7 +2007,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Valentine",
-    img: "EQ4WnHC.png",
+    bio: "Placeholder Text (600 character limit).", img: "EQ4WnHC.png",
     opts: {
       owner: ["robin"],
 	  gender: ["female"],
@@ -2022,7 +2022,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Chionne",
-    img: "ZjSCqbe.png",
+    bio: "Placeholder Text (600 character limit).", img: "ZjSCqbe.png",
     opts: {
       owner: ["sphe"],
 	  gender: ["female"],
@@ -2032,7 +2032,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Lunesta",
-    img: "8T9WBT0.png",
+    bio: "Placeholder Text (600 character limit).", img: "8T9WBT0.png",
     opts: {
       owner: ["sphe"],
 	  gender: ["male"],
@@ -2042,7 +2042,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Muna",
-    img: "WvKmSaM.png",
+    bio: "Placeholder Text (600 character limit).", img: "WvKmSaM.png",
     opts: {
       owner: ["sphe"],
 	  gender: ["female"],
@@ -2052,7 +2052,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "MunaBot",
-    img: "zfr6XPj.png",
+    bio: "Placeholder Text (600 character limit).", img: "zfr6XPj.png",
     opts: {
       owner: ["sphe"],
 	  gender: ["female"],
@@ -2063,7 +2063,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Oru Sumikata",
-    img: "BisLG8e.png",
+    bio: "Placeholder Text (600 character limit).", img: "BisLG8e.png",
     opts: {
       owner: ["sphe"],
 	  gender: ["female"],
@@ -2073,7 +2073,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Renée",
-    img: "zcTMi5o.png",
+    bio: "Placeholder Text (600 character limit).", img: "zcTMi5o.png",
     opts: {
       owner: ["sphe"],
 	  gender: ["female"],
@@ -2083,7 +2083,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sandra Oikaze",
-    img: "zi6fE2C.png",
+    bio: "Placeholder Text (600 character limit).", img: "zi6fE2C.png",
     opts: {
       owner: ["sphe"],
 	  gender: ["female"],
@@ -2093,7 +2093,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sarah Oikaze",
-    img: "8z4Swt4.png",
+    bio: "Placeholder Text (600 character limit).", img: "8z4Swt4.png",
     opts: {
       owner: ["sphe"],
 	  gender: ["female"],
@@ -2103,7 +2103,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Theresa",
-    img: "w24dzO9.png",
+    bio: "Placeholder Text (600 character limit).", img: "w24dzO9.png",
     opts: {
       owner: ["sphe"],
 	  gender: ["female"],
@@ -2118,7 +2118,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Gao Kurosagane",
-    img: "GVqhijf.png",
+    bio: "Placeholder Text (600 character limit).", img: "GVqhijf.png",
     opts: {
       owner: ["syoudre"],
 	  gender: ["male"],
@@ -2128,7 +2128,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Gibor Lazarus",
-    img: "RYxYC9S.png",
+    bio: "Placeholder Text (600 character limit).", img: "RYxYC9S.png",
     opts: {
       owner: ["syoudre"],
 	  gender: ["male"],
@@ -2138,7 +2138,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Seth Victor Kurosagane",
-    img: "Jpm7Ur9.png",
+    bio: "Placeholder Text (600 character limit).", img: "Jpm7Ur9.png",
     opts: {
       owner: ["syoudre"],
 	  gender: ["male"],
@@ -2153,7 +2153,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Juro",
-    img: "zpvpYZC.png",
+    bio: "Placeholder Text (600 character limit).", img: "zpvpYZC.png",
     opts: {
       owner: ["tres"],
 	  gender: ["male"],
@@ -2163,7 +2163,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kinoko",
-    img: "DmChAKX.png",
+    bio: "Placeholder Text (600 character limit).", img: "DmChAKX.png",
     opts: {
       owner: ["tres"],
 	  gender: ["female"],
@@ -2173,7 +2173,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mary",
-    img: "qU7qWmU.png",
+    bio: "Placeholder Text (600 character limit).", img: "qU7qWmU.png",
     opts: {
       owner: ["tres"],
 	  gender: ["female"],
@@ -2183,7 +2183,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Matsu",
-    img: "sWTHcuM.png",
+    bio: "Placeholder Text (600 character limit).", img: "sWTHcuM.png",
     opts: {
       owner: ["tres"],
 	  gender: ["male"],
@@ -2193,7 +2193,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Minami",
-    img: "Z2uUQJs.png",
+    bio: "Placeholder Text (600 character limit).", img: "Z2uUQJs.png",
     opts: {
       owner: ["tres"],
 	  gender: ["female"],
@@ -2203,7 +2203,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Qielan-Yu",
-    img: "kiXmtVU.png",
+    bio: "Placeholder Text (600 character limit).", img: "kiXmtVU.png",
     opts: {
       owner: ["tres"],
 	  gender: ["male"],
@@ -2213,7 +2213,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ramiel",
-    img: "GPuzjzv.png",
+    bio: "Placeholder Text (600 character limit).", img: "GPuzjzv.png",
     opts: {
       owner: ["tres"],
 	  gender: ["male"],
@@ -2223,7 +2223,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tori",
-    img: "8JADOhM.png",
+    bio: "Placeholder Text (600 character limit).", img: "8JADOhM.png",
     opts: {
       owner: ["tres"],
 	  gender: ["female"],
@@ -2233,7 +2233,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tres",
-    img: "IhxIQkb.png",
+    bio: "Placeholder Text (600 character limit).", img: "IhxIQkb.png",
     opts: {
       owner: ["tres"],
 	  gender: ["male"],
@@ -2243,7 +2243,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Uriel",
-    img: "4kEo2ra.png",
+    bio: "Placeholder Text (600 character limit).", img: "4kEo2ra.png",
     opts: {
       owner: ["tres"],
 	  gender: ["male"],
@@ -2253,7 +2253,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yoneka",
-    img: "J9lJQdq.png",
+    bio: "Placeholder Text (600 character limit).", img: "J9lJQdq.png",
     opts: {
       owner: ["tres"],
 	  gender: ["female"],
@@ -2268,7 +2268,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Ashley Lightman",
-    img: "A07c38f.png",
+    bio: "Placeholder Text (600 character limit).", img: "A07c38f.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["female"],
@@ -2278,7 +2278,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cole Lightman",
-    img: "o0WLHiz.png",
+    bio: "Placeholder Text (600 character limit).", img: "o0WLHiz.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
@@ -2288,7 +2288,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Elithabes Schäfer",
-    img: "isL9jzq.png",
+    bio: "Placeholder Text (600 character limit).", img: "isL9jzq.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["female"],
@@ -2298,7 +2298,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Gabriella 'Gabby' Berger",
-    img: "WQ8r7gU.png",
+    bio: "Placeholder Text (600 character limit).", img: "WQ8r7gU.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["female"],
@@ -2308,7 +2308,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hunrios Pathcrafter",
-    img: "eI98ysW.png",
+    bio: "Placeholder Text (600 character limit).", img: "eI98ysW.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
@@ -2318,7 +2318,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ichiyu",
-    img: "Z4JqcwQ.png",
+    bio: "Placeholder Text (600 character limit).", img: "Z4JqcwQ.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["female"],
@@ -2328,7 +2328,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kikyo",
-    img: "aNPQ9gp.png",
+    bio: "Placeholder Text (600 character limit).", img: "aNPQ9gp.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["female"],
@@ -2339,7 +2339,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kokawa",
-    img: "9UaoRzt.png",
+    bio: "Placeholder Text (600 character limit).", img: "9UaoRzt.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
@@ -2349,7 +2349,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kosuke Suzukaze",
-    img: "hhPdvuM.png",
+    bio: "Placeholder Text (600 character limit).", img: "hhPdvuM.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
@@ -2359,7 +2359,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mr Signykins",
-    img: "S2kBlF0.png",
+    bio: "Placeholder Text (600 character limit).", img: "S2kBlF0.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
@@ -2370,7 +2370,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Keizou Takamori (Mr. Deerkins)",
-    img: "rFVo4gY.png",
+    bio: "Placeholder Text (600 character limit).", img: "rFVo4gY.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
@@ -2380,7 +2380,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Niyu",
-    img: "I32q9ds.png",
+    bio: "Placeholder Text (600 character limit).", img: "I32q9ds.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["female"],
@@ -2390,7 +2390,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Oliver",
-    img: "cMBWBBw.png",
+    bio: "Placeholder Text (600 character limit).", img: "cMBWBBw.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
@@ -2400,7 +2400,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Penny Cillum",
-    img: "UvSI58k.png",
+    bio: "Placeholder Text (600 character limit).", img: "UvSI58k.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["female"],
@@ -2410,7 +2410,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ryoutarou Kiriya",
-    img: "f1lWCk0.png",
+    bio: "Placeholder Text (600 character limit).", img: "f1lWCk0.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
@@ -2420,7 +2420,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sanyu",
-    img: "oaawBMr.png",
+    bio: "Placeholder Text (600 character limit).", img: "oaawBMr.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["female"],
@@ -2430,7 +2430,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shokora",
-    img: "MKogqNr.png",
+    bio: "Placeholder Text (600 character limit).", img: "MKogqNr.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["female"],
@@ -2440,7 +2440,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shuu",
-    img: "kdY1d2h.png",
+    bio: "Placeholder Text (600 character limit).", img: "kdY1d2h.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
@@ -2450,7 +2450,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tooru Uei",
-    img: "BPxN0Js.png",
+    bio: "Placeholder Text (600 character limit).", img: "BPxN0Js.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
@@ -2460,7 +2460,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tutorial Tracy",
-    img: "7rAks17.png",
+    bio: "Placeholder Text (600 character limit).", img: "7rAks17.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["female"],
@@ -2471,7 +2471,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Rowan 'Tricky' Gardner",
-    img: "4uP3Wil.png",
+    bio: "Placeholder Text (600 character limit).", img: "4uP3Wil.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["male"],
@@ -2481,7 +2481,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Wylda Walcott",
-    img: "IbVAmFM.png",
+    bio: "Placeholder Text (600 character limit).", img: "IbVAmFM.png",
     opts: {
       owner: ["tricky"],
 	  gender: ["female"],
@@ -2496,7 +2496,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Myonu",
-    img: "WYJ2VhR.png",
+    bio: "Placeholder Text (600 character limit).", img: "WYJ2VhR.png",
     opts: {
       owner: ["veemon"],
 	  gender: ["male"],
@@ -2506,7 +2506,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Stanley",
-    img: "cbqxqMf.png",
+    bio: "Placeholder Text (600 character limit).", img: "cbqxqMf.png",
     opts: {
       owner: ["veemon"],
 	  gender: ["male"],
@@ -2516,7 +2516,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Veemon",
-    img: "IgM3NC9.png",
+    bio: "Placeholder Text (600 character limit).", img: "IgM3NC9.png",
     opts: {
       owner: ["veemon"],
 	  gender: ["male"],
@@ -2531,7 +2531,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Ariel Zaccaria",
-    img: "5QFR1mZ.png",
+    bio: "Placeholder Text (600 character limit).", img: "5QFR1mZ.png",
     opts: {
       owner: ["vigor"],
 	  gender: ["female"],
@@ -2542,7 +2542,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "William 'Illia' Winton",
-    img: "HnDNDl5.png",
+    bio: "Placeholder Text (600 character limit).", img: "HnDNDl5.png",
     opts: {
       owner: ["vigor"],
 	  gender: ["male"],
@@ -2553,7 +2553,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shannon Aghaveagh",
-    img: "9I5aRgY.png",
+    bio: "Placeholder Text (600 character limit).", img: "9I5aRgY.png",
     opts: {
       owner: ["vigor"],
 	  gender: ["female"],
@@ -2564,7 +2564,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shayne Luis",
-    img: "W2eVjXz.png",
+    bio: "Placeholder Text (600 character limit).", img: "W2eVjXz.png",
     opts: {
       owner: ["vigor"],
 	  gender: ["male"],
@@ -2580,7 +2580,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Dormun Albright",
-    img: "dLVj6Se.png",
+    bio: "Placeholder Text (600 character limit).", img: "dLVj6Se.png",
     opts: {
       owner: ["zack"],
 	  gender: ["male"],
@@ -2590,7 +2590,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Jaime Montilyet",
-    img: "REXUBzu.png",
+    bio: "Placeholder Text (600 character limit).", img: "REXUBzu.png",
     opts: {
       owner: ["zack"],
 	  gender: ["male"],
@@ -2600,7 +2600,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tian Long",
-    img: "6QJkL5n.png",
+    bio: "Placeholder Text (600 character limit).", img: "6QJkL5n.png",
     opts: {
       owner: ["zack"],
 	  gender: ["male"],
@@ -2615,7 +2615,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Jirachi",
-    img: "DowggQS.png",
+    bio: "Placeholder Text (600 character limit).", img: "DowggQS.png",
     opts: {
       owner: ["wish"],
 	  gender: ["male"],
@@ -2625,7 +2625,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Meema",
-    img: "Og1G685.png",
+    bio: "Placeholder Text (600 character limit).", img: "Og1G685.png",
     opts: {
       owner: ["wish"],
 	  gender: ["female"],
@@ -2636,7 +2636,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Philia",
-    img: "7Jh8UDq.png",
+    bio: "Placeholder Text (600 character limit).", img: "7Jh8UDq.png",
     opts: {
       owner: ["wish"],
 	  gender: ["female"],
@@ -2651,7 +2651,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Agent",
-    img: "E9HyqUT.png",
+    bio: "Placeholder Text (600 character limit).", img: "E9HyqUT.png",
     opts: {
       owner: ["others"],
 	  gender: ["male"],
@@ -2661,7 +2661,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Asahi",
-    img: "l0OE50o.png",
+    bio: "Placeholder Text (600 character limit).", img: "l0OE50o.png",
     opts: {
       owner: ["others"],
 	  gender: ["female"],
@@ -2671,7 +2671,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Badz",
-    img: "LuztfiW.png",
+    bio: "Placeholder Text (600 character limit).", img: "LuztfiW.png",
     opts: {
       owner: ["others"],
 	  gender: ["male"],
@@ -2682,7 +2682,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Gizmo",
-    img: "iobkMSU.png",
+    bio: "Placeholder Text (600 character limit).", img: "iobkMSU.png",
     opts: {
       owner: ["others"],
 	  gender: ["male"],
@@ -2692,7 +2692,7 @@ dataSet[dataSetVersion].characterData = [
   }, 
   {
     name: "Loftaire Kuafushi",
-    img: "mD9Y7vq.png",
+    bio: "Placeholder Text (600 character limit).", img: "mD9Y7vq.png",
     opts: {
       owner: ["others"],
 	  gender: ["male"],
@@ -2702,7 +2702,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Medjed",
-    img: "qskh3Yy.png",
+    bio: "Placeholder Text (600 character limit).", img: "qskh3Yy.png",
     opts: {
       owner: ["others"],
 	  gender: ["male"],
@@ -2713,7 +2713,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mercury",
-    img: "ezv1X3g.png",
+    bio: "Placeholder Text (600 character limit).", img: "ezv1X3g.png",
     opts: {
       owner: ["others"],
 	  gender: ["male"],
@@ -2723,7 +2723,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Training Dummy",
-    img: "RHbz1x9.png",
+    bio: "Placeholder Text (600 character limit).", img: "RHbz1x9.png",
     opts: {
       owner: ["others"],
 	  gender: ["non"],
@@ -2734,7 +2734,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Umbra",
-    img: "1Vo6sW6.png",
+    bio: "Placeholder Text (600 character limit).", img: "1Vo6sW6.png",
     opts: {
       owner: ["others"],
 	  gender: ["male"],
@@ -2745,7 +2745,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Van",
-    img: "SRtPexY.png",
+    bio: "Placeholder Text (600 character limit).", img: "SRtPexY.png",
     opts: {
       owner: ["others"],
 	  gender: ["male"],
@@ -2755,7 +2755,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yuugen",
-    img: "LntgMRp.png",
+    bio: "Placeholder Text (600 character limit).", img: "LntgMRp.png",
     opts: {
       owner: ["others"],
 	  gender: ["female"],

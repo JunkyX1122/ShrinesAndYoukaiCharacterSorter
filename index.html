@@ -59,6 +59,9 @@
 
         <div class="left sort text"><p></p></div>
         <div class="right sort text"><p></p></div>
+		
+		<div class="leftFull sort extraInfo"><p></p></div>
+        <div class="rightFull sort extraInfo"><p></p></div>
     </div>
 	
 
@@ -66,6 +69,14 @@
     <div class="image selector">Display Images on Result: </div>
     <div class="time taken"></div>
     <div class="results"></div>
+	
+	<div class="extraInfo-switch-wrapper">
+		<label class="extraInfo-switch" for="checkbox">
+			<input type="checkbox" id="checkBoxExtraInfo" />
+		</label>
+		<p>Show Extra Character Info.</p>
+
+	</div>
 	
 	<div class="theme-switch-wrapper">
 		<label class="theme-switch" for="checkbox">
@@ -76,6 +87,18 @@
 	</div>
 	</script>
 	<script>
+	const toggleSwitchTheme = document.querySelector('.extraInfo-switch input[type="checkbox"]');
+	function switchExtraInfo(e) {
+		if (e.target.checked) {
+			showExtraInfo = true;
+		}
+		else {
+			showExtraInfo = false;
+		}    
+	}
+	toggleSwitchTheme.addEventListener('change', switchExtraInfo, false);
+	
+	
 	const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
 	const currentTheme = localStorage.getItem('theme');
 
@@ -98,8 +121,8 @@
 		}    
 	}
 
-
 	toggleSwitch.addEventListener('change', switchTheme, false);
+	
 	</script>
 	
     <div class="info">

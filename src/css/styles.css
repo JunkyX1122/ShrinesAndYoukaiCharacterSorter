@@ -63,7 +63,7 @@ body {
 .sorter {
   margin: 0px auto;
   display: grid;
-  grid-template-columns: 120px 1fr 120px;
+  grid-template-columns: 120px 1fr 1fr 120px;
   grid-gap: 5px;
   width: 420px;
 }
@@ -72,7 +72,7 @@ body {
   border: 1px solid var(--font-color);
   text-align: center;
   padding: 10%;
-  grid-column: 2 / 3;
+  grid-column: 2 / 4;
   cursor: pointer;
 }
 
@@ -146,10 +146,24 @@ body {
   display: none;
 }
 
+.sorter > .extraInfo {
+  width: 207.5px;
+  height: 500px;
+  display: none;
+}
+
 .sorter > .text > p {
   margin: 0.5em 5px 0px;
   width: calc(100%-10px);
   text-align: center;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+
+.sorter > .extraInfo > p {
+  margin: 0.5em 5px 0px;
+  width: calc(100%-10px);
+  text-align: left;
   font-size: 0.8em;
   line-height: 1.5em;
 }
@@ -160,11 +174,31 @@ body {
 }
 
 .sorter > .right {
-  grid-column: 3 / 4;
+  grid-column: 4 / 4;
+  border: 1px solid var(--font-color);
+}
+
+.sorter > .leftFull {
+  grid-column: 1 / 3;
+  border: 1px solid var(--font-color);
+}
+
+.sorter > .rightFull {
+  grid-column: 3 / 5;
+
   border: 1px solid var(--font-color);
 }
 
 .theme-switch-wrapper {
+
+  display: block;
+  text-align: center;
+  font-size: 0.6875em;
+  width: 80%;
+  line-height: 1.2em;
+}
+
+.extraInfo-switch-wrapper {
 
   display: block;
   text-align: center;

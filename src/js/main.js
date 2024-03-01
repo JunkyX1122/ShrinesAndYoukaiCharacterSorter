@@ -270,9 +270,15 @@ function start() {
     document.querySelector('.loading.button').style.display = 'none';
     document.querySelectorAll('.sorting.button').forEach(el => el.style.display = 'block');
     document.querySelectorAll('.sort.text').forEach(el => el.style.display = 'block');
+	if(document.getElementById("checkBoxExtraInfo").checked)
+	{
+		document.querySelectorAll('.sort.extraInfo').forEach(el => el.style.display = 'block');
+	}
+	
     display();
   });
 }
+
 
 /** Displays the current state of the sorter. */
 function display() {
@@ -287,16 +293,36 @@ function display() {
     const charTooltip = name !== charName ? name : '';
     return `<p title="${charTooltip}">${charName}</p>`;
   };
+  
+  const charExtraInfo = characterSent => {
+    const charOwner	= capitalizeFirstLetter(characterSent.opts.owner.toString());
+	
+	let genderString = "";
+	const genders = characterSent.opts.gender;
+	for (let i = 0; i < genders.length; i++) {
+		let genderType = genders[i].toString();
+		if(genderType == "non") { genderType = "Non-Binary"; }
+		genderString += capitalizeFirstLetter(genderType) + " ";
+	} 
+	const charGender= capitalizeFirstLetter(genderString);
+	
+	const charBio = reduceTextWidth(characterSent.bio.toString(), 'Arial 12.8px', 400 * 12.8);
+	
+    return `<p>Owner: ${charOwner}<br>Gender: ${charGender}<br><br>${charBio}</p>`;
+  };
 
   progressBar(`Battle No. ${battleNo}`, percent);
 
   document.querySelector('.left.sort.image').src = leftChar.img;
   document.querySelector('.right.sort.image').src = rightChar.img;
 
-  
-
   document.querySelector('.left.sort.text').innerHTML = charNameDisp(leftChar.name);
   document.querySelector('.right.sort.text').innerHTML = charNameDisp(rightChar.name);
+  
+  document.querySelector('.leftFull.sort.extraInfo').innerHTML = charExtraInfo(leftChar);
+  document.querySelector('.rightFull.sort.extraInfo').innerHTML = charExtraInfo(rightChar);
+  
+
 
   /** Autopick if choice has been given. */
   if (choices.length !== battleNo - 1) {
@@ -308,7 +334,9 @@ function display() {
     }
   } else { saveProgress('Autosave'); }
 }
-
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
 /**
  * Sort between two character choices or tie.
  * 
@@ -476,6 +504,7 @@ function result(imageNum = 3) {
   
   document.querySelectorAll('.sorting.button').forEach(el => el.style.display = 'none');
   document.querySelectorAll('.sort.text').forEach(el => el.style.display = 'none');
+  document.querySelectorAll('.sort.extraInfo').forEach(el => el.style.display = 'none');
   document.querySelector('.options').style.display = 'none';
   document.querySelector('.info').style.display = 'none';
 
