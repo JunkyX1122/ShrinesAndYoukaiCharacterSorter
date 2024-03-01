@@ -259,6 +259,7 @@ function start() {
 
   /** Disable all checkboxes and hide/show appropriate parts while we preload the images. */
   document.querySelectorAll('input[type=checkbox]').forEach(cb => cb.disabled = true);
+  document.querySelectorAll('input[id=checkboxKeep]').forEach(cb => cb.disabled = false);
   document.querySelectorAll('.starting.button').forEach(el => el.style.display = 'none');
   document.querySelector('.loading.button').style.display = 'block';
   document.querySelector('.progress').style.display = 'block';
@@ -659,6 +660,7 @@ function populateOptions() {
   optList.innerHTML = '';
 
   /** Insert sorter options and set grouped option behavior. */
+  optList.insertAdjacentHTML('beforeend', '<hr>');
   options.forEach(opt => {
     if ('sub' in opt) {
       optList.insertAdjacentHTML('beforeend', optInsertLarge(opt.name, opt.key, opt.tooltip, opt.checked));
@@ -679,6 +681,7 @@ function populateOptions() {
       optList.insertAdjacentHTML('beforeend', optInsert(opt.name, opt.key, opt.tooltip, opt.checked));
     }
   });
+  optList.insertAdjacentHTML('beforeend', '<hr>');
 }
 
 /**

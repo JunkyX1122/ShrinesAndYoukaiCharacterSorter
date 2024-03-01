@@ -60,12 +60,48 @@
         <div class="left sort text"><p></p></div>
         <div class="right sort text"><p></p></div>
     </div>
+	
 
     <div class="options"></div>
     <div class="image selector">Display Images on Result: </div>
     <div class="time taken"></div>
     <div class="results"></div>
+	
+	<div class="theme-switch-wrapper">
+		<label class="theme-switch" for="checkbox">
+			<input type="checkbox" id="checkboxKeep" />
+		</label>
+		<p>Enable Dark Mode!</p>
 
+	</div>
+	</script>
+	<script>
+	const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+	const currentTheme = localStorage.getItem('theme');
+
+	if (currentTheme) {
+		document.documentElement.setAttribute('data-theme', currentTheme);
+	  
+		if (currentTheme === 'dark') {
+			toggleSwitch.checked = true;
+		}
+	}
+
+	function switchTheme(e) {
+		if (e.target.checked) {
+			document.documentElement.setAttribute('data-theme', 'dark');
+			localStorage.setItem('theme', 'dark'); //add this
+		}
+		else {
+			document.documentElement.setAttribute('data-theme', 'light');
+			localStorage.setItem('theme', 'light'); //add this
+		}    
+	}
+
+
+	toggleSwitch.addEventListener('change', switchTheme, false);
+	</script>
+	
     <div class="info">
         <a href="https://github.com/execfera/charasort/">Source Code</a> | <a class="clearsave">Clear Save Data</a>
         
@@ -130,6 +166,7 @@
 		<p>February 25th, 2024 - Now can display up to 50 images on results page. Also fixed some tagging issues.</p>
 		<p>February 26th, 2024 - Green Bird.</p>
 		<p>March 1st, 2024 - Fixed catagorisation of some Banana characters.</p>
+		<p>March 1st, 2024 - Added dark mode toggle!</p>
     </div>
 </div>
 </body>
