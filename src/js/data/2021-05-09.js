@@ -2118,7 +2118,10 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Gao Kurosagane",
-    bio: "Placeholder Text (600 character limit).", img: "GVqhijf.png",
+    bio: "Seth's adoptive father."+
+	" Approachable and direct Luxray who takes things unnecessarily seriously."+
+	" He's usually holed up in his room doing an indoor investigation about how he and his family got into Gensokyo, catching him outside his room usually means he's taking a break."+
+	" He's addicted to coffee that helps him stay up to do his work. Someone help him he might get very palpitated.", img: "GVqhijf.png",
     opts: {
       owner: ["syoudre"],
 	  gender: ["male"],
@@ -2128,8 +2131,11 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Gibor Lazarus",
-    bio: "Placeholder Text (600 character limit).", img: "RYxYC9S.png",
-    opts: {
+    bio: "Seth's uncle figure."+
+	" Direct and aggressive lion who doesn't have a high opinion with regards to humans or human-adjacents."+
+	" He doesn't understand fully how magic works and functions, making him a little held back in Gensokyo given majority are magic-users."+
+	" He might call a human a slur. Gays DNI if he's drunk.", img: "RYxYC9S.png",
+		opts: {
       owner: ["syoudre"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -2138,7 +2144,10 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Seth Victor Kurosagane",
-    bio: "Placeholder Text (600 character limit).", img: "Jpm7Ur9.png",
+    bio: "Most Bullyable Red Mage in Existence." +
+	" Overly friendly (and naive) wolf who finds Gensokyo and its people really fascinating, Outsiders or Locals." +
+	" He gathers herbs for Annye to repay for the staff he owned, but also does it as a way to explore around Gensokyo." +
+	" His red mage outfit is just for cosplay originally.", img: "Jpm7Ur9.png",
     opts: {
       owner: ["syoudre"],
 	  gender: ["male"],
