@@ -113,7 +113,11 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Abuchi",
-	bio: "Placeholder Text (600 character limit).", img: "TaM61YN.png",
+	bio: "Abuchi is a vulture from a far-off land. She once sang a song of mercy to the sky, pleading to end the suffering of "+
+	"man caused by a drought. The sky was moved to tears and rain came. Her voice reaches the ears of heaven, granting her pleas, "+
+	"though vultures are not known for their vocal talent. Abuchi calls out looking for a mate, listening for her song to be repeated "+
+	"back to her, but she might be one of a kind. So long as you aren't already dead, Abuchi will sing for your survival, which is to "+
+	"her detriment as a carrion eater, but much appricated unlike her singing.", img: "TaM61YN.png",
 	opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -143,7 +147,11 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cindy",
-    bio: "Placeholder Text (600 character limit).", img: "YfsZ0dm.png",
+    bio: "Cindy is someone of elegant demeanor and regal taste, which is strange as she is actually an Akaname. She's unbothered "+
+	"by cleanliness, but she does prefer filth and fancy together. After being chased out of town, she found her own little paradise "+
+	"and gained the power to make mirages. She returned to the Human Village guised as a beautiful human woman, fearing her true appearance, "+
+	"having been called ugly by even her own kind. Seeking better social standing for her species as a whole, she likes to be thought of as a "+
+	"head maid. Her still-secret cleaning team is in it for the free food for now.", img: "YfsZ0dm.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -964,7 +972,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Earl",
-    bio: "Placeholder Text (600 character limit).", img: "wrAChS4.png",
+    bio: "Totally a Conar character.", img: "wrAChS4.png",
     opts: {
       owner: ["junky"],
 	  gender: ["non"],
@@ -1599,7 +1607,8 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Apateonas",
-    bio: "Placeholder Text (600 character limit).", img: "xPhIGKW.png",
+    bio: "A telepathic alien and the employer of Theliea and Xiki, as well as something like their foster father. He runs a trade company that by now has established a large trading network across several different universes, with his home world, the Astral Realm, acting as the terminal. RAISU rice products are among the more popular exports from Gensokyo, while imports mainly consist of other kinds of alien food. This is thanks to an exclusive deal with Ryoumika Soukun, who uses the exotic ingredients for her restaurant.", 
+	img: "xPhIGKW.png",
     opts: {
       owner: ["python"],
 	  gender: ["male"],
@@ -1609,7 +1618,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Camelan Haimaku",
-    bio: "Placeholder Text (600 character limit).", img: "dlJqrS0.png",
+    bio: "Final boss of Least Connected Marketeer. An imori who turned her back on the battlefield and took center stage as a magician, mesmerizing audiences with her unique ability to awaken playing cards to life. Outside of her shows, she is a timid youkai that wants to play card games with people, but has great difficulty conveying the intricate rules of TCGs. The ability card incident awakened her passion, so she rose to the occasion to liberate the cards from an existence as mere tokens of wealth rather than sources of fun.", 
+	img: "dlJqrS0.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1619,7 +1629,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Chikuji Toutetsu",
-    bio: "Placeholder Text (600 character limit).", img: "NCbcsRa.png",
+    bio: "Toutetsu prediction preceding Yuuma. A taotie and chimera of the twelve zodiac animals. Her unique form allows her to understand the desires of all animals and manipulate them to her advantage. Her endless greed stifled the growth of her organization, so she was eventually overthrown, split in twain and sealed away. A fanatic follower of hers set events in motion to reunite the two parts and restore the old leader, throwing the Animal Realm into peril once more.", 
+	img: "NCbcsRa.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1629,7 +1640,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Chiyo Yamanaka",
-    bio: "Placeholder Text (600 character limit).", img: "v3Oc35Z.png",
+    bio: "A girl born into an esoteric magic cult. She holds the power to control the states of matter. After meeting the spirit of her ancestor, she cut ties with them and moved to Gensokyo, where she acted as an incident resolver for a while. She would eventually fall in love with a physician named Oliver, and the two have since lived a relatively normal life together. Chiyo works as a waitress in Ryoumika's Eight Treasures restaurant and has sworn off the supernatural.", 
+	img: "v3Oc35Z.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1639,7 +1651,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cisa Perlach Augusta",
-    bio: "Placeholder Text (600 character limit).", img: "6Y0qZ1X.png",
+    bio: "Final boss of Augusta Iaponicorum. The patron goddess of Augsburg, a city in distant Germany. She traces her origins back to pre-Roman times, but in truth, they're somewhat of a mystery. Longing for a sense of personal identity, the citizens may have invented a god of their own into the past. In the present day, she has been all but forgotten. Cisa reappeared in Gensokyo in order to become the patron deity of the Human Village.", 
+	img: "6Y0qZ1X.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1649,7 +1662,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Dr. Bees",
-    bio: "Placeholder Text (600 character limit).", img: "4mrzZ6I.png",
+    bio: "What's this? An online character sorter with an alarming lack of bees? My JavaScript full of BEES ought to put a stop to that!", 
+	img: "4mrzZ6I.png",
     opts: {
       owner: ["python"],
 	  gender: ["male"],
@@ -1660,7 +1674,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Harue Nagatsuka",
-    bio: "Placeholder Text (600 character limit).", img: "tYv3mVg.png",
+    bio: "A youkai shrine maiden in service of Shiva, the benevolent god of destruction. She was originally human, but became cursed for reasons unknown to her. Now two snakes grow from her shoulders, threatening her soul. Harue was forced to leave her life in the village behind, feeding youkai to her snakes to pacify them. In doing so, she became hated by everyone. She lives as a hermit and has not forsaken her religious duties, performing trance-like dance rites in honor of her god while also training the art of controlling shikigami in hopes of gaining dominion over her curse.", 
+	img: "tYv3mVg.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1670,7 +1685,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Hironishi Kyogetsuin",
-    bio: "Placeholder Text (600 character limit).", img: "s3GcI2Y.png",
+    bio: "Just write 'Gigachad'. There's no need to tell them I'm a braggart baron or anything like that. - Hironishi Kyogetsuin.", 
+	img: "s3GcI2Y.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1680,7 +1696,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Itsuyo Nukimoto",
-    bio: "Placeholder Text (600 character limit).", img: "axQcc1s.png",
+    bio: "A lesser youkai with the power to mysteriously cause parts to be left over between disassembling and reassembling a complex object for repair. The leftover parts turn into instant tsukumogami due to the sudden realization that they were unnecessary to begin with. She is good friends with Tomino, herself a tsukumogami. She generates some second-hand fear from the kappa, but not much from humans themselves, resulting in a weak existence. She cherishes her little life nonetheless.", 
+	img: "axQcc1s.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1690,7 +1707,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kiju Sanadamushi",
-    bio: "Placeholder Text (600 character limit).", img: "LWlb6Yt.png",
+    bio: "Leader of a department within the Harikikikyoku, a secretive organization in the Animal Realm. She is a hizou-no-kasamushi, a type of stomach bug that can cause rapid changes in weight and is difficult to cure. The parasitic agents under her command are similarly sneaky, relying not on physical might to hunt, but on subterfuge and espionage. The Animal Realm often understates the value of information, and the Harikikikyoku have infiltrated the other gangs undetected. Kiju often has to contend with her agents' incompetence however.", 
+	img: "LWlb6Yt.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1700,7 +1718,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kotobuki In'un",
-    bio: "Placeholder Text (600 character limit).", img: "vpakJVL.png",
+    bio: "An auspicious chimera of the twelve zodiac animals, devoid of any and all evil. Her unique form allows her to understand the concerns of all animals and act as a representative for those who have none to call their own. Additionally, it is said that finding Kotobuki is a sign of good luck, but it's more accurate to say that it's a sign of having had good luck. You'll have spent it all by meeting her.", 
+	img: "vpakJVL.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1710,7 +1729,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kyra Gialla Osram",
-    bio: "Placeholder Text (600 character limit).", img: "KObtvPi.png",
+    bio: "The Light Princess, heir to the throne of a world of light. She has always been an original girl and is definitely not part of a series of near-identical clones created to conquer the dark realm. Even if those clones existed, they definitely didn't all believe themselves to be the true Kyra Osram and absolutely did not have any identity crises upon discovering the truth. Come to think of it, is there anything original to her at all?", 
+	img: "KObtvPi.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1720,7 +1740,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Frederica Lissai",
-    bio: "Placeholder Text (600 character limit).", img: "iiiC17K.png",
+    bio: "A telepathic alien transformed from a sickly and lonesome human girl. Her psychic abilities are extraordinary, and she possesses a unique ability that lets her evade any manner of detection, hiding even in plain sight. Thanks to her friend Karigou's efforts, lately she has been coming out of her shell more. She has molded her style and personality after a mixture of espionage stories and cosmic horror tales, both of which she enjoyed while she was human. It's mainly a facade she uses when dealing with other people, but often she ends up alienating them with it.", 
+	img: "iiiC17K.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1730,7 +1751,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Lucienne von Burgund",
-    bio: "Placeholder Text (600 character limit).", img: "jkkCAGv.png",
+    bio: "Viivi's childhood friend and somewhat of a rival. Viivi's rejection of her fate as the hero of the era caused a bit of a schism in their friendship, which began to widen ever more with Lucienne's discovery of her own soul: Hagen, the traitor and murderer of Siegfried. When Viivi refused to hand over the sacred lance and Tazue - both given to her in association with the title of 'hero' that she rejected - their friendship fully ruptured, and Lucienne was fatally wounded by Dormun in the resulting battle of ideals.",
+	img: "jkkCAGv.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1740,7 +1762,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ma Sekisei",
-    bio: "Placeholder Text (600 character limit).", img: "nUF2zGE.png",
+    bio: "Midboss of Augusta Iaponicorum. A curmudgeonly baker awakened from a stone statue. Supposedly, she was a hero that once saved the city of Augsburg from a siege and paid for it with her right arm, and later her life. As such her right arm is perpetually petrified and immobile. True to her legend of origin, she can turn wood into bread, although the taste might not be much to write home about. She does real baking, too.", 
+	img: "nUF2zGE.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1750,7 +1773,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Manozeen",
-    bio: "Placeholder Text (600 character limit).", img: "fetne77.png",
+    bio: "A telepathic alien and part of the same group of multiverse delinquents as Mephisto. Violent by nature, she lives for war and strife as the utmost expressions of one's freedom. After their gang was finally disbanded, Manozeen became desperate for a new place to belong. She took a particular liking to a human from the Outside World named Bridgette, and although she initially just wanted to sow chaos in her life, the two somehow became friends. Now they play video games together to assert dominance over the noobs.", 
+	img: "fetne77.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1760,7 +1784,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mephistopheles",
-    bio: "Placeholder Text (600 character limit).", img: "M6eXUU4.png",
+    bio: "A telepathic alien and part of the same group of multiverse delinquents as Manozeen. He became famous in all the lands for his contract work and inspired images of devilish deals anywhere he and his group went. After a devastating tragedy struck his home world, the Astral Realm, he bid farewell to this old life to fill the power vacuum left by the deaths of the previous leaders. He holds Theliea and Xiki in high regard, as they are the offspring of another member of their group, and he protected them against an attempt to re-merge them into their parent.", 
+	img: "M6eXUU4.png",
     opts: {
       owner: ["python"],
 	  gender: ["male"],
@@ -1770,7 +1795,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ryoumika Soukun",
-    bio: "Placeholder Text (600 character limit).", img: "SpC3zaa.png",
+    bio: "Final boss of Hidden Spice in Four Seasonings. The Kitchen God Zao Jun, who once orchestrated an incident to concentrate all cooking power in her capable hands alone. She was forced to abdicate from her position as the heavenly chef as her apprentice succeeded her, so she opted to open a restaurant in the Human Village instead. Her Eight Treasures restaurant serves cuisine from all corners of the world created through a combination of Ryoumika's skill and divine power, making it a place of worship for all of Gensokyo's foodies.", 
+	img: "SpC3zaa.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1780,7 +1806,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Sanko Hakuchou",
-    bio: "Placeholder Text (600 character limit).", img: "6ImSUAU.png",
+    bio: "An engineer belonging to a race calling themselves 'Time Lords'. She studied a strange art to warp space and create pocket universes purely through performing complicated calculations in her head. Her perpetual drive to use her engineering skills to improve the livelihoods of everyone around her (even against their will) and her desire for respect and recognition sparked a colossal incident that ended with her migration to the more technology-inclined Lunar Capital. Despite that, she maintains good relations with a few treasured friends in Gensokyo.", 
+	img: "6ImSUAU.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1790,7 +1817,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shiromi Sadamoto",
-    bio: "Placeholder Text (600 character limit).", img: "wrLVb4r.png",
+    bio: "A Taoist hermit, who is secretly a naga from Hollow Earth, who is secretly a rejected god. Originally a pair of twin gods of healing and rescue, she was condemned and became the embodiment of dissatisfaction set to oppose the embodiment of holy devotion. She came to the surface world in order to sniff out discontentment and provide easy wish-granting solutions, but somehow nobody seems to fall fo---I mean, take her offer. She adores her boss, but more so just wants her praise, hoping it'll make her feel less empty inside.", 
+	img: "wrLVb4r.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1800,7 +1828,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "SLUG",
-    bio: "Placeholder Text (600 character limit).", img: "K1ahXYt.png",
+    bio: "Amorphous and unintelligent drones created by an associate of Urara's - a perverse goddess of love and fertility. Also dubbed 'Shoggoth', they absorb nearly any type of matter and energy into their own form and can serve as anything from simple workers to building blocks of entire cities.", 
+	img: "K1ahXYt.png",
     opts: {
       owner: ["python"],
 	  gender: ["non"],
@@ -1811,7 +1840,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Taya",
-    bio: "Placeholder Text (600 character limit).", img: "SWt3LdN.png",
+    bio: "A hellhound cursed with immortality, who obtained the prestigious title of 'Cerberus'. During an incident that opened the gate between this world and the underworld, she broke her chains and came to Gensokyo. Her hopes for a better life were set far too high, and she was ill-prepared to deal with the intricacies of social coexistence. Ultimately she distanced herself from everyone and now lives in the Youkai Forest, fiercely defending her territory.", 
+	img: "SWt3LdN.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1821,7 +1851,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tazue Teidarou",
-    bio: "Placeholder Text (600 character limit).", img: "0ZqmUWz.png",
+    bio: "Tatzelwurm, a shapeshifting, venomous, tunnel-digging cat-like dragon native to the Swiss alps and Viivi's companion/pet. After losing their way in Gensokyo, the two of them were captured by the Keigagumi, so in order to free Viivi, Tazue opted to work for them for a while. She later motivated an invasion of Gensokyo in order to try and reunite with her rider and escape the Keiga, but the plan failed. She was later rescued properly by Viivi and a few friends. Enjoys cat things, like loafing, and dragon things, like loafing on a pile of treasure.", 
+	img: "0ZqmUWz.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1831,7 +1862,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Theliea",
-    bio: "Placeholder Text (600 character limit).", img: "phV9vJe.png",
+    bio: "A telepathic alien and the quiet-loving sister of Xiki. They're merchants who came to Gensokyo as part of an experimental trade route with another world. Hailing from a well-ordered hivemind society, Theliea often struggles with the private nature of thoughts and emotions in this world. Even after her long stay, she is still not used to freedom of choice and prefers to be issued tasks in order to help people. She can calm the air of a room by absorbing strong emotions from her surroundings - often to her own detriment. It's a disorder she cannot control.", 
+	img: "phV9vJe.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1841,7 +1873,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tomino Daiemon",
-    bio: "Placeholder Text (600 character limit).", img: "5nO44Sr.png",
+    bio: "Tsukumogami of a discarded painting, allegedly painted in the artist's own blood. Evil spirits flock to her side for that reason. Even though she wishes to be hung on someone's wall and genuinely appreciated, those spirits bring misfortune to everyone who owns the painting, prompting them to throw it away. Now she lives in a garbage dump, where she met Itsuyo, who told her that she's already become more than just a painting and to let go of that identity. The world inside her picture frame is infinitely scarier than Gensokyo.", 
+	img: "5nO44Sr.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1851,7 +1884,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tsushima",
-    bio: "Placeholder Text (600 character limit).", img: "sDZAyLe.png",
+    bio: "Midboss of Least Connected Marketeer. A never sated man-eating monster horse from a distant country. She was liberated by a hero, after which she and her three sisters scattered in different directions. She eventually drifted into Gensokyo, gobbling up everything that crossed her path. After taking up residence in the Youkai Forest, she also became friends with a few other youkai like Taya and Camelan, the latter of whom she met during a circus event for which the both of them had been recruited as performers.", 
+	img: "sDZAyLe.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1861,7 +1895,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Urara Ukiyanagi",
-    bio: "Placeholder Text (600 character limit).", img: "rPT9rb4.png",
+    bio: "An ancient being who defied her own destruction and became known as a god of rebirth, worshipped under many names such as Dumuzid, Osiris, Dionysus, etc. Robbed of her body, she relies on possessing people she specifically engineered to act as perfect vessels for her. Lissai is one of them, who drew Urara's attention through a Halloween costume embodying her alias. In Gensokyo, she appears as a shepherding deity who gifts dogs with power, courage and loyalty, such that they may guard their owners and flock against demise.", 
+	img: "rPT9rb4.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1871,7 +1906,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Viivi von Xanten",
-    bio: "Placeholder Text (600 character limit).", img: "ObCg0NN.png",
+    bio: "The true reincarnation of the hero Siegfried, or at least that's what the Cavaliers of Xanten believe. She felt crushed by the expectations that organization held for her, so she rejected her fate and escaped with her companion dragon. After she got stranded in Gensokyo, that fate would gradually catch up to her. Still, she enjoys an easygoing lifestyle consisting of eating delicious food and working off the calories through exercise, combat and volunteer work at the homeless shelter that took her in. Although she relies on her dragon Tazue for combat, the two are an unstoppable duo.", 
+	img: "ObCg0NN.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1881,7 +1917,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Waluigi",
-    bio: "Placeholder Text (600 character limit).", img: "UIMgZOw.png",
+    bio: "You were expecting a normal S&Y character? TOO BAD, WALUIGI TIME", 
+	img: "UIMgZOw.png",
     opts: {
       owner: ["python"],
 	  gender: ["male"],
@@ -1892,7 +1929,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Xiki",
-    bio: "Placeholder Text (600 character limit).", img: "ymQuTF2.png",
+    bio: "A telepathic alien and the fun-loving sister of Theliea. They're merchants who came to Gensokyo as part of an experimental trade route with another world. Endlessly curious and excitable, Xiki often gets herself into trouble due to not understanding the social customs of this world. To emancipate herself from her beloved sister, she moved into her own home built into a cave at the base of Youkai Mountain. There she lives together with Lissai, Karigou and Nobody.", 
+	img: "ymQuTF2.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1902,7 +1940,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Youka Hinejuu",
-    bio: "Placeholder Text (600 character limit).", img: "jg2jEUU.png",
+    bio: "An author from the Human Village, who speaks and writes in incomprehensible idioms. Attempting to improve sales of her works, she summoned a spirit of language from another dimension. In that process her name was accidentally destroyed as well, preventing any association between author and work. She has since been evicted from her home and forced to live in a homeless shelter, where her odd stories are popular with children. Her biggest success is 'Path of Least Resistance', a homoerotic romance novel about a timid construction worker. Somehow, she can write normally if she's infatuated.", 
+	img: "jg2jEUU.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
@@ -1912,7 +1951,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Zika Parasite",
-    bio: "Placeholder Text (600 character limit).", img: "SDypHCO.png",
+    bio: "A fairy embodying viral infections. She considers herself the ultimate life form, able to adapt to anything - even technology. The other fairies think she's a gross weirdo for her obsession with so-called 'computer viruses', but she's determined to earn their respect through her work. One day, she WILL prove her superiority once and for all, but she doesn't understand that that attitude is precisely the reason absolutely nobody gets along with her.", 
+	img: "SDypHCO.png",
     opts: {
       owner: ["python"],
 	  gender: ["female"],
