@@ -113,11 +113,8 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Abuchi",
-	bio: "Abuchi is a vulture from a far-off land. She once sang a song of mercy to the sky, pleading to end the suffering of "+
-	"man caused by a drought. The sky was moved to tears and rain came. Her voice reaches the ears of heaven, granting her pleas, "+
-	"though vultures are not known for their vocal talent. Abuchi calls out looking for a mate, listening for her song to be repeated "+
-	"back to her, but she might be one of a kind. So long as you aren't already dead, Abuchi will sing for your survival, which is to "+
-	"her detriment as a carrion eater, but much appricated unlike her singing.", img: "TaM61YN.png",
+	bio: "Abuchi is a vulture from a far-off land. She once sang a song of mercy to the sky, pleading to end the suffering of man caused by a drought. The sky was moved to tears and rain came. Her voice reaches the ears of heaven, granting her pleas, though vultures are not known for their vocal talent. Abuchi calls out looking for a mate, listening for her song to be repeated back to her, but she might be one of a kind. So long as you aren't already dead, Abuchi will sing for your survival, which is to her detriment as a carrion eater, but much appricated unlike her singing.", 
+	img: "TaM61YN.png",
 	opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -127,7 +124,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Aiko Daikazoku",
-    bio: "Placeholder Text (600 character limit).", img: "gCtjDiY.png",
+    bio: "Creator of beloved characters such as 'Strawberry Kirisame', the human teenage girl Aiko has a thing for writing fan-fiction about popular people. She ships...inventive couples, which includes thinking up fictional children for them. She will act out her creations in real life to suit her desires. Her acts go beyond just cosplay, she can change who her parents are. This doesn't change history, but she literally can become a love child of any two beings. She's most proud of her writing and her ability, but can't freely express the latter. She has Chirper accounts for all her characters.", 
+	img: "gCtjDiY.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -137,7 +135,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Chamemi Housen",
-    bio: "Placeholder Text (600 character limit).", img: "h4ymhBc.png",
+    bio: "A mysterious airy woman with a far-off look in her eye who steals from the rich and gives to the poor. She trains in the Forest of Magic, setting up traps and practicing tricks with her gadgets. Chamemi leaves monetary compensation tied to each of her pranks, another form of helping the poor, said poor being the ones pranked. She sometimes laughs to herself for seemingly no reason. She states her ability to be 'the ability to see the truth', perhaps that's related? She seems to like conspiracies.", 
+	img: "h4ymhBc.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -147,11 +146,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Cindy",
-    bio: "Cindy is someone of elegant demeanor and regal taste, which is strange as she is actually an Akaname. She's unbothered "+
-	"by cleanliness, but she does prefer filth and fancy together. After being chased out of town, she found her own little paradise "+
-	"and gained the power to make mirages. She returned to the Human Village guised as a beautiful human woman, fearing her true appearance, "+
-	"having been called ugly by even her own kind. Seeking better social standing for her species as a whole, she likes to be thought of as a "+
-	"head maid. Her still-secret cleaning team is in it for the free food for now.", img: "YfsZ0dm.png",
+    bio: "Cindy is someone of elegant demeanor and regal taste, which is strange as she is actually an Akaname. She's unbothered by cleanliness, but she does prefer filth and fancy together. After being chased out of town, she found her own little paradise and gained the power to make mirages. She returned to the Human Village guised as a beautiful human woman, fearing her true appearance, having been called ugly by even her own kind. Seeking better social standing for her species as a whole, she likes to be thought of as a head maid. Her still-secret cleaning team is in it for the free food for now.", 
+	img: "YfsZ0dm.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -161,7 +157,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kiikii",
-    bio: "Placeholder Text (600 character limit).", img: "YeAGr5T.png",
+    bio: "The dangerously sheltered daughter of an executioner, her innocence was ferociously protected by her father, wanting her to live a life without facing stigma. To her, his torture devices are just toys. She was turned into a Youkai as punishment for the pain she caused. Being told that the pain she caused is bad, Kiikii wanted to be good and learned to manipulate it so she could prevent physical pain...but she didn't change her behavior. Seeing her face causes a blackout-inducing migraine, removing the memory of it. It's pain she can't prevent, so she hates her face and wears a paper bag.", 
+	img: "YeAGr5T.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -201,7 +198,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Susugi",
-    bio: "Placeholder Text (600 character limit).", img: "gdxjByH.png",
+    bio: "Susugi has a problem with humans. Not only do they take more than they need, but on top of that, they installed her upside-down, making her a Sakabashira. She spitefully gained the power to stop tasks from being finished properly, and can swap with other pillars to get around. Her goal is to fight wasted lumber by inviting more (usually unwelcome) guests into homes. Many animals share one tree together, why can't humans? She can be dramatic, causing house-wide commotion with woe-is-me wails and righteous anger. She insults with harsh but misused words. Don't get her started on Christmas trees.", 
+	img: "gdxjByH.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -211,7 +209,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tatsuga",
-    bio: "Placeholder Text (600 character limit).", img: "Auoe5pN.png",
+    bio: "If you're in need of supplies for roughing it, you're in luck, you can find them at Tatsuga's shop. For those looking for less intense outings in nature, he also sells camping supplies. His Trail mix is a popular buy. His cartography is one of a kind. Not only is he good at map making, but with the ability to make and alter paths, he includes shortcuts he's made himself. What is Tatsuga exactly? Once could call him a Naga, but he seems a bit different. Though humans would benefit the most from his supplies, he doesn't get many of them as customers for obvious reasons.", 
+	img: "Auoe5pN.png",
     opts: {
       owner: ["achy"],
 	  gender: ["male"],
@@ -221,7 +220,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yuno",
-    bio: "Placeholder Text (600 character limit).", img: "kEDOCnV.png",
+    bio: "As a Raijuu, Yuno has a higher risk of vanishing than other Youkai in Gensoukyou due to advancements. To combat this, she has put herself out there and is as authentic as she can be. She makes no attempt to hide her nature and goes into Human spaces to remind them she's here. Thankfully, she's usually pretty chill, and isn't dangerous unless there's a thunderstorm. She prefers respect over fear. Yuno dances and dresses in vogue style. Her temperament means she doesn't get along well with traditional thunder gods, so she works for the child of Raijin, who is open-minded and more with the times.", 
+	img: "kEDOCnV.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
