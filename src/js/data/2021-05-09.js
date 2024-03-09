@@ -168,7 +168,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Matarou",
-    bio: "Placeholder Text (600 character limit).", img: "oOJEyuw.png",
+    bio: "Matarou is tough, but gentle and very sentimental. He has practice restraining from crying to avoid being taken advantage of. Due to his nature as a Samebito, when he does cry, his tears become golden pearls. Matarou has manipulation of texture, but whether or not his skin was smooth beforehand is unknown. His hobby is collecting beach glass using his good eyesight, and he makes jewelery from them to make money rather than sew like is usual of his species. One poke from a needle was enough for him. Him and his boyfriend Samu are currently vacationing in Gensoukyou. He enjoys headpats.", 
+	img: "oOJEyuw.png",
     opts: {
       owner: ["achy"],
 	  gender: ["male"],
@@ -178,7 +179,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Samu",
-    bio: "Placeholder Text (600 character limit).", img: "I0LWHI5.png",
+    bio: "The cute cuddly, huggable wholesome, friendly flexible Samu, that's him! His self-descriptions are fairly accurate. Samu is a descendant of the Ainu god Repun-Kamuy, tasked with keeping the giant octopus Atkor-Kamuy from rampaging. Samu's red color and ability over elasticity comes from draining the creatures power to weaken it. Samu also rescues anyone struggling in the water. Through inherited oceanic powers, he can sense trouble in the water from quite a distance. Him and his boyfriend Matarou are currently vacationing in Gensoukyou. Samu only refers to Matarou as his good friend in public.", 
+	img: "I0LWHI5.png",
     opts: {
       owner: ["achy"],
 	  gender: ["male"],
@@ -188,7 +190,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Seigeki",
-    bio: "Placeholder Text (600 character limit).", img: "j8UxJoM.png",
+    bio: "Is that a shooting star? No, it's Seigeki burning up in re-entry after not quite making it out of the atmosphere. Seigeki is a haniwa of aerodynamic shape with rocket boots who can launch things, like herself. When not trying to escape gravity, she does freelance guard duty at various graveyards. She seems to looking for a sweetspot of launch force, enough to break free, but not enough to break her. Thankfully Seigeki can pull herself back together and use energy to heal the cracks away. Seigeki has a tendency to make strange noises and loves wordplay. Her mimicing ability is also uncanny. ", 
+	img: "j8UxJoM.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
@@ -231,7 +234,8 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Witori Karashiro",
-    bio: "Placeholder Text (600 character limit).", img: "Kx1XSOF.png",
+    bio: "The mastermind of an incident noticed a rumor and put stolen light into it to have Witori realized early. She was one of Aiko's characters Aiko played out. Witori rejected the writing for her in regards to the Kawashiros and changed her surname. She was written to have amnesia, but there were no family memories to remember. As thanks for her existence, she downgraded all tech in Gensoukyou for the mastermind. It fit with her unlived, but still real nostalgia too. After her defeat, she fixed everything and gave up the light, returning to rumor. Maybe she'll return when she herself is retro.", 
+	img: "Kx1XSOF.png",
     opts: {
       owner: ["achy"],
 	  gender: ["female"],
