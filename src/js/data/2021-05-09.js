@@ -31,8 +31,7 @@ dataSet[dataSetVersion].options = [
 	  { name: "Vigor", key: "vigor" ,checked: true},
 	  { name: "Wish", key: "wish" ,checked: true},
 	  { name: "Zack", key: "zack" ,checked: true},
-	  { name: "Assorted Others", key: "others" ,checked: true}
-	  
+	  { name: "Assorted Others", key: "others" ,checked: true},
 
     ]
   },
@@ -70,6 +69,16 @@ dataSet[dataSetVersion].options = [
       { name: "Adults", tooltip: "Without a shadow of a doubt an adult (18+).", key: "adult" },
 	  { name: "Young'ns", tooltip: "Without a shadow of a doubt a child (minor).", key: "child" },
 	  { name: "Ambiguous", tooltip: "Each OC has a guess, however I'm not perfect and if you don't want to deal with ambiguity, turn this off.", key: "ambig" }
+    ]
+  },
+  {
+    name: "Filter by S&Y-Relativity (Ignore this if you are here for S&Y only)",
+    key: "snytest",
+    tooltip: "Toggles the inclusion of characters on if they are related to S&Y at all. Ignore this if you only want S&Y characters to sort.",
+    checked: true,
+    sub: [
+      { name: "S&Y", key: "sny", tooltip: "This character is from S&Y specifically (or part of the main MS&Y2 set).", checked: true},
+	  { name: "Junky Extra", key: "junkyex", tooltip: "Junky's non S&Y OCs.", checked: false},
     ]
   },
   {
@@ -115,7 +124,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Abuchi",
 	bio: "Abuchi is a vulture from a far-off land. She once sang a song of mercy to the sky, pleading to end the suffering of man caused by a drought. The sky was moved to tears and rain came. Her voice reaches the ears of heaven, granting her pleas, though vultures are not known for their vocal talent. Abuchi calls out looking for a mate, listening for her song to be repeated back to her, but she might be one of a kind. So long as you aren't already dead, Abuchi will sing for your survival, which is to her detriment as a carrion eater, but much appricated unlike her singing.", 
 	img: "TaM61YN.png",
-	opts: {
+	opts: { snytest: ["sny"],
       owner: ["achy"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -126,7 +135,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Aiko Daikazoku",
     bio: "Creator of beloved characters such as 'Strawberry Kirisame', the human teenage girl Aiko has a thing for writing fan-fiction about popular people. She ships...inventive couples, which includes thinking up fictional children for them. She will act out her creations in real life to suit her desires. Her acts go beyond just cosplay, she can change who her parents are. This doesn't change history, but she literally can become a love child of any two beings. She's most proud of her writing and her ability, but can't freely express the latter. She has Chirper accounts for all her characters.", 
 	img: "gCtjDiY.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["achy"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -137,7 +146,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Chamemi Housen",
     bio: "A mysterious airy woman with a far-off look in her eye who steals from the rich and gives to the poor. She trains in the Forest of Magic, setting up traps and practicing tricks with her gadgets. Chamemi leaves monetary compensation tied to each of her pranks, another form of helping the poor, said poor being the ones pranked. She sometimes laughs to herself for seemingly no reason. She states her ability to be 'the ability to see the truth', perhaps that's related? She seems to like conspiracies.", 
 	img: "h4ymhBc.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["achy"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -148,7 +157,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Cindy",
     bio: "Cindy is someone of elegant demeanor and regal taste, which is strange as she is actually an Akaname. She's unbothered by cleanliness, but she does prefer filth and fancy together. After being chased out of town, she found her own little paradise and gained the power to make mirages. She returned to the Human Village guised as a beautiful human woman, fearing her true appearance, having been called ugly by even her own kind. Seeking better social standing for her species as a whole, she likes to be thought of as a head maid. Her still-secret cleaning team is in it for the free food for now.", 
 	img: "YfsZ0dm.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["achy"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -159,7 +168,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kiikii",
     bio: "The dangerously sheltered daughter of an executioner, her innocence was ferociously protected by her father, wanting her to live a life without facing stigma. To her, his torture devices are just toys. She was turned into a Youkai as punishment for the pain she caused. Being told that the pain she caused is bad, Kiikii wanted to be good and learned to manipulate it so she could prevent physical pain...but she didn't change her behavior. Seeing her face causes a blackout-inducing migraine, removing the memory of it. It's pain she can't prevent, so she hates her face and wears a paper bag.", 
 	img: "YeAGr5T.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["achy"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -170,7 +179,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Matarou",
     bio: "Matarou is tough, but gentle and very sentimental. He has practice restraining from crying to avoid being taken advantage of. Due to his nature as a Samebito, when he does cry, his tears become golden pearls. Matarou has manipulation of texture, but whether or not his skin was smooth beforehand is unknown. His hobby is collecting beach glass using his good eyesight, and he makes jewelery from them to make money rather than sew like is usual of his species. One poke from a needle was enough for him. Him and his boyfriend Samu are currently vacationing in Gensoukyou. He enjoys headpats.", 
 	img: "oOJEyuw.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["achy"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -181,7 +190,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Samu",
     bio: "The cute cuddly, huggable wholesome, friendly flexible Samu, that's him! His self-descriptions are fairly accurate. Samu is a descendant of the Ainu god Repun-Kamuy, tasked with keeping the giant octopus Atkor-Kamuy from rampaging. Samu's red color and ability over elasticity comes from draining the creatures power to weaken it. Samu also rescues anyone struggling in the water. Through inherited oceanic powers, he can sense trouble in the water from quite a distance. Him and his boyfriend Matarou are currently vacationing in Gensoukyou. Samu only refers to Matarou as his good friend in public.", 
 	img: "I0LWHI5.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["achy"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -192,7 +201,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Seigeki",
     bio: "Is that a shooting star? No, it's Seigeki burning up in re-entry after not quite making it out of the atmosphere. Seigeki is a haniwa of aerodynamic shape with rocket boots who can launch things, like herself. When not trying to escape gravity, she does freelance guard duty at various graveyards. She seems to looking for a sweetspot of launch force, enough to break free, but not enough to break her. Thankfully Seigeki can pull herself back together and use energy to heal the cracks away. Seigeki has a tendency to make strange noises and loves wordplay. Her mimicing ability is also uncanny. ", 
 	img: "j8UxJoM.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["achy"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -203,7 +212,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Susugi",
     bio: "Susugi has a problem with humans. Not only do they take more than they need, but on top of that, they installed her upside-down, making her a Sakabashira. She spitefully gained the power to stop tasks from being finished properly, and can swap with other pillars to get around. Her goal is to fight wasted lumber by inviting more (usually unwelcome) guests into homes. Many animals share one tree together, why can't humans? She can be dramatic, causing house-wide commotion with woe-is-me wails and righteous anger. She insults with harsh but misused words. Don't get her started on Christmas trees.", 
 	img: "gdxjByH.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["achy"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -214,7 +223,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Tatsuga",
     bio: "If you're in need of supplies for roughing it, you're in luck, you can find them at Tatsuga's shop. For those looking for less intense outings in nature, he also sells camping supplies. His Trail mix is a popular buy. His cartography is one of a kind. Not only is he good at map making, but with the ability to make and alter paths, he includes shortcuts he's made himself. What is Tatsuga exactly? Once could call him a Naga, but he seems a bit different. Though humans would benefit the most from his supplies, he doesn't get many of them as customers for obvious reasons.", 
 	img: "Auoe5pN.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["achy"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -225,7 +234,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Yuno",
     bio: "As a Raijuu, Yuno has a higher risk of vanishing than other Youkai in Gensoukyou due to advancements. To combat this, she has put herself out there and is as authentic as she can be. She makes no attempt to hide her nature and goes into Human spaces to remind them she's here. Thankfully, she's usually pretty chill, and isn't dangerous unless there's a thunderstorm. She prefers respect over fear. Yuno dances and dresses in vogue style. Her temperament means she doesn't get along well with traditional thunder gods, so she works for the child of Raijin, who is open-minded and more with the times.", 
 	img: "kEDOCnV.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["achy"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -236,7 +245,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Witori Karashiro",
     bio: "The mastermind of an incident noticed a rumor and put stolen light into it to have Witori realized early. She was one of Aiko's characters Aiko played out. Witori rejected the writing for her in regards to the Kawashiros and changed her surname. She was written to have amnesia, but there were no family memories to remember. As thanks for her existence, she downgraded all tech in Gensoukyou for the mastermind. It fit with her unlived, but still real nostalgia too. After her defeat, she fixed everything and gave up the light, returning to rumor. Maybe she'll return when she herself is retro.", 
 	img: "Kx1XSOF.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["achy"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -251,7 +260,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Bana 'Banana' Narama",
     bio: "Placeholder Text (600 character limit).", img: "0K0pRFx.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["non"],
 	  species: ["anthro"],
@@ -261,7 +270,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Bridgette Palmer",
     bio: "Placeholder Text (600 character limit).", img: "iMHdB8V.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -271,7 +280,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Cios",
     bio: "Placeholder Text (600 character limit).", img: "efZjAzf.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -281,7 +290,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Cordycep",
     bio: "Placeholder Text (600 character limit).", img: "LDopA29.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -291,7 +300,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Genmi",
     bio: "Placeholder Text (600 character limit).", img: "VFpYUkz.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -301,7 +310,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Kachari Hinaka",
     bio: "Placeholder Text (600 character limit).", img: "YQFOKtn.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -311,7 +320,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Kiyokuro Sakakiinu",
     bio: "Placeholder Text (600 character limit).", img: "rZBfj6W.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -321,7 +330,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Makigai Mabokeshigai",
     bio: "Placeholder Text (600 character limit).", img: "vM7NaoV.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -331,7 +340,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Mondo Ishigami",
     bio: "Placeholder Text (600 character limit).", img: "usk6Czv.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -341,7 +350,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Mouru Ominaeshi",
     bio: "Placeholder Text (600 character limit).", img: "R01pmiv.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -351,7 +360,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Piccolo Totanshou",
     bio: "Placeholder Text (600 character limit).", img: "P4dDGz7.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -361,7 +370,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Sekki",
     bio: "Placeholder Text (600 character limit).", img: "GCFnPFE.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -371,7 +380,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Shangvinrú",
     bio: "Placeholder Text (600 character limit).", img: "XmshWkH.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -381,7 +390,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Shuu Kongei",
     bio: "Placeholder Text (600 character limit).", img: "CnTio39.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -391,7 +400,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Siine",
     bio: "Placeholder Text (600 character limit).", img: "zkc3ixB.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -401,7 +410,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Susugu Kumochimono",
     bio: "Placeholder Text (600 character limit).", img: "RO3pb6c.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -411,7 +420,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Traskar",
     bio: "Placeholder Text (600 character limit).", img: "Vpe906N.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["non"],
 	  species: ["anthro"],
@@ -421,7 +430,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Usue",
     bio: "Placeholder Text (600 character limit).", img: "xKoxifE.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -431,7 +440,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Hersir",
     bio: "Placeholder Text (600 character limit).", img: "A9OmdLd.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -441,7 +450,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Valsir",
     bio: "Placeholder Text (600 character limit).", img: "czduBJz.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -456,7 +465,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Conar Dinn",
     bio: "Placeholder Text (600 character limit).", img: "LlyVAeu.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["conar"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -466,7 +475,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Justin",
     bio: "Placeholder Text (600 character limit).", img: "MSsrN3E.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["conar"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -476,7 +485,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Kaito Dinn",
     bio: "Placeholder Text (600 character limit).", img: "Yv0Y0Ny.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["conar"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -486,7 +495,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Kenchi Yakumo",
     bio: "Placeholder Text (600 character limit).", img: "DjGCae4.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["conar"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -496,7 +505,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Keomi Kyogai",
     bio: "Placeholder Text (600 character limit).", img: "FNii5Dr.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["conar"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -506,7 +515,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Kian Juichi",
     bio: "Placeholder Text (600 character limit).", img: "XFCt0t2.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["conar"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -516,7 +525,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Leanne Dinn",
     bio: "Placeholder Text (600 character limit).", img: "LNCnaXB.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["conar"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -526,7 +535,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Rengetsu",
     bio: "Placeholder Text (600 character limit).", img: "NUz51cw.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["conar"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -536,7 +545,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Sus Drek",
     bio: "Placeholder Text (600 character limit).", img: "szRwvCM.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["conar"],
 	  gender: ["male"],
 	  species: ["furry"],
@@ -548,7 +557,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Tesslyn Aurea",
     bio: "Placeholder Text (600 character limit).", img: "Xtu7LQ3.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["conar"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -558,7 +567,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Tyzairo",
     bio: "Placeholder Text (600 character limit).", img: "nt9B7ti.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["conar"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -573,7 +582,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Charlie",
     bio: "Placeholder Text (600 character limit).", img: "Tm8lN9p.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["drek"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -584,7 +593,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Drekareen",
     bio: "Placeholder Text (600 character limit).", img: "4pl4Den.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["drek"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -594,7 +603,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Kyuuko Memoto",
     bio: "Placeholder Text (600 character limit).", img: "h853kHj.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["drek"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -604,7 +613,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Nesthaar",
     bio: "Placeholder Text (600 character limit).", img: "ahVChuP.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["drek"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -614,7 +623,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Raylan",
     bio: "Placeholder Text (600 character limit).", img: "W5nDZFN.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["drek"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -624,7 +633,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Zathareen",
     bio: "Placeholder Text (600 character limit).", img: "glBQUC3.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["drek"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -640,7 +649,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Alastair",
     bio: "Placeholder Text (600 character limit).", img: "4G2yiXt.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["drugs"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -650,7 +659,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Ayako",
     bio: "Placeholder Text (600 character limit).", img: "UPzzAXd.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["drugs"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -660,7 +669,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Cedric",
     bio: "Placeholder Text (600 character limit).", img: "QnGYMQT.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["drugs"],
 	  gender: ["male"],
 	  species: ["aniobj"],
@@ -670,7 +679,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Drugs",
     bio: "Placeholder Text (600 character limit).", img: "CY3SyBH.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["drugs"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -680,7 +689,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Halvan",
     bio: "Placeholder Text (600 character limit).", img: "DwrDUO3.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["drugs"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -690,7 +699,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Miyu Ito",
     bio: "Placeholder Text (600 character limit).", img: "1DTmm4j.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["drugs"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -706,7 +715,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Blaike",
     bio: "Placeholder Text (600 character limit).", img: "5HbJbu9.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["gabe"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -716,7 +725,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Eskandar Mausomi",
     bio: "Placeholder Text (600 character limit).", img: "wkZLJWr.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["gabe"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -726,7 +735,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Jodith",
     bio: "Placeholder Text (600 character limit).", img: "cqHIHPj.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["gabe"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -736,7 +745,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Johan",
     bio: "Placeholder Text (600 character limit).", img: "UFY43Kh.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["gabe"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -746,7 +755,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Markus",
     bio: "Placeholder Text (600 character limit).", img: "2aqk00J.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["gabe"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -756,7 +765,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Merhan",
     bio: "Placeholder Text (600 character limit).", img: "PPdthi6.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["gabe"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -766,7 +775,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Roshanne Salih",
     bio: "Placeholder Text (600 character limit).", img: "yY5idAb.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["gabe"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -776,7 +785,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Sapphire",
     bio: "Placeholder Text (600 character limit).", img: "ny9ofTp.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["gabe"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -791,7 +800,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Arthur",
     bio: "Placeholder Text (600 character limit).", img: "f79pKak.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -801,7 +810,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Chrysalis",
     bio: "Placeholder Text (600 character limit).", img: "waD7wyk.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
@@ -811,7 +820,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Daisuke",
     bio: "Placeholder Text (600 character limit).", img: "28XFS2K.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
@@ -821,7 +830,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Dandara",
     bio: "Placeholder Text (600 character limit).", img: "LoyaLCD.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["female"],
 	  species: ["anthro","pokedigi"],
@@ -831,7 +840,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Duke",
     bio: "Placeholder Text (600 character limit).", img: "ShbjnP4.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -841,7 +850,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Grace",
     bio: "Placeholder Text (600 character limit).", img: "pSSXXc3.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["female"],
 	  species: ["pokedigi"],
@@ -851,7 +860,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Grandis",
     bio: "Placeholder Text (600 character limit).", img: "gP820o4.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -861,7 +870,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Guilmon",
     bio: "Placeholder Text (600 character limit).", img: "zgHHdQG.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -871,7 +880,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Hawk",
     bio: "Placeholder Text (600 character limit).", img: "SSfKTGA.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -881,7 +890,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Hiroyuki",
     bio: "Placeholder Text (600 character limit).", img: "S2F74xq.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
@@ -891,7 +900,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Hatsudzuki no Kairyu",
     bio: "Placeholder Text (600 character limit).", img: "w3r3ya7.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -901,7 +910,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Levi",
     bio: "Placeholder Text (600 character limit).", img: "VnYcwMm.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -911,7 +920,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Redrin Lightclaw",
     bio: "Placeholder Text (600 character limit).", img: "ZfMTD3r.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -921,7 +930,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Rei",
     bio: "Placeholder Text (600 character limit).", img: "2iUVJJH.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
@@ -931,7 +940,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Takashi Reirin",
     bio: "Placeholder Text (600 character limit).", img: "nfa3aEy.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -941,7 +950,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Tristan",
     bio: "Placeholder Text (600 character limit).", img: "UoZUd2z.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -951,7 +960,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Yuki",
     bio: "Placeholder Text (600 character limit).", img: "eZbMgys.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["guilmon"],
 	  gender: ["female"],
 	  species: ["anthro","pokedigi"],
@@ -966,7 +975,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Labour - 'The MS&Y2 Artist'",
     bio: "Placeholder Text (600 character limit).", img: "pCY81uV.png",
-    opts: {
+    opts: { snytest: ["sny", "junkyex"],
       owner: ["junky"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -977,7 +986,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Earl",
     bio: "Totally a Conar character.", img: "wrAChS4.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["junky"],
 	  gender: ["non"],
 	  species: ["aniobj"],
@@ -989,7 +998,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "'dAU6' Zimmer",
     bio: "Placeholder Text (600 character limit).", img: "YRsvi7l.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["junky"],
 	  gender: ["male"],
 	  species: ["aniobj"],
@@ -999,7 +1008,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Jenny",
     bio: "Placeholder Text (600 character limit).", img: "2a7VhHr.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["junky"],
 	  gender: ["female"],
 	  species: ["anthro"],
@@ -1009,7 +1018,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Karigou Diaz",
     bio: "Placeholder Text (600 character limit).", img: "hvVOnen.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["junky"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -1019,7 +1028,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Lola",
     bio: "Placeholder Text (600 character limit).", img: "058Y9Qo.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["junky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1029,7 +1038,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "The Golden Lute (Lute)",
     bio: "Placeholder Text (600 character limit).", img: "f7U60e3.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["junky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1039,7 +1048,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Maria",
     bio: "Placeholder Text (600 character limit).", img: "1OS7WwV.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["junky"],
 	  gender: ["female"],
 	  species: ["anthro"],
@@ -1049,7 +1058,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Nobody",
     bio: "Placeholder Text (600 character limit).", img: "P0umA2y.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["junky"],
 	  gender: ["male"],
 	  species: ["aniobj"],
@@ -1059,7 +1068,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "The Cane of Contradiction Calamity (StaffLady)",
     bio: "Placeholder Text (600 character limit).", img: "IOuRhHp.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["junky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1069,7 +1078,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Suki",
     bio: "Placeholder Text (600 character limit).", img: "GBswHs5.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["junky"],
 	  gender: ["female"],
 	  species: ["aniobj"],
@@ -1079,7 +1088,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Sullen",
     bio: "Placeholder Text (600 character limit).", img: "KeXazMK.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["junky"],
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
@@ -1089,7 +1098,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Tau",
     bio: "Placeholder Text (600 character limit).", img: "zm2RGYt.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["junky"],
 	  gender: ["non"],
 	  species: ["aniobj","pokedigi"],
@@ -1099,7 +1108,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Toru",
     bio: "Placeholder Text (600 character limit).", img: "6xvngvE.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["junky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1109,7 +1118,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Wolfy",
     bio: "Placeholder Text (600 character limit).", img: "dWO4PLV.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["junky"],
 	  gender: ["male"],
 	  species: ["aniobj"],
@@ -1119,11 +1128,251 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Work",
     bio: "Placeholder Text (600 character limit).", img: "sc5ztaO.png",
-    opts: {
+    opts: { snytest: ["sny", "junkyex"],
       owner: ["junky"],
 	  gender: ["female"],
 	  species: ["anthro"],
 	  age: ["child"]
+    }
+  },
+  {
+    name: "Blank",
+    bio: "Placeholder Text (600 character limit).", img: "bC9IhND.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["female"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Boredom",
+    bio: "Placeholder Text (600 character limit).", img: "1ZMfesc.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Derpy",
+    bio: "Placeholder Text (600 character limit).", img: "cAKMBL4.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Envy",
+    bio: "Placeholder Text (600 character limit).", img: "wkeUmk1.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["female"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Existence",
+    bio: "Placeholder Text (600 character limit).", img: "I5lm0QV.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Extrovertedness",
+    bio: "Placeholder Text (600 character limit).", img: "ptcavDd.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Fantasy",
+    bio: "Placeholder Text (600 character limit).", img: "G7gnHdB.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Fear",
+    bio: "Placeholder Text (600 character limit).", img: "7L2NdOy.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["female"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Foodie",
+    bio: "Placeholder Text (600 character limit).", img: "SKVpTEq.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["male"],
+	  species: ["aniobj"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Frustration",
+    bio: "Placeholder Text (600 character limit).", img: "MV4bKHw.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Insanity",
+    bio: "Placeholder Text (600 character limit).", img: "NWq8h92.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Inspiration",
+    bio: "Placeholder Text (600 character limit).", img: "e87kXam.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["female"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Jealousy",
+    bio: "Placeholder Text (600 character limit).", img: "1JM5hDz.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Loneliness",
+    bio: "Placeholder Text (600 character limit).", img: "DfYq17k.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["female"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Love",
+    bio: "Placeholder Text (600 character limit).", img: "NPkgK6s.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["female"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Lovely",
+    bio: "Placeholder Text (600 character limit).", img: "maJPyR6.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["female"],
+	  species: ["anthro"],
+	  age: ["child"],
+    }
+  },
+  {
+    name: "Lust",
+    bio: "Placeholder Text (600 character limit).", img: "S6xkc21.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["female"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Motivation",
+    bio: "Placeholder Text (600 character limit).", img: "c2QuSFO.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Name",
+    bio: "Placeholder Text (600 character limit).", img: "gXNXD6j.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["child"],
+    }
+  },
+  {
+    name: "Passion",
+    bio: "Placeholder Text (600 character limit).", img: "ocONpIN.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["female"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Perfection",
+    bio: "Placeholder Text (600 character limit).", img: "0BoQ4ZN.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["non"],
+	  species: ["anthro"],
+	  age: ["adult"],
+    }
+  },
+  {
+    name: "Reality",
+    bio: "Placeholder Text (600 character limit).", img: "gnUKLOV.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["child"],
+    }
+  },
+  {
+    name: "Regret",
+    bio: "Placeholder Text (600 character limit).", img: "cBdpjUt.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["male"],
+	  species: ["anthro"],
+	  age: ["child"],
+    }
+  },
+  {
+    name: "Tinni",
+    bio: "Placeholder Text (600 character limit).", img: "Whfy0Kl.png",
+    opts: { snytest: ["junkyex"],
+      owner: ["junky"],
+	  gender: ["female"],
+	  species: ["anthro"],
+	  age: ["child"],
     }
   },
   
@@ -1134,7 +1383,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Acolyte",
     bio: "Placeholder Text (600 character limit).", img: "DZfOZa0.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["lobby"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1144,7 +1393,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Annye Pihxie",
     bio: "Placeholder Text (600 character limit).", img: "GCFBTgz.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["lobby"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1154,7 +1403,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Bates Amanita",
     bio: "Placeholder Text (600 character limit).", img: "xLG1BCp.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["lobby"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -1164,7 +1413,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Blob",
     bio: "Placeholder Text (600 character limit).", img: "2xohYoo.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["lobby"],
 	  gender: ["non"],
 	  species: ["aniobj"],
@@ -1174,7 +1423,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Cedrik",
     bio: "Placeholder Text (600 character limit).", img: "CbtW6KM.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["lobby"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -1184,7 +1433,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Chorus Melpomene",
     bio: "Placeholder Text (600 character limit).", img: "j6nekEt.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["lobby"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1194,7 +1443,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Felix Valentine",
     bio: "Placeholder Text (600 character limit).", img: "osdaXLm.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["lobby"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -1204,7 +1453,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Kagah",
     bio: "Placeholder Text (600 character limit).", img: "OWHcMZK.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["lobby"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1214,7 +1463,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Minih",
     bio: "Placeholder Text (600 character limit).", img: "3JB0DRM.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["lobby"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1224,7 +1473,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Slime Boss",
     bio: "Placeholder Text (600 character limit).", img: "Sp7aTVh.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["lobby"],
 	  gender: ["non"],
 	  species: ["aniobj"],
@@ -1235,7 +1484,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Slime Girl",
     bio: "Placeholder Text (600 character limit).", img: "eF9oCwM.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["lobby"],
 	  gender: ["female","non"],
 	  species: ["humanoid"],
@@ -1246,7 +1495,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Yaci",
     bio: "Placeholder Text (600 character limit).", img: "cfglY06.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["lobby"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1261,7 +1510,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Atikaya Alsisar",
     bio: "Placeholder Text (600 character limit).", img: "nZZ5WBk.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["lyos"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -1271,7 +1520,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Denzel D'Abovile",
     bio: "Placeholder Text (600 character limit).", img: "Vau4uDv.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["lyos"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -1281,7 +1530,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Sabre Dubois",
     bio: "Placeholder Text (600 character limit).", img: "TZAOM7a.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["lyos"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -1291,7 +1540,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Zacharie LeBlanc",
     bio: "Placeholder Text (600 character limit).", img: "f8kpy2h.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["lyos"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -1306,7 +1555,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Ava",
     bio: "Placeholder Text (600 character limit).", img: "LyP0MkK.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["meowstic"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1316,7 +1565,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Vera Dariyev",
     bio: "Placeholder Text (600 character limit).", img: "T260itK.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["meowstic"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1326,7 +1575,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Marzia Mondadori",
     bio: "Placeholder Text (600 character limit).", img: "wCD0wz5.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["meowstic"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1336,7 +1585,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Mamoru 'Meowstic' Iwasaki",
     bio: "Placeholder Text (600 character limit).", img: "vqhcukK.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["meowstic"],
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
@@ -1346,7 +1595,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Merrick Octans",
     bio: "Placeholder Text (600 character limit).", img: "QyIimVg.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["meowstic"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -1356,7 +1605,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Muri",
     bio: "Placeholder Text (600 character limit).", img: "3o69sgl.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["meowstic"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1366,7 +1615,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Nashirah 'Nash' bint al-nassaaj bint ʼinsāniyya al-Fārisī",
     bio: "Placeholder Text (600 character limit).", img: "4RwGF9I.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["meowstic"],
 	  gender: ["female"],
 	  species: ["furry"],
@@ -1376,7 +1625,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Ercan 'Pigsy' Zorlu",
     bio: "Placeholder Text (600 character limit).", img: "YD0VIUu.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["meowstic"],
 	  gender: ["male"],
 	  species: ["furry"],
@@ -1386,7 +1635,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Ellinor Vennesland",
     bio: "Placeholder Text (600 character limit).", img: "CIPbfqu.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["meowstic"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1396,7 +1645,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Heinrich 'Rico' Viktor von Löwenthal",
     bio: "Placeholder Text (600 character limit).", img: "KO0Ve2j.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["meowstic"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -1406,7 +1655,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Tasia Vlahakis",
     bio: "Placeholder Text (600 character limit).", img: "csAEiqh.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["meowstic"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1421,7 +1670,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Alice",
     bio: "Placeholder Text (600 character limit).", img: "30gsGWk.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["miransu"],
 	  gender: ["female"],
 	  species: ["aniobj", "pokedigi"],
@@ -1432,7 +1681,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Altwilder",
     bio: "Placeholder Text (600 character limit).", img: "2OI61if.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["miransu"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -1443,7 +1692,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Dormarah",
     bio: "Placeholder Text (600 character limit).", img: "xy4OWOa.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["miransu"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -1454,7 +1703,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Hikawa Motoharu",
     bio: "Placeholder Text (600 character limit).", img: "eFuPrf9.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["miransu"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1465,7 +1714,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Kureha Iwakura",
     bio: "Placeholder Text (600 character limit).", img: "IP2Zwo6.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["miransu"],
 	  gender: ["male"],
 	  species: ["aniobj","pokedigi"],
@@ -1476,7 +1725,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Kuro",
     bio: "Placeholder Text (600 character limit).", img: "mMoLA0w.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["miransu"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -1487,7 +1736,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Misaki",
     bio: "Placeholder Text (600 character limit).", img: "GuvjhHw.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["miransu"],
 	  gender: ["female"],
 	  species: ["aniobj"],
@@ -1498,7 +1747,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Mitsuru",
     bio: "Placeholder Text (600 character limit).", img: "aA4B96D.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["miransu"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1509,7 +1758,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Susuki Iwasaki",
     bio: "Placeholder Text (600 character limit).", img: "yjSZp7Q.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["miransu"],
 	  gender: ["female"],
 	  species: ["aniobj","pokedigi"],
@@ -1520,7 +1769,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Tsukasa",
     bio: "Placeholder Text (600 character limit).", img: "No4U1Tq.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["miransu"],
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
@@ -1531,7 +1780,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Yuuki 'Yukiharu' Iwasaki",
     bio: "Placeholder Text (600 character limit).", img: "mg6LreE.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["miransu"],
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
@@ -1547,7 +1796,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Alex",
     bio: "Placeholder Text (600 character limit).", img: "rWKhplB.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["phantom"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -1557,7 +1806,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Jess",
     bio: "Placeholder Text (600 character limit).", img: "htbTzJk.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["phantom"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1567,7 +1816,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Lucius",
     bio: "Placeholder Text (600 character limit).", img: "9RjThHf.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["phantom"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -1577,7 +1826,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Orion",
     bio: "Placeholder Text (600 character limit).", img: "gumhPox.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["phantom"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -1587,7 +1836,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Phantom",
     bio: "Placeholder Text (600 character limit).", img: "StO0fGy.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["phantom"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -1597,7 +1846,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Sayuri",
     bio: "Placeholder Text (600 character limit).", img: "YEf0v7b.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["phantom"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1613,7 +1862,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Apateonas",
     bio: "A telepathic alien and the employer of Theliea and Xiki, as well as something like their foster father. He runs a trade company that by now has established a large trading network across several different universes, with his home world, the Astral Realm, acting as the terminal. RAISU rice products are among the more popular exports from Gensokyo, while imports mainly consist of other kinds of alien food. This is thanks to an exclusive deal with Ryoumika Soukun, who uses the exotic ingredients for her restaurant.", 
 	img: "xPhIGKW.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["male"],
 	  species: ["aniobj"],
@@ -1624,7 +1873,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Camelan Haimaku",
     bio: "Final boss of Least Connected Marketeer. An imori who turned her back on the battlefield and took center stage as a magician, mesmerizing audiences with her unique ability to awaken playing cards to life. Outside of her shows, she is a timid youkai that wants to play card games with people, but has great difficulty conveying the intricate rules of TCGs. The ability card incident awakened her passion, so she rose to the occasion to liberate the cards from an existence as mere tokens of wealth rather than sources of fun.", 
 	img: "dlJqrS0.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1635,7 +1884,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Chikuji Toutetsu",
     bio: "Toutetsu prediction preceding Yuuma. A taotie and chimera of the twelve zodiac animals. Her unique form allows her to understand the desires of all animals and manipulate them to her advantage. Her endless greed stifled the growth of her organization, so she was eventually overthrown, split in twain and sealed away. A fanatic follower of hers set events in motion to reunite the two parts and restore the old leader, throwing the Animal Realm into peril once more.", 
 	img: "NCbcsRa.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1646,7 +1895,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Chiyo Yamanaka",
     bio: "A girl born into an esoteric magic cult. She holds the power to control the states of matter. After meeting the spirit of her ancestor, she cut ties with them and moved to Gensokyo, where she acted as an incident resolver for a while. She would eventually fall in love with a physician named Oliver, and the two have since lived a relatively normal life together. Chiyo works as a waitress in Ryoumika's Eight Treasures restaurant and has sworn off the supernatural.", 
 	img: "v3Oc35Z.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1657,7 +1906,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Cisa Perlach Augusta",
     bio: "Final boss of Augusta Iaponicorum. The patron goddess of Augsburg, a city in distant Germany. She traces her origins back to pre-Roman times, but in truth, they're somewhat of a mystery. Longing for a sense of personal identity, the citizens may have invented a god of their own into the past. In the present day, she has been all but forgotten. Cisa reappeared in Gensokyo in order to become the patron deity of the Human Village.", 
 	img: "6Y0qZ1X.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1668,7 +1917,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Dr. Bees",
     bio: "What's this? An online character sorter with an alarming lack of bees? My JavaScript full of BEES ought to put a stop to that!", 
 	img: "4mrzZ6I.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -1680,7 +1929,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Harue Nagatsuka",
     bio: "A youkai shrine maiden in service of Shiva, the benevolent god of destruction. She was originally human, but became cursed for reasons unknown to her. Now two snakes grow from her shoulders, threatening her soul. Harue was forced to leave her life in the village behind, feeding youkai to her snakes to pacify them. In doing so, she became hated by everyone. She lives as a hermit and has not forsaken her religious duties, performing trance-like dance rites in honor of her god while also training the art of controlling shikigami in hopes of gaining dominion over her curse.", 
 	img: "tYv3mVg.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1691,7 +1940,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Hironishi Kyogetsuin",
     bio: "Just write 'Gigachad'. There's no need to tell them I'm a braggart baron or anything like that. - Hironishi Kyogetsuin.", 
 	img: "s3GcI2Y.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1702,7 +1951,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Itsuyo Nukimoto",
     bio: "A lesser youkai with the power to mysteriously cause parts to be left over between disassembling and reassembling a complex object for repair. The leftover parts turn into instant tsukumogami due to the sudden realization that they were unnecessary to begin with. She is good friends with Tomino, herself a tsukumogami. She generates some second-hand fear from the kappa, but not much from humans themselves, resulting in a weak existence. She cherishes her little life nonetheless.", 
 	img: "axQcc1s.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1713,7 +1962,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kiju Sanadamushi",
     bio: "Leader of a department within the Harikikikyoku, a secretive organization in the Animal Realm. She is a hizou-no-kasamushi, a type of stomach bug that can cause rapid changes in weight and is difficult to cure. The parasitic agents under her command are similarly sneaky, relying not on physical might to hunt, but on subterfuge and espionage. The Animal Realm often understates the value of information, and the Harikikikyoku have infiltrated the other gangs undetected. Kiju often has to contend with her agents' incompetence however.", 
 	img: "LWlb6Yt.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1724,7 +1973,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kotobuki In'un",
     bio: "An auspicious chimera of the twelve zodiac animals, devoid of any and all evil. Her unique form allows her to understand the concerns of all animals and act as a representative for those who have none to call their own. Additionally, it is said that finding Kotobuki is a sign of good luck, but it's more accurate to say that it's a sign of having had good luck. You'll have spent it all by meeting her.", 
 	img: "vpakJVL.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1735,7 +1984,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Kyra Gialla Osram",
     bio: "The Light Princess, heir to the throne of a world of light. She has always been an original girl and is definitely not part of a series of near-identical clones created to conquer the dark realm. Even if those clones existed, they definitely didn't all believe themselves to be the true Kyra Osram and absolutely did not have any identity crises upon discovering the truth. Come to think of it, is there anything original to her at all?", 
 	img: "KObtvPi.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1746,7 +1995,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Frederica Lissai",
     bio: "A telepathic alien transformed from a sickly and lonesome human girl. Her psychic abilities are extraordinary, and she possesses a unique ability that lets her evade any manner of detection, hiding even in plain sight. Thanks to her friend Karigou's efforts, lately she has been coming out of her shell more. She has molded her style and personality after a mixture of espionage stories and cosmic horror tales, both of which she enjoyed while she was human. It's mainly a facade she uses when dealing with other people, but often she ends up alienating them with it.", 
 	img: "iiiC17K.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1757,7 +2006,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Lucienne von Burgund",
     bio: "Viivi's childhood friend and somewhat of a rival. Viivi's rejection of her fate as the hero of the era caused a bit of a schism in their friendship, which began to widen ever more with Lucienne's discovery of her own soul: Hagen, the traitor and murderer of Siegfried. When Viivi refused to hand over the sacred lance and Tazue - both given to her in association with the title of 'hero' that she rejected - their friendship fully ruptured, and Lucienne was fatally wounded by Dormun in the resulting battle of ideals.",
 	img: "jkkCAGv.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1768,7 +2017,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Ma Sekisei",
     bio: "Midboss of Augusta Iaponicorum. A curmudgeonly baker awakened from a stone statue. Supposedly, she was a hero that once saved the city of Augsburg from a siege and paid for it with her right arm, and later her life. As such her right arm is perpetually petrified and immobile. True to her legend of origin, she can turn wood into bread, although the taste might not be much to write home about. She does real baking, too.", 
 	img: "nUF2zGE.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1779,7 +2028,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Manozeen",
     bio: "A telepathic alien and part of the same group of multiverse delinquents as Mephisto. Violent by nature, she lives for war and strife as the utmost expressions of one's freedom. After their gang was finally disbanded, Manozeen became desperate for a new place to belong. She took a particular liking to a human from the Outside World named Bridgette, and although she initially just wanted to sow chaos in her life, the two somehow became friends. Now they play video games together to assert dominance over the noobs.", 
 	img: "fetne77.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1790,7 +2039,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Mephistopheles",
     bio: "A telepathic alien and part of the same group of multiverse delinquents as Manozeen. He became famous in all the lands for his contract work and inspired images of devilish deals anywhere he and his group went. After a devastating tragedy struck his home world, the Astral Realm, he bid farewell to this old life to fill the power vacuum left by the deaths of the previous leaders. He holds Theliea and Xiki in high regard, as they are the offspring of another member of their group, and he protected them against an attempt to re-merge them into their parent.", 
 	img: "M6eXUU4.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -1801,7 +2050,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Ryoumika Soukun",
     bio: "Final boss of Hidden Spice in Four Seasonings. The Kitchen God Zao Jun, who once orchestrated an incident to concentrate all cooking power in her capable hands alone. She was forced to abdicate from her position as the heavenly chef as her apprentice succeeded her, so she opted to open a restaurant in the Human Village instead. Her Eight Treasures restaurant serves cuisine from all corners of the world created through a combination of Ryoumika's skill and divine power, making it a place of worship for all of Gensokyo's foodies.", 
 	img: "SpC3zaa.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1812,7 +2061,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Sanko Hakuchou",
     bio: "An engineer belonging to a race calling themselves 'Time Lords'. She studied a strange art to warp space and create pocket universes purely through performing complicated calculations in her head. Her perpetual drive to use her engineering skills to improve the livelihoods of everyone around her (even against their will) and her desire for respect and recognition sparked a colossal incident that ended with her migration to the more technology-inclined Lunar Capital. Despite that, she maintains good relations with a few treasured friends in Gensokyo.", 
 	img: "6ImSUAU.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1823,7 +2072,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Shiromi Sadamoto",
     bio: "A Taoist hermit, who is secretly a naga from Hollow Earth, who is secretly a rejected god. Originally a pair of twin gods of healing and rescue, she was condemned and became the embodiment of dissatisfaction set to oppose the embodiment of holy devotion. She came to the surface world in order to sniff out discontentment and provide easy wish-granting solutions, but somehow nobody seems to fall fo---I mean, take her offer. She adores her boss, but more so just wants her praise, hoping it'll make her feel less empty inside.", 
 	img: "wrLVb4r.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1834,7 +2083,7 @@ dataSet[dataSetVersion].characterData = [
     name: "SLUG",
     bio: "Amorphous and unintelligent drones created by an associate of Urara's - a perverse goddess of love and fertility. Also dubbed 'Shoggoth', they absorb nearly any type of matter and energy into their own form and can serve as anything from simple workers to building blocks of entire cities.", 
 	img: "K1ahXYt.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["non"],
 	  species: ["humanoid"],
@@ -1846,7 +2095,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Taya",
     bio: "A hellhound cursed with immortality, who obtained the prestigious title of 'Cerberus'. During an incident that opened the gate between this world and the underworld, she broke her chains and came to Gensokyo. Her hopes for a better life were set far too high, and she was ill-prepared to deal with the intricacies of social coexistence. Ultimately she distanced herself from everyone and now lives in the Youkai Forest, fiercely defending her territory.", 
 	img: "SWt3LdN.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1857,7 +2106,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Tazue Teidarou",
     bio: "Tatzelwurm, a shapeshifting, venomous, tunnel-digging cat-like dragon native to the Swiss alps and Viivi's companion/pet. After losing their way in Gensokyo, the two of them were captured by the Keigagumi, so in order to free Viivi, Tazue opted to work for them for a while. She later motivated an invasion of Gensokyo in order to try and reunite with her rider and escape the Keiga, but the plan failed. She was later rescued properly by Viivi and a few friends. Enjoys cat things, like loafing, and dragon things, like loafing on a pile of treasure.", 
 	img: "0ZqmUWz.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1868,7 +2117,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Theliea",
     bio: "A telepathic alien and the quiet-loving sister of Xiki. They're merchants who came to Gensokyo as part of an experimental trade route with another world. Hailing from a well-ordered hivemind society, Theliea often struggles with the private nature of thoughts and emotions in this world. Even after her long stay, she is still not used to freedom of choice and prefers to be issued tasks in order to help people. She can calm the air of a room by absorbing strong emotions from her surroundings - often to her own detriment. It's a disorder she cannot control.", 
 	img: "phV9vJe.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1879,7 +2128,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Tomino Daiemon",
     bio: "Tsukumogami of a discarded painting, allegedly painted in the artist's own blood. Evil spirits flock to her side for that reason. Even though she wishes to be hung on someone's wall and genuinely appreciated, those spirits bring misfortune to everyone who owns the painting, prompting them to throw it away. Now she lives in a garbage dump, where she met Itsuyo, who told her that she's already become more than just a painting and to let go of that identity. The world inside her picture frame is infinitely scarier than Gensokyo.", 
 	img: "5nO44Sr.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1890,7 +2139,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Tsushima",
     bio: "Midboss of Least Connected Marketeer. A never sated man-eating monster horse from a distant country. She was liberated by a hero, after which she and her three sisters scattered in different directions. She eventually drifted into Gensokyo, gobbling up everything that crossed her path. After taking up residence in the Youkai Forest, she also became friends with a few other youkai like Taya and Camelan, the latter of whom she met during a circus event for which the both of them had been recruited as performers.", 
 	img: "sDZAyLe.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1901,7 +2150,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Urara Ukiyanagi",
     bio: "An ancient being who defied her own destruction and became known as a god of rebirth, worshipped under many names such as Dumuzid, Osiris, Dionysus, etc. Robbed of her body, she relies on possessing people she specifically engineered to act as perfect vessels for her. Lissai is one of them, who drew Urara's attention through a Halloween costume embodying her alias. In Gensokyo, she appears as a shepherding deity who gifts dogs with power, courage and loyalty, such that they may guard their owners and flock against demise.", 
 	img: "rPT9rb4.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1912,7 +2161,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Viivi von Xanten",
     bio: "The true reincarnation of the hero Siegfried, or at least that's what the Cavaliers of Xanten believe. She felt crushed by the expectations that organization held for her, so she rejected her fate and escaped with her companion dragon. After she got stranded in Gensokyo, that fate would gradually catch up to her. Still, she enjoys an easygoing lifestyle consisting of eating delicious food and working off the calories through exercise, combat and volunteer work at the homeless shelter that took her in. Although she relies on her dragon Tazue for combat, the two are an unstoppable duo.", 
 	img: "ObCg0NN.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1923,7 +2172,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Waluigi",
     bio: "You were expecting a normal S&Y character? TOO BAD, WALUIGI TIME", 
 	img: "UIMgZOw.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -1935,7 +2184,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Xiki",
     bio: "A telepathic alien and the fun-loving sister of Theliea. They're merchants who came to Gensokyo as part of an experimental trade route with another world. Endlessly curious and excitable, Xiki often gets herself into trouble due to not understanding the social customs of this world. To emancipate herself from her beloved sister, she moved into her own home built into a cave at the base of Youkai Mountain. There she lives together with Lissai, Karigou and Nobody.", 
 	img: "ymQuTF2.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1946,7 +2195,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Youka Hinejuu",
     bio: "An author from the Human Village, who speaks and writes in incomprehensible idioms. Attempting to improve sales of her works, she summoned a spirit of language from another dimension. In that process her name was accidentally destroyed as well, preventing any association between author and work. She has since been evicted from her home and forced to live in a homeless shelter, where her odd stories are popular with children. Her biggest success is 'Path of Least Resistance', a homoerotic romance novel about a timid construction worker. Somehow, she can write normally if she's infatuated.", 
 	img: "jg2jEUU.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1957,7 +2206,7 @@ dataSet[dataSetVersion].characterData = [
     name: "Zika Parasite",
     bio: "A fairy embodying viral infections. She considers herself the ultimate life form, able to adapt to anything - even technology. The other fairies think she's a gross weirdo for her obsession with so-called 'computer viruses', but she's determined to earn their respect through her work. One day, she WILL prove her superiority once and for all, but she doesn't understand that that attitude is precisely the reason absolutely nobody gets along with her.", 
 	img: "SDypHCO.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1972,7 +2221,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Croire",
     bio: "Placeholder Text (600 character limit).", img: "qkypfpe.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["robin"],
 	  gender: ["non"],
 	  species: ["anthro"],
@@ -1982,7 +2231,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Edelweiss",
     bio: "Placeholder Text (600 character limit).", img: "pq8WfNr.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["robin"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -1992,7 +2241,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Hikaru",
     bio: "Placeholder Text (600 character limit).", img: "FrbrRKK.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["robin"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2002,7 +2251,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Irisu Sakazuki",
     bio: "Placeholder Text (600 character limit).", img: "tx5uw1U.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["robin"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2012,7 +2261,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Noah Amenohara",
     bio: "Placeholder Text (600 character limit).", img: "N9L2wW5.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["robin"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2022,7 +2271,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Robin",
     bio: "Placeholder Text (600 character limit).", img: "PkpBRco.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["robin"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -2032,7 +2281,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Sophie",
     bio: "Placeholder Text (600 character limit).", img: "jvzm3Pv.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["robin"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2042,7 +2291,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Tohru",
     bio: "Placeholder Text (600 character limit).", img: "Hw8pbJb.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["robin"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2052,7 +2301,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Valentine",
     bio: "Placeholder Text (600 character limit).", img: "EQ4WnHC.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["robin"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2067,7 +2316,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Chionne",
     bio: "Placeholder Text (600 character limit).", img: "ZjSCqbe.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["sphe"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2077,7 +2326,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Lunesta",
     bio: "Placeholder Text (600 character limit).", img: "8T9WBT0.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["sphe"],
 	  gender: ["male"],
 	  species: ["aniobj"],
@@ -2087,7 +2336,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Muna",
     bio: "Placeholder Text (600 character limit).", img: "WvKmSaM.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["sphe"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2097,7 +2346,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "MunaBot",
     bio: "Placeholder Text (600 character limit).", img: "zfr6XPj.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["sphe"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2108,7 +2357,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Oru Sumikata",
     bio: "Placeholder Text (600 character limit).", img: "BisLG8e.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["sphe"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2118,7 +2367,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Renée",
     bio: "Placeholder Text (600 character limit).", img: "zcTMi5o.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["sphe"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2128,7 +2377,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Sandra Oikaze",
     bio: "Placeholder Text (600 character limit).", img: "zi6fE2C.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["sphe"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2138,7 +2387,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Sarah Oikaze",
     bio: "Placeholder Text (600 character limit).", img: "8z4Swt4.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["sphe"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2148,7 +2397,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Theresa",
     bio: "Placeholder Text (600 character limit).", img: "w24dzO9.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["sphe"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2166,7 +2415,7 @@ dataSet[dataSetVersion].characterData = [
 	" Approachable and direct Luxray who takes things unnecessarily seriously."+
 	" He's usually holed up in his room doing an indoor investigation about how he and his family got into Gensokyo, catching him outside his room usually means he's taking a break."+
 	" He's addicted to coffee that helps him stay up to do his work. Someone help him he might get very palpitated.", img: "GVqhijf.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["syoudre"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -2179,7 +2428,7 @@ dataSet[dataSetVersion].characterData = [
 	" Direct and aggressive lion who doesn't have a high opinion with regards to humans or human-adjacents."+
 	" He doesn't understand fully how magic works and functions, making him a little held back in Gensokyo given majority are magic-users."+
 	" He might call a human a slur. Gays DNI if he's drunk.", img: "RYxYC9S.png",
-		opts: {
+		opts: { snytest: ["sny"],
       owner: ["syoudre"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -2192,7 +2441,7 @@ dataSet[dataSetVersion].characterData = [
 	" Overly friendly (and naive) wolf who finds Gensokyo and its people really fascinating, Outsiders or Locals." +
 	" He gathers herbs for Annye to repay for the staff he owned, but also does it as a way to explore around Gensokyo." +
 	" His red mage outfit is just for cosplay originally.", img: "Jpm7Ur9.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["syoudre"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -2207,7 +2456,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Juro",
     bio: "Placeholder Text (600 character limit).", img: "zpvpYZC.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tres"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2217,7 +2466,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Kinoko",
     bio: "Placeholder Text (600 character limit).", img: "DmChAKX.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tres"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2227,7 +2476,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Mary",
     bio: "Placeholder Text (600 character limit).", img: "qU7qWmU.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tres"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2237,7 +2486,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Matsu",
     bio: "Placeholder Text (600 character limit).", img: "sWTHcuM.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tres"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2247,7 +2496,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Minami",
     bio: "Placeholder Text (600 character limit).", img: "Z2uUQJs.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tres"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2257,7 +2506,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Qielan-Yu",
     bio: "Placeholder Text (600 character limit).", img: "kiXmtVU.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tres"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2267,7 +2516,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Ramiel",
     bio: "Placeholder Text (600 character limit).", img: "GPuzjzv.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tres"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2277,7 +2526,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Tori",
     bio: "Placeholder Text (600 character limit).", img: "8JADOhM.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tres"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2287,7 +2536,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Tres",
     bio: "Placeholder Text (600 character limit).", img: "IhxIQkb.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tres"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2297,7 +2546,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Uriel",
     bio: "Placeholder Text (600 character limit).", img: "4kEo2ra.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tres"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2307,7 +2556,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Yoneka",
     bio: "Placeholder Text (600 character limit).", img: "J9lJQdq.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tres"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2322,7 +2571,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Ashley Lightman",
     bio: "Placeholder Text (600 character limit).", img: "A07c38f.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2332,7 +2581,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Cole Lightman",
     bio: "Placeholder Text (600 character limit).", img: "o0WLHiz.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2342,7 +2591,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Elithabes Schäfer",
     bio: "Placeholder Text (600 character limit).", img: "isL9jzq.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2352,7 +2601,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Gabriella 'Gabby' Berger",
     bio: "Placeholder Text (600 character limit).", img: "WQ8r7gU.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2362,7 +2611,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Hunrios Pathcrafter",
     bio: "Placeholder Text (600 character limit).", img: "eI98ysW.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -2372,7 +2621,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Ichiyu",
     bio: "Placeholder Text (600 character limit).", img: "Z4JqcwQ.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2382,7 +2631,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Kikyo",
     bio: "Placeholder Text (600 character limit).", img: "aNPQ9gp.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2393,7 +2642,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Kokawa",
     bio: "Placeholder Text (600 character limit).", img: "9UaoRzt.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["aniobj"],
@@ -2403,7 +2652,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Kosuke Suzukaze",
     bio: "Placeholder Text (600 character limit).", img: "hhPdvuM.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2413,7 +2662,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Mr Signykins",
     bio: "Placeholder Text (600 character limit).", img: "S2kBlF0.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["aniobj"],
@@ -2424,7 +2673,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Keizou Takamori (Mr. Deerkins)",
     bio: "Placeholder Text (600 character limit).", img: "rFVo4gY.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["aniobj"],
@@ -2434,7 +2683,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Niyu",
     bio: "Placeholder Text (600 character limit).", img: "I32q9ds.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2444,7 +2693,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Oliver",
     bio: "Placeholder Text (600 character limit).", img: "cMBWBBw.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2454,7 +2703,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Penny Cillum",
     bio: "Placeholder Text (600 character limit).", img: "UvSI58k.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2464,7 +2713,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Ryoutarou Kiriya",
     bio: "Placeholder Text (600 character limit).", img: "f1lWCk0.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -2474,7 +2723,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Sanyu",
     bio: "Placeholder Text (600 character limit).", img: "oaawBMr.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2484,7 +2733,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Shokora",
     bio: "Placeholder Text (600 character limit).", img: "MKogqNr.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2494,7 +2743,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Shuu",
     bio: "Placeholder Text (600 character limit).", img: "kdY1d2h.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["aniobj"],
@@ -2504,7 +2753,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Tooru Uei",
     bio: "Placeholder Text (600 character limit).", img: "BPxN0Js.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2514,7 +2763,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Tutorial Tracy",
     bio: "Placeholder Text (600 character limit).", img: "7rAks17.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2525,7 +2774,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Rowan 'Tricky' Gardner",
     bio: "Placeholder Text (600 character limit).", img: "4uP3Wil.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2535,7 +2784,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Wylda Walcott",
     bio: "Placeholder Text (600 character limit).", img: "IbVAmFM.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["tricky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2550,7 +2799,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Myonu",
     bio: "Placeholder Text (600 character limit).", img: "WYJ2VhR.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["veemon"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -2560,7 +2809,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Stanley",
     bio: "Placeholder Text (600 character limit).", img: "cbqxqMf.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["veemon"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -2570,7 +2819,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Veemon",
     bio: "Placeholder Text (600 character limit).", img: "IgM3NC9.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["veemon"],
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
@@ -2585,7 +2834,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Ariel Zaccaria",
     bio: "Placeholder Text (600 character limit).", img: "5QFR1mZ.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["vigor"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2596,7 +2845,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "William 'Illia' Winton",
     bio: "Placeholder Text (600 character limit).", img: "HnDNDl5.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["vigor"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2607,7 +2856,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Shannon Aghaveagh",
     bio: "Placeholder Text (600 character limit).", img: "9I5aRgY.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["vigor"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2618,7 +2867,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Shayne Luis",
     bio: "Placeholder Text (600 character limit).", img: "W2eVjXz.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["vigor"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2634,7 +2883,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Dormun Albright",
     bio: "Placeholder Text (600 character limit).", img: "dLVj6Se.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["zack"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -2644,7 +2893,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Jaime Montilyet",
     bio: "Placeholder Text (600 character limit).", img: "REXUBzu.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["zack"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -2654,7 +2903,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Tian Long",
     bio: "Placeholder Text (600 character limit).", img: "6QJkL5n.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["zack"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -2669,7 +2918,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Jirachi",
     bio: "Placeholder Text (600 character limit).", img: "DowggQS.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["wish"],
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
@@ -2679,7 +2928,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Meema",
     bio: "Placeholder Text (600 character limit).", img: "Og1G685.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["wish"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2690,7 +2939,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Philia",
     bio: "Placeholder Text (600 character limit).", img: "7Jh8UDq.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["wish"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2705,7 +2954,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Agent",
     bio: "Placeholder Text (600 character limit).", img: "E9HyqUT.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["others"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2715,7 +2964,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Asahi",
     bio: "Placeholder Text (600 character limit).", img: "l0OE50o.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["others"],
 	  gender: ["female"],
 	  species: ["humanoid"],
@@ -2725,7 +2974,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Badz",
     bio: "Placeholder Text (600 character limit).", img: "LuztfiW.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["others"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2736,7 +2985,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Gizmo",
     bio: "Placeholder Text (600 character limit).", img: "iobkMSU.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["others"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -2746,7 +2995,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Loftaire Kuafushi",
     bio: "Placeholder Text (600 character limit).", img: "mD9Y7vq.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["others"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2756,7 +3005,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Medjed",
     bio: "Placeholder Text (600 character limit).", img: "qskh3Yy.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["others"],
 	  gender: ["male"],
 	  species: ["humanoid"],
@@ -2767,7 +3016,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Mercury",
     bio: "Placeholder Text (600 character limit).", img: "ezv1X3g.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["others"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -2777,7 +3026,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Training Dummy",
     bio: "Placeholder Text (600 character limit).", img: "RHbz1x9.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["others"],
 	  gender: ["non"],
 	  species: ["aniobj"],
@@ -2788,7 +3037,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Umbra",
     bio: "Placeholder Text (600 character limit).", img: "1Vo6sW6.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["others"],
 	  gender: ["male"],
 	  species: ["furry"],
@@ -2799,7 +3048,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Van",
     bio: "Placeholder Text (600 character limit).", img: "SRtPexY.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["others"],
 	  gender: ["male"],
 	  species: ["anthro"],
@@ -2809,7 +3058,7 @@ dataSet[dataSetVersion].characterData = [
   {
     name: "Yuugen",
     bio: "Placeholder Text (600 character limit).", img: "LntgMRp.png",
-    opts: {
+    opts: { snytest: ["sny"],
       owner: ["others"],
 	  gender: ["female"],
 	  species: ["humanoid"],

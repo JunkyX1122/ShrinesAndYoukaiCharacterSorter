@@ -188,7 +188,8 @@ function start() {
           return opt.key in char.opts && char.opts[opt.key].some(key => subArray.includes(key));
         });
       }
-    } else if (optTaken[index]) {
+    } 
+	else if (optTaken[index]) {
       characterDataToSort = characterDataToSort.filter(char => !char.opts[opt.key]);
     }
   });
