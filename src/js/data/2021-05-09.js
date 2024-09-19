@@ -15,6 +15,7 @@ dataSet[dataSetVersion].options = [
 	  //{ name: "Drugs", key: "drugs" ,checked: true},
 	  { name: "Gabe", key: "gabe" ,checked: true},
 	  { name: "Guilmon", key: "guilmon" ,checked: true},
+	  { name: "Hat", key: "hat" ,checked: true},
 	  { name: "Junky", key: "junky" ,checked: true},
 	  { name: "Lobby", key: "lobby" ,checked: true},
 	  { name: "Lyos", key: "lyos" ,checked: true},
@@ -2947,6 +2948,19 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   
+  //=========================================
+  //HAT
+  //=========================================
+  {
+    name: "Loftaire Kuafushi",
+    bio: "Placeholder Text (600 character limit).", img: "mD9Y7vq.png",
+    opts: { snytest: ["sny"],
+      owner: ["hat"],
+	  gender: ["male"],
+	  species: ["humanoid"],
+	  age: ["adult"]
+    }
+  },
   
   //=========================================
   //OTHERS
@@ -2992,16 +3006,6 @@ dataSet[dataSetVersion].characterData = [
 	  age: ["adult"]
     }
   }, 
-  {
-    name: "Loftaire Kuafushi",
-    bio: "Placeholder Text (600 character limit).", img: "mD9Y7vq.png",
-    opts: { snytest: ["sny"],
-      owner: ["others"],
-	  gender: ["male"],
-	  species: ["humanoid"],
-	  age: ["adult"]
-    }
-  },
   {
     name: "Medjed",
     bio: "Placeholder Text (600 character limit).", img: "qskh3Yy.png",
