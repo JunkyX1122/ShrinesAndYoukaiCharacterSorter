@@ -73,6 +73,19 @@ dataSet[dataSetVersion].options = [
     ]
   },
   {
+    name: "Filter by Pack",
+    key: "pack",
+    tooltip: "Check this to restrict based on when the art for that character was finished.",
+    checked: false,
+    sub: [
+      { name: "Pack 1", tooltip: "Characters from Pack 1.", key: "p1" },
+	  { name: "Pack 2", tooltip: "Characters from Pack 2.", key: "p2" },
+	  { name: "Pack 3", tooltip: "Characters from Pack 3.", key: "p3" },
+	  { name: "Pack 4", tooltip: "Characters from Pack 4.", key: "p4" },
+	  { name: "Pack 5", tooltip: "Characters and alternate forms from Pack 5.", key: "p5" }
+    ]
+  },
+  {
     name: "Filter by S&Y-Relativity (Ignore this if you are here for S&Y only)",
     key: "snytest",
     tooltip: "Toggles the inclusion of characters on if they are related to S&Y at all. Ignore this if you only want S&Y characters to sort.",
@@ -157,7 +170,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["achy"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -168,7 +182,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["achy"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -212,7 +227,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["achy"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -234,7 +250,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["achy"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -271,7 +288,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["banana"],
 	  gender: ["non"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -281,7 +299,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["banana"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -311,7 +330,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["banana"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -451,7 +471,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["banana"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -486,7 +507,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["conar"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -536,7 +558,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["conar"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult","ambig"]
+	  age: ["adult","ambig"],
+	  pack: ["p1"]
     }
   },
   {
@@ -556,7 +579,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["conar"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -578,7 +602,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["conar"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -604,6 +629,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["anthro"],
 	  age: ["adult","ambig"],
+	  pack: ["p1"],
 	  joke: []
     }
   },
@@ -626,7 +652,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["drek"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -657,7 +684,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["drek"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -715,7 +743,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["drugs"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -745,7 +774,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["drugs"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -765,7 +795,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["drugs"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   */
@@ -781,7 +812,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["gabe"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -821,7 +853,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["gabe"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -947,7 +980,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["ambig"]
+	  age: ["ambig"],
+	  pack: ["p1"]
     }
   },
   {
@@ -957,7 +991,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -967,7 +1002,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -977,7 +1013,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -997,7 +1034,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1027,7 +1065,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["guilmon"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1106,7 +1145,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["junky"],
 	  gender: ["female"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1116,7 +1156,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["junky"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["child"]
+	  age: ["child"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1136,7 +1177,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["junky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1157,7 +1199,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["junky"],
 	  gender: ["female"],
 	  species: ["anthro"],
-	  age: ["adult","ambig"]
+	  age: ["adult","ambig"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1167,7 +1210,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["junky"],
 	  gender: ["male"],
 	  species: ["aniobj"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1177,7 +1221,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["junky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1197,7 +1242,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["junky"],
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1249,7 +1295,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["junky"],
 	  gender: ["male"],
 	  species: ["aniobj"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1535,7 +1582,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["lobby"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1545,7 +1593,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["lobby"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1577,7 +1626,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["lobby"],
 	  gender: ["non"],
 	  species: ["aniobj"],
-	  age: ["ambig"]
+	  age: ["ambig"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1597,7 +1647,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["lobby"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1734,7 +1785,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["lyos"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1744,7 +1796,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["lyos"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1754,7 +1807,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["lyos"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1789,7 +1843,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["meowstic"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1819,7 +1874,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["meowstic"],
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
-	  age: ["child"]
+	  age: ["child"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1829,7 +1885,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["meowstic"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -1890,7 +1947,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["meowstic"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2102,7 +2160,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["phantom"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2139,7 +2198,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2150,7 +2210,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2273,7 +2334,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult", "ambig"]
+	  age: ["adult", "ambig"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2340,7 +2402,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2396,7 +2459,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2419,7 +2483,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult","ambig"]
+	  age: ["adult","ambig"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2475,7 +2540,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2487,6 +2553,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["adult"],
+	  pack: ["p1"],
 	  joke: []
     }
   },
@@ -2498,7 +2565,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["python"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2647,7 +2715,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["robin"],
 	  gender: ["non"],
 	  species: ["anthro"],
-	  age: ["child"]
+	  age: ["child"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2697,7 +2766,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["robin"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2752,7 +2822,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["sphe"],
 	  gender: ["male"],
 	  species: ["aniobj"],
-	  age: ["adult","ambig"]
+	  age: ["adult","ambig"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2794,7 +2865,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["sphe"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult","ambig"]
+	  age: ["adult","ambig"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2825,7 +2897,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["sphe"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2924,7 +2997,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["tres"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2934,7 +3008,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["tres"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -2964,7 +3039,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["tres"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult","ambig"]
+	  age: ["adult","ambig"],
+	  pack: ["p1"]
     }
   },
   {
@@ -3004,7 +3080,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["tres"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -3024,7 +3101,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["tres"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   
@@ -3039,7 +3117,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["tricky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -3049,7 +3128,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -3120,7 +3200,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -3182,7 +3263,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["tricky"],
 	  gender: ["female"],
 	  species: ["humanoid"],
-	  age: ["child"]
+	  age: ["child"],
+	  pack: ["p1"]
     }
   },
   {
@@ -3222,7 +3304,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["aniobj"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -3253,7 +3336,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["tricky"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -3317,7 +3401,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["veemon"],
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
-	  age: ["child"]
+	  age: ["child"],
+	  pack: ["p1"]
     }
   },
   
@@ -3344,6 +3429,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["child"],
+	  pack: ["p1"],
 	  legacy: []
     }
   },
@@ -3355,6 +3441,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["child"],
+	  pack: ["p1"],
 	  legacy: []
     }
   },
@@ -3366,6 +3453,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["adult","ambig"],
+	  pack: ["p1"],
 	  legacy: []
     }
   },
@@ -3381,7 +3469,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["zack"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -3391,7 +3480,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["zack"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -3401,7 +3491,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["zack"],
 	  gender: ["male"],
 	  species: ["anthro"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -3471,7 +3562,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["hat"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
@@ -3495,7 +3587,8 @@ dataSet[dataSetVersion].characterData = [
       owner: ["others"],
 	  gender: ["male"],
 	  species: ["humanoid"],
-	  age: ["adult"]
+	  age: ["adult"],
+	  pack: ["p1"]
     }
   },
   {
