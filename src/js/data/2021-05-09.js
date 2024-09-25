@@ -309,7 +309,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["non"],
 	  species: ["anthro"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -1037,7 +1037,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["anthro"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -1083,7 +1083,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["pokedigi"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -1105,7 +1105,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -1182,7 +1182,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["anthro"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -2037,7 +2037,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
 	  age: ["child"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -2189,7 +2189,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["anthro"],
 	  age: ["adult"],
-	  pack: ["pc"],
+	  pack: ["pc"] //==========CLASSIC==========,
 	  legacy: []
     }
   },
@@ -2213,7 +2213,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["anthro"],
 	  age: ["ambig"],
-	  pack: ["pc"],
+	  pack: ["pc"] //==========CLASSIC==========,
 	  legacy: []
     }
   },
@@ -2249,7 +2249,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["aniobj","pokedigi"],
 	  age: ["adult","ambig"],
-	  pack: ["pc"],
+	  pack: ["pc"] //==========CLASSIC==========,
 	  legacy: []
     }
   },
@@ -2273,7 +2273,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["anthro"],
 	  age: ["ambig"],
-	  pack: ["pc"],
+	  pack: ["pc"] //==========CLASSIC==========,
 	  legacy: []
     }
   },
@@ -2297,7 +2297,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["aniobj"],
 	  age: ["adult"],
-	  pack: ["pc"],
+	  pack: ["pc"] //==========CLASSIC==========,
 	  legacy: []
     }
   },
@@ -2321,7 +2321,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["child","ambig"],
-	  pack: ["pc"],
+	  pack: ["pc"] //==========CLASSIC==========,
 	  legacy: []
     }
   },
@@ -2345,7 +2345,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["aniobj","pokedigi"],
 	  age: ["adult"],
-	  pack: ["pc"],
+	  pack: ["pc"] //==========CLASSIC==========,
 	  legacy: []
     }
   },
@@ -2369,7 +2369,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
 	  age: ["adult","ambig"],
-	  pack: ["pc"],
+	  pack: ["pc"] //==========CLASSIC==========,
 	  legacy: []
     }
   },
@@ -2393,7 +2393,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["anthro","pokedigi"],
 	  age: ["child","ambig"],
-	  pack: ["pc"],
+	  pack: ["pc"] //==========CLASSIC==========,
 	  legacy: []
     }
   },
@@ -2432,7 +2432,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -2454,7 +2454,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["adult","ambig"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -2476,7 +2476,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -2498,7 +2498,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -2509,7 +2509,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -2531,7 +2531,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   
@@ -2560,7 +2560,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["aniobj"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -2584,7 +2584,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -2633,7 +2633,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult","ambig"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -2815,7 +2815,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -2839,7 +2839,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -2863,7 +2863,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -2912,7 +2912,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -2961,7 +2961,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["aniobj"],
 	  age: ["adult","ambig"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -3010,7 +3010,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -3071,7 +3071,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["aniobj"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -3440,7 +3440,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -3462,7 +3462,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -3484,7 +3484,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -3580,7 +3580,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -3613,7 +3613,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["child","ambig"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -3635,7 +3635,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -3657,7 +3657,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult","ambig"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -3679,7 +3679,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -3712,7 +3712,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -3734,7 +3734,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -3872,7 +3872,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -3940,7 +3940,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -3995,7 +3995,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -4051,7 +4051,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["male"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
@@ -4073,7 +4073,7 @@ dataSet[dataSetVersion].characterData = [
 	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult"],
-	  pack: ["pc"]
+	  pack: ["pc"] //==========CLASSIC==========
     }
   },
   {
