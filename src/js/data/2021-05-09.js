@@ -3728,7 +3728,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tres",
-    bio: "Placeholder Text (600 character limit).", img: "I3eH1Iw.png",
+    bio: "Placeholder Text (600 character limit).", img: "QvAc8fB.png",
     opts: { snytest: ["sny"],
       owner: ["tres"],
 	  gender: ["male"],
