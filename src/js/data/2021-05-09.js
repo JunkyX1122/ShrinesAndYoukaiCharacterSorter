@@ -522,7 +522,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Créme de Latte",
-    bio: "Placeholder Text (600 character limit).", img: "czduBJz.png",
+    bio: "Placeholder Text (600 character limit).", img: "jIVz7zq.png",
     opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["female"],
