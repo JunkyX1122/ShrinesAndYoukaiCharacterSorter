@@ -3170,7 +3170,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yaeka Ouga",
-    bio: "A lovelorn nightingale, idol and songstress plagued by her ability to connect romantic partners through song, which has no effect on herself. The incident of Yakuza's Rock changed her outlook on life through a mystical experience even though she never discovered the rumored wish-granting rock. Now she has become all the more eager to bring people together, easily jumping the gun when it comes to interpreting ordinary relationships as romance. She's what people call a "shipper".", img: "fFlROUw.png",
+    bio: "A lovelorn nightingale, idol and songstress plagued by her ability to connect romantic partners through song, which has no effect on herself. The incident of Yakuza's Rock changed her outlook on life through a mystical experience even though she never discovered the rumored wish-granting rock. Now she has become all the more eager to bring people together, easily jumping the gun when it comes to interpreting ordinary relationships as romance. She's what people call a \"shipper\".", img: "fFlROUw.png",
     opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
