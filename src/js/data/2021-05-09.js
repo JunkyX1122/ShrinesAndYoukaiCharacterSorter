@@ -2578,7 +2578,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Chikuji Toutetsu (Weakened Form)",
-    bio: "Toutetsu prediction preceding Yuuma. A taotie and chimera of the twelve zodiac animals. Her unique form allows her to understand the desires of all animals and manipulate them to her advantage. Her endless greed stifled the growth of her organization, so she was eventually overthrown, split in twain and sealed away. A fanatic follower of hers set events in motion to reunite the two parts and restore the old leader, throwing the Animal Realm into peril once more.", 
+    bio: "Toutetsu prediction preceding Yuuma. A taotie and chimera of the twelve zodiac animals. Her unique form allows her to understand the desires of all animals and manipulate them to her advantage. After the balance of seasons was restored to the Animal Realm in the aftermath of her return, each gang was allotted a season of supreme power. Their strength regresses after it passes until it reaches its weakest point in the opposite season, growing again thereafter. Chikuji's season is winter, so she is at her weakest in summer. But even in this small form she maintains a commanding presence.", 
 	img: "TqRsYeF.png",
     opts: { snytest: ["sny"],
       owner: ["python"],
@@ -2723,7 +2723,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Frederica Lissai (Astral Satori Form)",
-    bio: "A telepathic alien transformed from a sickly and lonesome human girl. Her psychic abilities are extraordinary, and she possesses a unique ability that lets her evade any manner of detection, hiding even in plain sight. Thanks to her friend Karigou's efforts, lately she has been coming out of her shell more. She has molded her style and personality after a mixture of espionage stories and cosmic horror tales, both of which she enjoyed while she was human. It's mainly a facade she uses when dealing with other people, but often she ends up alienating them with it.", 
+    bio: "A telepathic alien transformed from a sickly and lonesome human girl. Her psychic abilities are extraordinary, and she possesses a unique ability that lets her evade any manner of detection, hiding even in plain sight. Through a deal with Mephisto, she gained the form of an Astral Satori and was moved to the Astral. She is uniquely capable to hide her own thoughts from the telepathic network, but as Astral Satori rely on profound emotional connections with each other, this would usually result in illness. Still, it's any satori's duty to care for their ill brethren.", 
 	img: "tkiiIoR.png",
     opts: { snytest: ["sny"],
       owner: ["python"],
@@ -2901,7 +2901,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tazue Teidarou (Cat-dragon Form)",
-    bio: "Tatzelwurm, a shapeshifting, venomous, tunnel-digging cat-like dragon native to the Swiss alps and Viivi's companion/pet. After losing their way in Gensokyo, the two of them were captured by the Keigagumi, so in order to free Viivi, Tazue opted to work for them for a while. She later motivated an invasion of Gensokyo in order to try and reunite with her rider and escape the Keiga, but the plan failed. She was later rescued properly by Viivi and a few friends. Enjoys cat things, like loafing, and dragon things, like loafing on a pile of treasure.", 
+    bio: "Tatzelwurm, a shapeshifting, venomous, tunnel-digging cat-like dragon native to the Swiss alps and Viivi's companion/pet. This is her regular form, though she has also been seen taking on a more humanoid guise and that of an orange-furred cat. When in this form, she can freely change her size to become big enough to ride through the sky or small enough to stow away in a small bag. Tazue prefers being seen as a pet since it makes most people automatically sympathetic to her and it's more convenient when you're not expected to talk.", 
 	img: "CAgYBOS.png",
     opts: { snytest: ["sny"],
       owner: ["python"],
@@ -2937,7 +2937,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Theliea (Astral Satori Form)",
-    bio: "A telepathic alien and the quiet-loving sister of Xiki. They're merchants who came to Gensokyo as part of an experimental trade route with another world. Hailing from a well-ordered hivemind society, Theliea often struggles with the private nature of thoughts and emotions in this world. Even after her long stay, she is still not used to freedom of choice and prefers to be issued tasks in order to help people. She can calm the air of a room by absorbing strong emotions from her surroundings - often to her own detriment. It's a disorder she cannot control.", 
+    bio: "A telepathic alien and the quiet-loving sister of Xiki. They're merchants who came to Gensokyo as part of an experimental trade route with another world. Hailing from a well-ordered hivemind society, Theliea often struggles with the private nature of thoughts and emotions in this world. The satori of the Astral typically receive commands and suggestions from the Great Intelligence to which all of them are connected. In this way, tasks are efficiently distributed. Without this guidance, the satori are left questioning their reason to exist.", 
 	img: "Me0MYGe.png",
     opts: { snytest: ["sny"],
       owner: ["python"],
@@ -3045,7 +3045,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Xiki (Astral Satori Form)",
-    bio: "A telepathic alien and the fun-loving sister of Theliea. They're merchants who came to Gensokyo as part of an experimental trade route with another world. Endlessly curious and excitable, Xiki often gets herself into trouble due to not understanding the social customs of this world. To emancipate herself from her beloved sister, she moved into her own home built into a cave at the base of Youkai Mountain. There she lives together with Lissai, Karigou and Nobody.", 
+    bio: "A telepathic alien and the fun-loving sister of Theliea. They're merchants who came to Gensokyo as part of an experimental trade route with another world. Endlessly curious and excitable, Xiki often gets herself into trouble due to not understanding the social customs of this world. These kinds of \"Astral Satori\" usually take a vague manta ray-like shape, serenely drifting through the still and silent reality of their homeworld. They communicate only telepathically. Xiki was especially well-liked for her ability to brighten others' moods.", 
 	img: "NKEGtdl.png",
     opts: { snytest: ["sny"],
       owner: ["python"],
@@ -3082,7 +3082,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kopa Machido",
-    bio: "Placeholder Text (600 character limit).", img: "K6KC7pn.png",
+    bio: "One of Urara's elite followers, the Wolves of World's End. A Selkie turned vengeful spirit from the Faroe Islands. She was taken advantage of and held captive by a lusty farmer, but despite that, she did her best to raise their mutual children and take care of their home. Even after she escaped, she continued to watch over them from the sea. At least until that farmer willfully hunted Kopa's seal husband and two seal pups. Seething with rage, she cursed the man's home island, such that the sea would mercilessly claim its inhabitants' lives. She has no sympathy for the male sex.", img: "K6KC7pn.png",
     opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
@@ -3093,7 +3093,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tomori Hijiki",
-    bio: "Placeholder Text (600 character limit).", img: "I0O5Bq7.png",
+    bio: "One of Urara's elite followers, the Wolves of World's End. A laid-back fire dog sent out into the cosmos by the King of Darkness to fetch light for him. Tomori tried to capture the sun and the moon, but one was too hot and one too cold. She was forbidden from returning until she could bring back light. Since then, she has been training her heat resistance with exorbitantly spicy food until she can finally capture the sun. Not for her king, who is long gone, but for her own satisfaction. She cooks for the other Wolves, but none of them can match her spice tolerance.", img: "I0O5Bq7.png",
     opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
@@ -3104,7 +3104,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Shuuni Hayata",
-    bio: "Placeholder Text (600 character limit).", img: "OwCe0bN.png",
+    bio: "One of Urara's elite followers, the Wolves of World's End. The divine, fleet-footed dog that answered to Indra, the god of thunder. Tasked with protecting sacred cows, manipulated by the asuras, beaten and neglected by Indra and ultimately denied Heaven on the grounds that she is a dog, she swore off this cruel world. She later found a new master in Urara, who opposes the thunder god and seeks to create a better world. Having grown up without love, she sometimes struggles with the kindness shown to her by the other Wolves and the mask of the aloof, wise hound slips.", img: "OwCe0bN.png",
     opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
@@ -3115,7 +3115,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kyon Kanamori",
-    bio: "Placeholder Text (600 character limit).", img: "yTVSYZN.png",
+    bio: "One of Urara's elite followers, the Wolves of World's End. The golden dog that protected Zeus during his infancy, later passed down through various hands. She is said to never let any prey escape, but met her match in a fox that could never be caught. After chasing it on her last owner's orders for several days and nights, Zeus betrayed her and turned her into the constellation Canis Major. Another god took pity and revived her. That god would later come to be known as Urara. Kyon's bright temper is a boon to the other Wolves, though the one she wants to see smile the most is Kari.", img: "yTVSYZN.png",
     opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
@@ -3126,7 +3126,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kari Yudonozawa",
-    bio: "Placeholder Text (600 character limit).", img: "a9nfVUN.png",
+    bio: "One of Urara's elite followers, the Wolves of World's End. When the Wild Hunt rampaged through Gensokyo, Kari led the spectral hounds answering to Gwynn ap Nudd, king of the otherworld. Kyon found her by chance, introduced her to the others, and Kari decided to stick around. Normally her job is to guide the the souls of fallen warriors to the afterlife. She is self-conscious about the fact that her mere presence strikes terror in the hearts of the living and, like any dog, wants someone to love her. The last human she got along with had recently lost her family and kingdom to war.", img: "a9nfVUN.png",
     opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
@@ -3137,7 +3137,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Tsunoba Nobusou",
-    bio: "Placeholder Text (600 character limit).", img: "GGh955W.png",
+    bio: "One of Urara's elite followers, the Wolves of World's End. A mysterious being, dog merely in name, with a strange obsession for saving time. She is responsible for maintaining Urara's otherworld and forbidden from leaving it. Even her fellow Wolves don't know she exists.", img: "GGh955W.png",
     opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
@@ -3148,7 +3148,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Ara Kannari",
-    bio: "Placeholder Text (600 character limit).", img: "jW0TePw.png",
+    bio: "A chatty parakeet working as an intern for Hatate, slaving away to keep Gensokyo's rumor mill turning, spreading gossip and spilling secrets. She's a fickle individual who rises and falls by the opinions of other people, always striving to stay on top of the newest trends. Unfortunately her ability doesn't distinguish trends by location, so she's getting a lot of strange vibes from the outside world and often speaks in weird ways. She wants to start her own newspaper agency at some point, but doesn't have enough resolve to get started.", img: "jW0TePw.png",
     opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
@@ -3159,7 +3159,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Jun Hayabusa",
-    bio: "Placeholder Text (600 character limit).", img: "vbefef6.png",
+    bio: "A disabled falcon who was found by the kappa and given artificial wings. Now they market her as a racing star that can compete with Gensokyo's speed champions. Although Jun is clearly being exploited for the kappa's gain, she herself doesn't mind. She sees herself as a beacon of hope for other people like her - outcasts who are considered defunct because they're different from everyone else. Her wings are still a bit of a sore spot though, so don't bring them up in front of her.", img: "vbefef6.png",
     opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
@@ -3170,7 +3170,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Yaeka Ouga",
-    bio: "Placeholder Text (600 character limit).", img: "fFlROUw.png",
+    bio: "A lovelorn nightingale, idol and songstress plagued by her ability to connect romantic partners through song, which has no effect on herself. The incident of Yakuza's Rock changed her outlook on life through a mystical experience even though she never discovered the rumored wish-granting rock. Now she has become all the more eager to bring people together, easily jumping the gun when it comes to interpreting ordinary relationships as romance. She's what people call a "shipper".", img: "fFlROUw.png",
     opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
@@ -3181,7 +3181,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Houki Kuroyagi",
-    bio: "Placeholder Text (600 character limit).", img: "TKjqyLh.png",
+    bio: "Associate of Urara's and heteromorphic goddess of fertility, love and conquest. Like Urara, her world was destroyed when time began and she was robbed of her body and independent existence. Urara summoned her to Gensokyo and offered Xiki's body as a host so that Houki would produce Shoggoth - all-purpose servitor drones with which Urara would build up her otherworld. Now Houki has to be monitored closely to stop her from going off and enslaving the entire population. She has an unparalleled ability to detect weak points and exploit them.", img: "TKjqyLh.png",
     opts: { snytest: ["sny"],
       owner: ["python"],
 	  gender: ["female"],
