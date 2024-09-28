@@ -292,7 +292,7 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Bana 'Banana' Narama",
-    bio: "Placeholder Text (600 character limit).", img: "0K0pRFx.png",
+    bio: "A classically capricious youkai, whose acts are only made even more mischievous due to their nature as a garbage collector. They reside in a giant pile of ambulatory trash, which they are able to control. Apparently they've been around for a few decades, and - according to them - have visited a wide variety of alternate worlds. Their most recent excursion has changed their appearance somewhat: previously looking like a sort of gremlin, they now more resemble a blue-furred jackalope (not that one usually sees their body; standing at only 14 inches tall, their physical body is quite frail).", img: "0K0pRFx.png",
     opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["non"],
@@ -303,7 +303,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Bana 'Banana' Narama",
-    bio: "Placeholder Text (600 character limit).", img: "9GUBvTr.png",
+    bio: "A classically capricious youkai, whose acts are only made even more mischievous due to their nature as a garbage collector. They reside in a giant pile of ambulatory trash, which they are able to control. Apparently they've been around for a few decades, and - according to them - have visited a wide variety of alternate worlds. Their most recent excursion has changed their appearance somewhat: previously looking like a sort of gremlin, they now more resemble a blue-furred jackalope (not that one usually sees their body; standing at only 14 inches tall, their physical body is quite frail).", img: "9GUBvTr.png",
     opts: { snytest: ["classic"],
       owner: ["banana"],
 	  gender: ["non"],
@@ -313,7 +313,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Bridgette Palmer",
-    bio: "Placeholder Text (600 character limit).", img: "iMHdB8V.png",
+    bio: "A nerdy girl in her late 20s from the Outside World - specifically a small town near Swindon, England. She interfaces with Gensoukyou remotely via the use of a VR headset. In her daily life, she's a Twitch streamer and speedrunner. She's never held any world records, as she prefers to pick up a game for a few months, learn its ins-and-outs, then put it down again regardless of what her final time is. It keeps things interesting for her, lets her see more. Unbeknownst to her, she plays a more important role in the stability of reality than anyone could possibly imagine: she's a normal girl.", img: "iMHdB8V.png",
     opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["female"],
@@ -346,7 +346,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Genmi",
-    bio: "Placeholder Text (600 character limit).", img: "VFpYUkz.png",
+    bio: "A friendly and fatherly wolf-man. He resides in what is known as the Liminal Space of Dreams and Waking, so called because it exists in both the real, physical world and in the Dream World. His job is to curate said space (which takes the form of a small deserted island) to ensure that it is comfortable and hospotable for both dreamers and 'wakers' alike. Officially he works for the Ministry of Liminal Spaces, though how he came to work in this position is unknown even to himself... allegedly. He'd rather just spend his days grilling on the beach and catching waves with his boyfriend, Dormun.", img: "VFpYUkz.png",
     opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["male"],
@@ -357,7 +357,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kachari Hinaka",
-    bio: "Placeholder Text (600 character limit).", img: "YQFOKtn.png",
+    bio: "A heat-eating 'minor youkai' - a youkai which could exist in the modern day, but whose impact is so inconsequential as to be effectively non-existent. A tiny girl, Kachari lives in her cauldron in a cupboard of the Meowstic Mansion. She's energetic, childish, and not particularly bright. Her favourite hobby is cooking, as she uses her pot to make a variety of meals while she herself siphons the heat from the stovetop to control the temperature of the ingredients in the pot. Don't hug her; she may inadvertently drain your body heat to hypothermic levels. Can be defeated with a draught excluder.", img: "YQFOKtn.png",
     opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["female"],
@@ -401,7 +401,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Mouru Ominaeshi",
-    bio: "Placeholder Text (600 character limit).", img: "R01pmiv.png",
+    bio: "A memory-altering 'minor youkai' - a youkai which could exist in the modern day, but whose impact is so inconsequential as to be effectively non-existant. If you've ever walked into a room intending to do something, but forgotten what that thing was as soon as you step through the door, Mouru is likely to blame. She has a penchant for playing pranks by setting traps like this. By nature, she tends to be scheming and devious, though her ridiculously low power level prevents her from being much of a threat. Still, don't underestimate her creativity, or you'll be caught short.", img: "R01pmiv.png",
     opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["female"],
@@ -456,7 +456,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Siine",
-    bio: "Placeholder Text (600 character limit).", img: "zkc3ixB.png",
+    bio: "A young lady from the distant world of Alrest. She's a human (or rather, Ardanian) Driver - a person who wields a living weapon known as a Blade. Actually, Siine has multiple blades at her command, for a variety of situations. In her home world, Siine was the head of weapons development in the Ardanian military. Her job also resulted in her interacting with nobility rather frequently, but she apparently came from a humble merchant background before rising through the ranks of the Ardanian military, so she often found herself caught between the two lifestyles. Above all else, she loves sweets.", img: "zkc3ixB.png",
     opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["female"],
@@ -487,6 +487,7 @@ dataSet[dataSetVersion].characterData = [
 	  pack: ["p4"]
     }
   },
+  /*
   {
     name: "Usue",
     bio: "Placeholder Text (600 character limit).", img: "xKoxifE.png",
@@ -498,9 +499,10 @@ dataSet[dataSetVersion].characterData = [
 	  pack: ["p3"]
     }
   },
+  */
   {
     name: "Hersir",
-    bio: "Placeholder Text (600 character limit).", img: "A9OmdLd.png",
+    bio: "The most recently deceased incarnation of Valsir. If you're familiar with Time Lords, Hersir's species - Primals - undergo a regeneration process in a very similar manner. Known in his universe as 'The Five Star General of Hell's Army', since his actual role of being the entity responsible for torturing the souls of the damned (formally known as the Kik Su) has been more or less entirely delegated to his subordinates at this point. As Hersir, the Kik Su was a ruthless and volatile military strategist, utterly devoted to his position and his leader. His only known loves were weaponry and milk.", img: "A9OmdLd.png",
     opts: { snytest: ["sny"],
       owner: ["banana"],
 	  gender: ["male"],
