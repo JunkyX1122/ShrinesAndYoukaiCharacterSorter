@@ -598,10 +598,10 @@ dataSet[dataSetVersion].characterData = [
   //=========================================
   {
     name: "Charlie",
-    bio: "Placeholder Text (600 character limit).", img: "Tm8lN9p.png",
+    bio: "An anthro praying mantis with the ability to pull potential clients to her interdimensional shops, cursing those that are poor and stingy. Not much is known about how she gathers the items that she sells, but Charlie always make sure everyone can afford: after all, her surname is literally Price! Yes, that is her catchphrase.", img: "Tm8lN9p.png",
     opts: { snytest: ["sny"],
       owner: ["drek"],
-	  gender: ["male"],
+	  gender: ["female"],
 	  species: ["anthro"],
 	  age: ["adult","ambig"],
 	  joke: []
@@ -609,10 +609,10 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Charlie (Human Disguise)",
-    bio: "Placeholder Text (600 character limit).", img: "aZzoRVs.png",
+    bio: "An anthro praying mantis with the ability to pull potential clients to her interdimensional shops, cursing those that are poor and stingy. Not much is known about how she gathers the items that she sells, but Charlie always make sure everyone can afford: after all, her surname is literally Price! Yes, that is her catchphrase.", img: "aZzoRVs.png",
     opts: { snytest: ["sny"],
       owner: ["drek"],
-	  gender: ["male"],
+	  gender: ["female"],
 	  species: ["humanoid"],
 	  age: ["adult","ambig"],
 	  joke: [],
@@ -621,7 +621,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Drekareen",
-    bio: "Placeholder Text (600 character limit).", img: "4pl4Den.png",
+    bio: "A complex individual that is in a constant rate of improvement and self-sabotage in the shape of a large anthro demon bear. Shapeshifting, riftmaking and manipulating anger is his main methods to get by actually living a life instead of being a mindless weapon with torturing as a hobby.", img: "4pl4Den.png",
     opts: { snytest: ["sny"],
       owner: ["drek"],
 	  gender: ["male"],
@@ -631,7 +631,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Drekareen (Human Disguise)",
-    bio: "Placeholder Text (600 character limit).", img: "BKppwVG.png",
+    bio: "A complex individual that is in a constant rate of improvement and self-sabotage in the shape of a large anthro demon bear. Shapeshifting, riftmaking and manipulating anger is his main methods to get by actually living a life instead of being a mindless weapon with torturing as a hobby.", img: "BKppwVG.png",
     opts: { snytest: ["sny"],
       owner: ["drek"],
 	  gender: ["male"],
@@ -642,7 +642,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Kyuuko Memoto",
-    bio: "Placeholder Text (600 character limit).", img: "h853kHj.png",
+    bio: "Outsider gal that was lucky to blend in to the village. She mainly works as a babysitter, grandpasitter and dogsitter.", img: "h853kHj.png",
     opts: { snytest: ["sny"],
       owner: ["drek"],
 	  gender: ["female"],
@@ -652,7 +652,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nesthaar",
-    bio: "Placeholder Text (600 character limit).", img: "ahVChuP.png",
+    bio: "Traumatized tiger slowly being more brave and just to all that is worth saving. His only skills are 15 years of training to be a guard and his enchantments to the weapons he hold.", img: "ahVChuP.png",
     opts: { snytest: ["sny"],
       owner: ["drek"],
 	  gender: ["male"],
@@ -662,7 +662,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Nesthaar (Human Disguise)",
-    bio: "Placeholder Text (600 character limit).", img: "qnU1O77.png",
+    bio: "Traumatized tiger slowly being more brave and just to all that is worth saving. His only skills are 15 years of training to be a guard and his enchantments to the weapons he hold.", img: "qnU1O77.png",
     opts: { snytest: ["sny"],
       owner: ["drek"],
 	  gender: ["male"],
@@ -673,7 +673,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Raylan",
-    bio: "Placeholder Text (600 character limit).", img: "W5nDZFN.png",
+    bio: "A flawed avatar of Nyarlathotep, currently deceased. No, he doesn't look like that in the world.", img: "W5nDZFN.png",
     opts: { snytest: ["sny"],
       owner: ["drek"],
 	  gender: ["male"],
@@ -683,7 +683,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Zathareen",
-    bio: "Placeholder Text (600 character limit).", img: "glBQUC3.png",
+    bio: "A bone wavering hyena commander in Hell that has a soft spot for dancing and those that force they way into making company (on VERY specific occasions). Will bite.", img: "glBQUC3.png",
     opts: { snytest: ["sny"],
       owner: ["drek"],
 	  gender: ["male"],
@@ -693,7 +693,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "Zathareen (Human Disguise)",
-    bio: "Placeholder Text (600 character limit).", img: "wFYQEQN.png",
+    bio: "A bone wavering hyena commander in Hell that has a soft spot for dancing and those that force they way into making company (on VERY specific occasions). Will bite.", img: "wFYQEQN.png",
     opts: { snytest: ["sny"],
       owner: ["drek"],
 	  gender: ["male"],
