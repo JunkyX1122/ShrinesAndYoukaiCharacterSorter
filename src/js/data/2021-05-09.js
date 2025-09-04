@@ -632,7 +632,7 @@ dataSet[dataSetVersion].characterData = [
     opts: { snytest: ["sny"],
       owner: ["conar"],
 	  gender: ["male"],
-	  species: ["furry"],
+	  species: ["anthro"],
 	  age: ["adult"],
 	  pack: ["p4"],
 	  nonrp: [],
@@ -2076,7 +2076,7 @@ dataSet[dataSetVersion].characterData = [
     opts: { snytest: ["sny"],
       owner: ["meowstic"],
 	  gender: ["female"],
-	  species: ["furry"],
+	  species: ["anthro"],
 	  age: ["adult"],
 	  pack: ["p4"]
     }
@@ -2087,7 +2087,7 @@ dataSet[dataSetVersion].characterData = [
     opts: { snytest: ["sny"],
       owner: ["meowstic"],
 	  gender: ["male"],
-	  species: ["furry"],
+	  species: ["anthro"],
 	  age: ["adult"],
 	  pack: ["p4"]
     }
@@ -4359,7 +4359,7 @@ dataSet[dataSetVersion].characterData = [
     opts: { snytest: ["sny"],
       owner: ["others"],
 	  gender: ["male"],
-	  species: ["furry"],
+	  species: ["anthro"],
 	  age: ["adult"],
 	  pack: ["p4"],
 	  legacy: []
